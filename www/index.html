@@ -122,9 +122,9 @@ being standardized at the <A HREF="http://www.itu.int/ITU-T/studygroups/com17/in
 and <A HREF="http://www.iso.org/iso/en/stdsdevelopment/tc/tclist/TechnicalCommitteeDetailPage.TechnicalCommitteeDetail?COMMID=34">ISO</A>.
 </P>
 <P>It is currently at the stage of <A HREF="http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=41327&amp;scopelist=PROGRAMME">First
-Committee Draft in ISO</A> and is under ballot, which finishes on the
-1st of February 2005. The specification will then go to Last Call in
-the ITU-T at the next Study Group 17 meeting (February or March/April
+Committee Draft in ISO</A> and the ballot finished on the
+1st of February 2005. The specification will now go to Last Call in
+the ITU-T at the next Study Group 17 meeting (March/April
 2005).</P>
 <P>Unfortunately the specification is not available publically.
 However, it is possible to access the specification from: 
@@ -247,16 +247,20 @@ progression: user -&gt; bug reporter -&gt; bug fix submitter -&gt;
 committer. 
 </P>
 <H3><A NAME="current_state"></A>Current state of affairs</H3>
-<P>Currently information is a bit thin on the ground. In due course
-this project will be updated with more detailed information on what
-is present and what needs to be done. However, there should be enough
-information available to compile and play with the source.</P>
-<P>The source contains partial implementations of the Fast Infoset
-specification for the SAX API and the StAX API. The SAX API is more
+<P>Snapshots containing the FastInfoset jar and Java documentation of all the source
+can be found <A HREF="https://fi.dev.java.net/servlets/ProjectDocumentList?folderID=0&expandFolder=0&folderID=0">
+here</A></P>
+<P>We are slowly starting to fill out the <A HREF="https://fi.dev.java.net/source/browse/fi/samples/">samples</A>
+and once these are complete they will be added to the snapshot releases.<P>
+<P>We are currently working on getting a working early version of the Fast Infoset API
+such that features like built-in and application-defined encoding algorithms, and 
+vocabularies can be used (defined as extensions to the SAX 2.0 API).<P>
+<P>The source currently contains partial implementations of the Fast Infoset
+specification for the SAX API, StAX API and DOM API. The SAX API is more
 complete. Both support external vocabularies and dynamic generation.
 Support for encoding algorithms is required by the specification, but
-to take full advantage of these features additional interfaces to SAX
-and StAX are needed in order to access data in non-character form.</P>
+to take full advantage of these features additional interfaces are needed in 
+order to access data in non-character form.</P>
 <P>There are two routes to building the source: 
 </P>
 <UL>
@@ -273,6 +277,7 @@ and StAX are needed in order to access data in non-character form.</P>
 documents to fast infoset documents and vice versa. In addition other
 scripts will test that it is possible to round trip an XML infoset to
 and from fast infoset documents. For more information see the
-README.txt file.</P>
+<A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/README-PACKAGE.txt?rev=1.1&view=markup">
+README-PACKAGE.txt</A> file.</P>
 </BODY>
 </HTML>
