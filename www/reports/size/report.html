@@ -1,5 +1,3266 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport"><link href="report.css" type="text/css" rel="stylesheet"/><body><h1>Japex Report: SizePerformance</h1><ul><li>classPath: lib/../dist/classes
-lib/FastInfoset.jar</li><li>dateTime: 10 Jan 2005/17:12:05 EST</li><li>libraryDir: lib</li><li>numberOfThreads: 1</li><li>osArchitecture: x86</li><li>osName: SunOS</li><li>resultUnit: KBytes</li><li>runIterations: 1</li><li>version: 0.1</li><li>vmInfo: Sun Microsystems Inc. 1.5.0-rc-b63</li><li>warmupIterations: 1</li></ul><h2>Result Summary 
-    (KBytes)</h2><table width="80%" border="1"><thead><tr><th width="15%"><b>driver</b></th><th><b>driverClass</b></th><th><b>resultHarmMean</b></th><th><b>resultGeomMean</b></th><th><b>resultAritMean</b></th><th><b>description</b></th></tr></thead><tbody><tr><td align="right">XMLSizeDriver</td><td align="right"><nobr>XMLSizeDriver</nobr></td><td align="right"><nobr>3.54</nobr></td><td align="right"><nobr>40.19</nobr></td><td align="right"><nobr>498.70</nobr></td><td align="left"><nobr>Computes XML size</nobr></td></tr><tr><td align="right">FastInfosetSizeDriver</td><td align="right"><nobr>FastInfosetSizeDriver</nobr></td><td align="right"><nobr>2.10</nobr></td><td align="right"><nobr>17.22</nobr></td><td align="right"><nobr>226.56</nobr></td><td align="left"><nobr>Computes FI size</nobr></td></tr><tr><td align="right">FastInfosetSizeExtVocDriver</td><td align="right"><nobr>FastInfosetSizeExtVocDriver</nobr></td><td align="right"><nobr>1.28</nobr></td><td align="right"><nobr>15.03</nobr></td><td align="right"><nobr>226.12</nobr></td><td align="left"><nobr>Computes FI size with external vocabulary</nobr></td></tr><tr><td align="right">GzipXMLSizeDriver</td><td align="right"><nobr>GzipXMLSizeDriver</nobr></td><td align="right"><nobr>1.05</nobr></td><td align="right"><nobr>3.26</nobr></td><td align="right"><nobr>54.00</nobr></td><td align="left"><nobr>Computes GZIPed XML size</nobr></td></tr><tr><td align="right">GzipFastInfosetSizeDriver</td><td align="right"><nobr>GzipFastInfosetSizeDriver</nobr></td><td align="right"><nobr>1.04</nobr></td><td align="right"><nobr>2.98</nobr></td><td align="right"><nobr>50.65</nobr></td><td align="left"><nobr>Computes GZIPed FI size</nobr></td></tr><tr><td align="right">GzipFastInfosetSizeExtVocDriver</td><td align="right"><nobr>GzipFastInfosetSizeExtVocDriver</nobr></td><td align="right"><nobr>0.79</nobr></td><td align="right"><nobr>2.56</nobr></td><td align="right"><nobr>50.37</nobr></td><td align="left"><nobr>Computes GZIPed FI size with external vocabulary</nobr></td></tr></tbody></table><br/><br/><center><img src="result.jpg"/></center><br/><br/><h2>Driver: XMLSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.01</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>5.26</nobr></td><td align="right"><nobr>83.00</nobr></td><td align="right"><nobr>298.62</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.01</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>13.16</nobr></td><td align="right"><nobr>70.00</nobr></td><td align="right"><nobr>596.58</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>48.32</nobr></td><td align="right"><nobr>227.00</nobr></td><td align="right"><nobr>541.23</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>92.27</nobr></td><td align="right"><nobr>100.00</nobr></td><td align="right"><nobr>786.49</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>444.22</nobr></td><td align="right"><nobr>124.00</nobr></td><td align="right"><nobr>1712.96</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>884.16</nobr></td><td align="right"><nobr>128.00</nobr></td><td align="right"><nobr>2503.70</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.76</nobr></td><td align="right"><nobr>88.00</nobr></td><td align="right"><nobr>111.65</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.93</nobr></td><td align="right"><nobr>123.00</nobr></td><td align="right"><nobr>152.79</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.07</nobr></td><td align="right"><nobr>161.00</nobr></td><td align="right"><nobr>152.82</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>131.19</nobr></td><td align="right"><nobr>97.00</nobr></td><td align="right"><nobr>547.27</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.98</nobr></td><td align="right"><nobr>48.00</nobr></td><td align="right"><nobr>107.28</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>9.86</nobr></td><td align="right"><nobr>126.00</nobr></td><td align="right"><nobr>162.45</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>19.66</nobr></td><td align="right"><nobr>197.00</nobr></td><td align="right"><nobr>112.99</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>98.14</nobr></td><td align="right"><nobr>181.00</nobr></td><td align="right"><nobr>407.07</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>196.25</nobr></td><td align="right"><nobr>198.00</nobr></td><td align="right"><nobr>668.36</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1962.15</nobr></td><td align="right"><nobr>129.00</nobr></td><td align="right"><nobr>3669.11</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.50</nobr></td><td align="right"><nobr>47.00</nobr></td><td align="right"><nobr>136.89</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>7.28</nobr></td><td align="right"><nobr>129.00</nobr></td><td align="right"><nobr>120.11</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>26.44</nobr></td><td align="right"><nobr>77.00</nobr></td><td align="right"><nobr>528.54</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>338.03</nobr></td><td align="right"><nobr>49.00</nobr></td><td align="right"><nobr>1123.09</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>113.77</nobr></td><td align="right"><nobr>86.00</nobr></td><td align="right"><nobr>462.18</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2951.09</nobr></td><td align="right"><nobr>163.00</nobr></td><td align="right"><nobr>6678.56</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4123.68</nobr></td><td align="right"><nobr>145.00</nobr></td><td align="right"><nobr>9461.56</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.97</nobr></td><td align="right"><nobr>85.00</nobr></td><td align="right"><nobr>878.45</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>5.63</nobr></td><td align="right"><nobr>111.00</nobr></td><td align="right"><nobr>231.09</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>17.50</nobr></td><td align="right"><nobr>250.00</nobr></td><td align="right"><nobr>166.22</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>32.35</nobr></td><td align="right"><nobr>263.00</nobr></td><td align="right"><nobr>937.05</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>151.86</nobr></td><td align="right"><nobr>129.00</nobr></td><td align="right"><nobr>1000.20</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>301.22</nobr></td><td align="right"><nobr>70.00</nobr></td><td align="right"><nobr>466.46</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.52</nobr></td><td align="right"><nobr>126.00</nobr></td><td align="right"><nobr>326.69</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.64</nobr></td><td align="right"><nobr>75.00</nobr></td><td align="right"><nobr>133.91</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.74</nobr></td><td align="right"><nobr>338.00</nobr></td><td align="right"><nobr>331.25</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>30.09</nobr></td><td align="right"><nobr>76.00</nobr></td><td align="right"><nobr>367.65</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.68</nobr></td><td align="right"><nobr>196.00</nobr></td><td align="right"><nobr>19.21</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.25</nobr></td><td align="right"><nobr>62.00</nobr></td><td align="right"><nobr>331.93</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>6.39</nobr></td><td align="right"><nobr>53.00</nobr></td><td align="right"><nobr>68.08</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>31.78</nobr></td><td align="right"><nobr>56.00</nobr></td><td align="right"><nobr>86.93</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>63.49</nobr></td><td align="right"><nobr>76.00</nobr></td><td align="right"><nobr>126.03</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>651.72</nobr></td><td align="right"><nobr>144.00</nobr></td><td align="right"><nobr>372.83</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.32</nobr></td><td align="right"><nobr>93.00</nobr></td><td align="right"><nobr>106.00</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.78</nobr></td><td align="right"><nobr>125.00</nobr></td><td align="right"><nobr>115.01</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>14.95</nobr></td><td align="right"><nobr>141.00</nobr></td><td align="right"><nobr>137.11</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>241.69</nobr></td><td align="right"><nobr>51.00</nobr></td><td align="right"><nobr>340.63</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>37.72</nobr></td><td align="right"><nobr>158.00</nobr></td><td align="right"><nobr>213.49</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1072.85</nobr></td><td align="right"><nobr>123.00</nobr></td><td align="right"><nobr>481.42</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2538.81</nobr></td><td align="right"><nobr>165.00</nobr></td><td align="right"><nobr>481.73</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetSizeExtVocDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.29</nobr></td><td align="right"><nobr>57.00</nobr></td><td align="right"><nobr>333.01</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.96</nobr></td><td align="right"><nobr>120.00</nobr></td><td align="right"><nobr>201.17</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>16.82</nobr></td><td align="right"><nobr>52.00</nobr></td><td align="right"><nobr>275.70</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>31.68</nobr></td><td align="right"><nobr>162.00</nobr></td><td align="right"><nobr>406.97</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>151.18</nobr></td><td align="right"><nobr>64.00</nobr></td><td align="right"><nobr>1172.21</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>300.55</nobr></td><td align="right"><nobr>61.00</nobr></td><td align="right"><nobr>2401.31</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.27</nobr></td><td align="right"><nobr>162.00</nobr></td><td align="right"><nobr>7.51</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.33</nobr></td><td align="right"><nobr>135.00</nobr></td><td align="right"><nobr>394.03</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.37</nobr></td><td align="right"><nobr>112.00</nobr></td><td align="right"><nobr>224.32</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>29.90</nobr></td><td align="right"><nobr>108.00</nobr></td><td align="right"><nobr>524.66</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.65</nobr></td><td align="right"><nobr>69.00</nobr></td><td align="right"><nobr>215.20</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.22</nobr></td><td align="right"><nobr>150.00</nobr></td><td align="right"><nobr>146.51</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>6.36</nobr></td><td align="right"><nobr>127.00</nobr></td><td align="right"><nobr>157.63</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>31.75</nobr></td><td align="right"><nobr>95.00</nobr></td><td align="right"><nobr>396.41</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>63.46</nobr></td><td align="right"><nobr>154.00</nobr></td><td align="right"><nobr>663.20</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>651.69</nobr></td><td align="right"><nobr>67.00</nobr></td><td align="right"><nobr>4453.70</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.19</nobr></td><td align="right"><nobr>55.00</nobr></td><td align="right"><nobr>304.15</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.61</nobr></td><td align="right"><nobr>95.00</nobr></td><td align="right"><nobr>94.10</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>14.65</nobr></td><td align="right"><nobr>61.00</nobr></td><td align="right"><nobr>245.35</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>240.74</nobr></td><td align="right"><nobr>67.00</nobr></td><td align="right"><nobr>1375.63</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>37.44</nobr></td><td align="right"><nobr>185.00</nobr></td><td align="right"><nobr>514.47</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1072.78</nobr></td><td align="right"><nobr>204.00</nobr></td><td align="right"><nobr>6815.92</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2535.78</nobr></td><td align="right"><nobr>83.00</nobr></td><td align="right"><nobr>9004.31</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: GzipXMLSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.37</nobr></td><td align="right"><nobr>242.00</nobr></td><td align="right"><nobr>246.08</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.47</nobr></td><td align="right"><nobr>251.00</nobr></td><td align="right"><nobr>175.86</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.82</nobr></td><td align="right"><nobr>56.00</nobr></td><td align="right"><nobr>372.38</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.20</nobr></td><td align="right"><nobr>236.00</nobr></td><td align="right"><nobr>160.96</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.82</nobr></td><td align="right"><nobr>155.00</nobr></td><td align="right"><nobr>1112.23</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>7.94</nobr></td><td align="right"><nobr>145.00</nobr></td><td align="right"><nobr>1567.76</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.37</nobr></td><td align="right"><nobr>53.00</nobr></td><td align="right"><nobr>10.01</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.42</nobr></td><td align="right"><nobr>53.00</nobr></td><td align="right"><nobr>145.40</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.45</nobr></td><td align="right"><nobr>52.00</nobr></td><td align="right"><nobr>9.35</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.80</nobr></td><td align="right"><nobr>58.00</nobr></td><td align="right"><nobr>329.62</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.28</nobr></td><td align="right"><nobr>53.00</nobr></td><td align="right"><nobr>35.77</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.59</nobr></td><td align="right"><nobr>80.00</nobr></td><td align="right"><nobr>34.36</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.95</nobr></td><td align="right"><nobr>51.00</nobr></td><td align="right"><nobr>41.61</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.75</nobr></td><td align="right"><nobr>52.00</nobr></td><td align="right"><nobr>215.35</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.82</nobr></td><td align="right"><nobr>99.00</nobr></td><td align="right"><nobr>688.25</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>41.50</nobr></td><td align="right"><nobr>113.00</nobr></td><td align="right"><nobr>3768.36</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.28</nobr></td><td align="right"><nobr>203.00</nobr></td><td align="right"><nobr>93.17</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.54</nobr></td><td align="right"><nobr>83.00</nobr></td><td align="right"><nobr>121.22</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.27</nobr></td><td align="right"><nobr>119.00</nobr></td><td align="right"><nobr>76.45</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>48.13</nobr></td><td align="right"><nobr>104.00</nobr></td><td align="right"><nobr>823.55</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>8.54</nobr></td><td align="right"><nobr>105.00</nobr></td><td align="right"><nobr>333.92</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>124.28</nobr></td><td align="right"><nobr>168.00</nobr></td><td align="right"><nobr>5145.22</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>979.42</nobr></td><td align="right"><nobr>74.00</nobr></td><td align="right"><nobr>7967.40</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: GzipFastInfosetSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.41</nobr></td><td align="right"><nobr>139.00</nobr></td><td align="right"><nobr>598.37</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.55</nobr></td><td align="right"><nobr>203.00</nobr></td><td align="right"><nobr>114.12</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.77</nobr></td><td align="right"><nobr>125.00</nobr></td><td align="right"><nobr>141.49</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.99</nobr></td><td align="right"><nobr>179.00</nobr></td><td align="right"><nobr>150.76</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.54</nobr></td><td align="right"><nobr>127.00</nobr></td><td align="right"><nobr>265.67</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>5.29</nobr></td><td align="right"><nobr>82.00</nobr></td><td align="right"><nobr>385.61</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.38</nobr></td><td align="right"><nobr>154.00</nobr></td><td align="right"><nobr>168.15</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.42</nobr></td><td align="right"><nobr>108.00</nobr></td><td align="right"><nobr>84.49</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.46</nobr></td><td align="right"><nobr>79.00</nobr></td><td align="right"><nobr>139.73</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.19</nobr></td><td align="right"><nobr>55.00</nobr></td><td align="right"><nobr>174.22</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.29</nobr></td><td align="right"><nobr>154.00</nobr></td><td align="right"><nobr>205.73</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.61</nobr></td><td align="right"><nobr>152.00</nobr></td><td align="right"><nobr>108.54</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.99</nobr></td><td align="right"><nobr>108.00</nobr></td><td align="right"><nobr>177.67</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.66</nobr></td><td align="right"><nobr>203.00</nobr></td><td align="right"><nobr>138.98</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.48</nobr></td><td align="right"><nobr>85.00</nobr></td><td align="right"><nobr>274.07</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>38.47</nobr></td><td align="right"><nobr>111.00</nobr></td><td align="right"><nobr>308.47</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.29</nobr></td><td align="right"><nobr>202.00</nobr></td><td align="right"><nobr>96.56</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.09</nobr></td><td align="right"><nobr>78.00</nobr></td><td align="right"><nobr>125.14</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.92</nobr></td><td align="right"><nobr>136.00</nobr></td><td align="right"><nobr>102.80</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>46.97</nobr></td><td align="right"><nobr>118.00</nobr></td><td align="right"><nobr>189.83</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>8.36</nobr></td><td align="right"><nobr>125.00</nobr></td><td align="right"><nobr>347.73</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>104.64</nobr></td><td align="right"><nobr>156.00</nobr></td><td align="right"><nobr>348.39</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>933.20</nobr></td><td align="right"><nobr>157.00</nobr></td><td align="right"><nobr>326.29</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: GzipFastInfosetSizeExtVocDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>actualWarmupTime</b></th><th><b>actualRunIterations</b></th><th><b>resultValue</b></th><th><b>actualRunTime</b></th><th><b>actualPrepareTime</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.07</nobr></td><td align="right"><nobr>131.00</nobr></td><td align="right"><nobr>116.15</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.17</nobr></td><td align="right"><nobr>52.00</nobr></td><td align="right"><nobr>83.94</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.38</nobr></td><td align="right"><nobr>54.00</nobr></td><td align="right"><nobr>253.20</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.59</nobr></td><td align="right"><nobr>93.00</nobr></td><td align="right"><nobr>671.25</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.07</nobr></td><td align="right"><nobr>100.00</nobr></td><td align="right"><nobr>1013.10</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.82</nobr></td><td align="right"><nobr>257.00</nobr></td><td align="right"><nobr>1813.79</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.25</nobr></td><td align="right"><nobr>186.00</nobr></td><td align="right"><nobr>107.90</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.28</nobr></td><td align="right"><nobr>132.00</nobr></td><td align="right"><nobr>178.94</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.30</nobr></td><td align="right"><nobr>53.00</nobr></td><td align="right"><nobr>91.10</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>3.96</nobr></td><td align="right"><nobr>180.00</nobr></td><td align="right"><nobr>505.12</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.27</nobr></td><td align="right"><nobr>219.00</nobr></td><td align="right"><nobr>199.42</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.59</nobr></td><td align="right"><nobr>105.00</nobr></td><td align="right"><nobr>272.67</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.97</nobr></td><td align="right"><nobr>102.00</nobr></td><td align="right"><nobr>111.13</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>2.62</nobr></td><td align="right"><nobr>76.00</nobr></td><td align="right"><nobr>366.03</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>4.45</nobr></td><td align="right"><nobr>297.00</nobr></td><td align="right"><nobr>379.75</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>38.42</nobr></td><td align="right"><nobr>172.00</nobr></td><td align="right"><nobr>4193.32</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.18</nobr></td><td align="right"><nobr>281.00</nobr></td><td align="right"><nobr>356.17</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>0.96</nobr></td><td align="right"><nobr>131.00</nobr></td><td align="right"><nobr>90.80</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>1.69</nobr></td><td align="right"><nobr>191.00</nobr></td><td align="right"><nobr>561.20</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>46.17</nobr></td><td align="right"><nobr>132.00</nobr></td><td align="right"><nobr>1046.31</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>8.10</nobr></td><td align="right"><nobr>68.00</nobr></td><td align="right"><nobr>360.14</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>104.56</nobr></td><td align="right"><nobr>221.00</nobr></td><td align="right"><nobr>6143.86</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>0.00</nobr></td><td align="right"><nobr>1</nobr></td><td align="right"><nobr>931.67</nobr></td><td align="right"><nobr>147.00</nobr></td><td align="right"><nobr>8775.42</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><br/><br/><center><img src="testcase0.jpg"/></center><br/><br/><br/><br/><center><img src="testcase1.jpg"/></center><br/><br/><br/><br/><center><img src="testcase2.jpg"/></center><br/><br/><br/><br/><center><img src="testcase3.jpg"/></center><br/><br/><br/><small><hr/><i><font size="-2">
-        Author: Santiago Pericas-Geertsen (Sun Microsystems)
-        </font></i></small></body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport">
+    <link href="report.css" type="text/css" rel="stylesheet"/>
+    <body>
+        <h1>Japex Report: SizePerformance</h1>
+        <ul>
+            <li>classPath: lib/../dist/classes lib/FastInfoset.jar</li>
+            <li>dateTime: 10 Jan 2005/17:12:05 EST</li>
+            <li>libraryDir: lib</li>
+            <li>numberOfThreads: 1</li>
+            <li>osArchitecture: x86</li>
+            <li>osName: SunOS</li>
+            <li>resultUnit: KBytes</li>
+            <li>runIterations: 1</li>
+            <li>version: 0.1</li>
+            <li>vmInfo: Sun Microsystems Inc. 1.5.0-rc-b63</li>
+            <li>warmupIterations: 1</li>
+        </ul>
+        <h2>Result Summary (KBytes)</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th width="15%">
+                        <b>driver</b>
+                    </th>
+                    <th>
+                        <b>driverClass</b>
+                    </th>
+                    <th>
+                        <b>resultHarmMean</b>
+                    </th>
+                    <th>
+                        <b>resultGeomMean</b>
+                    </th>
+                    <th>
+                        <b>resultAritMean</b>
+                    </th>
+                    <th>
+                        <b>description</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">XMLSizeDriver</td>
+                    <td align="right">
+                        <nobr>XMLSizeDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.54</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>40.19</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>498.70</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes XML size</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">FastInfosetSizeDriver</td>
+                    <td align="right">
+                        <nobr>FastInfosetSizeDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.10</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>17.22</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>226.56</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes FI size</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">FastInfosetSizeExtVocDriver</td>
+                    <td align="right">
+                        <nobr>FastInfosetSizeExtVocDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>15.03</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>226.12</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes FI size with external vocabulary</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">GzipXMLSizeDriver</td>
+                    <td align="right">
+                        <nobr>GzipXMLSizeDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.05</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.26</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>54.00</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes GZIPed XML size</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">GzipFastInfosetSizeDriver</td>
+                    <td align="right">
+                        <nobr>GzipFastInfosetSizeDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.04</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.98</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>50.65</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes GZIPed FI size</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">GzipFastInfosetSizeExtVocDriver</td>
+                    <td align="right">
+                        <nobr>GzipFastInfosetSizeExtVocDriver</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.79</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.56</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>50.37</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>Computes GZIPed FI size with external vocabulary</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <br/>
+            <img src="result.jpg"/>
+        <br/>
+        <br/>
+        <h2>Driver: XMLSizeDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.01</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>5.26</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>83.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>298.62</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.01</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>13.16</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>70.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>596.58</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>48.32</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>227.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>541.23</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>92.27</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>100.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>786.49</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>444.22</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>124.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1712.96</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>884.16</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>128.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2503.70</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.76</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>88.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>111.65</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.93</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>123.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>152.79</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.07</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>161.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>152.82</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>131.19</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>97.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>547.27</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.98</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>48.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>107.28</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>9.86</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>126.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>162.45</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>19.66</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>197.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>112.99</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>98.14</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>181.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>407.07</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>196.25</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>198.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>668.36</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1962.15</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>129.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3669.11</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.50</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>47.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>136.89</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>7.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>129.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>120.11</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>26.44</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>77.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>528.54</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>338.03</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>49.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1123.09</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>113.77</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>86.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>462.18</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2951.09</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>163.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>6678.56</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4123.68</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>145.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>9461.56</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Driver: FastInfosetSizeDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.97</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>85.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>878.45</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>5.63</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>111.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>231.09</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>17.50</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>250.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>166.22</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>32.35</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>263.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>937.05</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>151.86</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>129.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1000.20</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>301.22</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>70.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>466.46</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.52</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>126.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>326.69</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.64</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>75.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>133.91</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.74</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>338.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>331.25</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>30.09</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>76.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>367.65</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.68</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>196.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>19.21</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.25</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>62.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>331.93</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>6.39</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>53.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>68.08</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>31.78</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>56.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>86.93</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>63.49</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>76.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>126.03</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>651.72</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>144.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>372.83</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.32</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>93.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>106.00</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.78</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>125.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>115.01</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>14.95</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>141.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>137.11</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>241.69</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>51.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>340.63</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>37.72</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>158.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>213.49</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1072.85</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>123.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>481.42</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2538.81</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>165.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>481.73</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Driver: FastInfosetSizeExtVocDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.29</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>57.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>333.01</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.96</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>120.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>201.17</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>16.82</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>52.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>275.70</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>31.68</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>162.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>406.97</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>151.18</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>64.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1172.21</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>300.55</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>61.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2401.31</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.27</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>162.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>7.51</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.33</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>135.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>394.03</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.37</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>112.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>224.32</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>29.90</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>108.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>524.66</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.65</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>69.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>215.20</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.22</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>150.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>146.51</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>6.36</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>127.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>157.63</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>31.75</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>95.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>396.41</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>63.46</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>154.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>663.20</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>651.69</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>67.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4453.70</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.19</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>55.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>304.15</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.61</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>95.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>94.10</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>14.65</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>61.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>245.35</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>240.74</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>67.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1375.63</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>37.44</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>185.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>514.47</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1072.78</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>204.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>6815.92</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2535.78</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>83.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>9004.31</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Driver: GzipXMLSizeDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.37</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>242.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>246.08</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.47</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>251.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>175.86</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.82</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>56.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>372.38</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.20</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>236.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>160.96</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.82</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>155.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1112.23</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>7.94</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>145.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1567.76</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.37</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>53.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>10.01</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.42</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>53.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>145.40</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.45</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>52.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>9.35</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.80</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>58.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>329.62</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>53.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>35.77</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.59</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>80.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>34.36</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.95</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>51.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>41.61</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.75</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>52.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>215.35</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.82</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>99.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>688.25</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>41.50</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>113.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3768.36</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>203.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>93.17</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.54</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>83.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>121.22</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.27</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>119.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>76.45</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>48.13</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>104.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>823.55</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>8.54</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>105.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>333.92</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>124.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>168.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>5145.22</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>979.42</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>74.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>7967.40</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Driver: GzipFastInfosetSizeDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.41</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>139.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>598.37</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.55</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>203.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>114.12</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.77</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>125.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>141.49</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.99</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>179.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>150.76</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.54</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>127.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>265.67</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>5.29</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>82.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>385.61</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.38</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>154.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>168.15</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.42</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>108.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>84.49</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.46</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>79.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>139.73</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.19</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>55.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>174.22</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.29</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>154.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>205.73</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.61</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>152.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>108.54</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.99</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>108.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>177.67</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.66</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>203.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>138.98</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.48</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>85.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>274.07</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>38.47</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>111.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>308.47</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.29</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>202.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>96.56</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.09</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>78.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>125.14</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.92</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>136.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>102.80</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>46.97</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>118.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>189.83</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>8.36</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>125.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>347.73</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>104.64</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>156.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>348.39</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>933.20</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>157.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>326.29</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Driver: GzipFastInfosetSizeExtVocDriver</h2>
+        <table width="80%" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <b>testCase</b>
+                    </th>
+                    <th>
+                        <b>actualWarmupTime</b>
+                    </th>
+                    <th>
+                        <b>actualRunIterations</b>
+                    </th>
+                    <th>
+                        <b>resultValue</b>
+                    </th>
+                    <th>
+                        <b>actualRunTime</b>
+                    </th>
+                    <th>
+                        <b>actualPrepareTime</b>
+                    </th>
+                    <th>
+                        <b>xmlfile</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="right">inv1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.07</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>131.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>116.15</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.17</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>52.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>83.94</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.38</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>54.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>253.20</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.59</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>93.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>671.25</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.07</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>100.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1013.10</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">inv1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.82</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>257.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1813.79</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/inv1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.25</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>186.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>107.90</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.28</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>132.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>178.94</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.30</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>53.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>91.10</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">soap4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>3.96</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>180.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>505.12</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/soap4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.27</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>219.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>199.42</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db50.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.59</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>105.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>272.67</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db50.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db100.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.97</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>102.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>111.13</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db100.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db500.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>2.62</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>76.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>366.03</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db500.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db1000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4.45</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>297.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>379.75</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db1000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">db10000.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>38.42</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>172.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>4193.32</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/db10000.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl1.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.18</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>281.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>356.17</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl1.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl2.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>0.96</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>131.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>90.80</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl2.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl3.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1.69</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>191.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>561.20</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl3.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">xsl4.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>46.17</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>132.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1046.31</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/xsl4.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">periodic.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>8.10</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>68.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>360.14</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/periodic.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">weblog.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>104.56</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>221.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>6143.86</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/weblog.xml</nobr>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">factbook.xml</td>
+                    <td align="right">
+                        <nobr>0.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>1</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>931.67</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>147.00</nobr>
+                    </td>
+                    <td align="right">
+                        <nobr>8775.42</nobr>
+                    </td>
+                    <td align="left">
+                        <nobr>data/factbook.xml</nobr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <br/>
+            <img src="testcase0.jpg"/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <img src="testcase1.jpg"/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <img src="testcase2.jpg"/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <img src="testcase3.jpg"/>
+        <br/>
+        <br/>
+        <br/>
+        <small>
+            <hr/>
+            <i>
+                <font size="-2"> Author: Santiago Pericas-Geertsen (Sun Microsystems) </font>
+            </i>
+        </small>
+    </body>
+</html>
