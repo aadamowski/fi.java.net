@@ -247,21 +247,25 @@ progression: user -&gt; bug reporter -&gt; bug fix submitter -&gt;
 committer. 
 </P>
 <H3><A NAME="current_state"></A>Current state of affairs</H3>
-<P>Snapshots containing the FastInfoset jar and Java documentation of all the source
-can be found <A HREF="https://fi.dev.java.net/servlets/ProjectDocumentList?folderID=0&expandFolder=0&folderID=0">
-here</A></P>
-<P>We are slowly starting to fill out the <A HREF="https://fi.dev.java.net/source/browse/fi/samples/">samples</A>
-and once these are complete they will be added to the snapshot releases.<P>
-<P>We are currently working on getting a working early version of the Fast Infoset API
-such that features like built-in and application-defined encoding algorithms, and 
-vocabularies can be used (defined as extensions to the SAX 2.0 API).<P>
+<P>Snapshots of both src and distrubition zip files can be found 
+<A HREF="https://fi.dev.java.net/servlets/ProjectDocumentList?folderID=0&expandFolder=0&folderID=0">
+here</A>. For those that have trouble with CVS and firewalls the src distribution
+will enable you to get a working snapshot with most of the source compiled (only
+source dependent on third party jars is not compiled)</P>
+<P>Automated builds and updates of the src and distribution zip files, curtesy of 
+<A HREF="https://hudson.dev.java.net/">Hudson</A>, will result when a CVS commit 
+occurs (including a commit of this file, which strictly speaking should not be 
+necessary, need to have Hudson filter out some CVS commits!).<P>
+<P>Some basic <A HREF="https://fi.dev.java.net/source/browse/fi/samples/">samples</A>
+are present and are included in the zip files.<P>
+<P>An early version of the Fast Infoset API is available for built-in and 
+application-defined encoding algorithms (defined as extensions to the SAX 2.0 
+API, see unit tests). The next stage is to implement vocabularies .<P>
 <P>The source currently contains partial implementations of the Fast Infoset
 specification for the SAX API, StAX API and DOM API. The SAX API is more
-complete. Both support external vocabularies and dynamic generation.
-Support for encoding algorithms is required by the specification, but
-to take full advantage of these features additional interfaces are needed in 
-order to access data in non-character form.</P>
-<P>There are two routes to building the source: 
+complete. All support external vocabularies and dynamic generation using an
+internal API.</P>
+<P>There are two routes to building the FastInfoset source: 
 </P>
 <UL>
 	<LI>Install <A HREF="http://netbeans.org/">NetBeans</A>
