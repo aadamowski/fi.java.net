@@ -23,46 +23,40 @@
 		</TD>
 	</TR>
 </TABLE>
-<P>Welcome to the Fast Infoset Project. This is a project in the
+<P>Welcome to the Fast Infoset Project, an Open Source implementation of the
+<a href="http://asn1.elibel.tm.fr/xml/finf.htm">Fast Infoset</a> Standard for Binary XML.  See this
+<a href="http://weblogs.java.net/blog/pelegri/archive/2005/01/start_using_bin.html">blog entry</a> for an informal announcement.
+</P>
+
+<P>
+This is a project in the
 <A HREF="http://jwsdp.dev.java.net/index.html">JWSDP</A> subcommunity
 of the Java community on <A HREF="http://community.java.net/java-ws-xml">Web
 Services and XML</A> at java.net.</P>
+
 <H3><A NAME="overview"></A>Overview</H3>
 <UL>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Standards Supported:</STRONG>
-		</P>
+	<LI><STRONG>Standards Supported:</STRONG>
 	<UL>
-		<LI><P STYLE="margin-bottom: 0in"><A HREF="http://asn1.elibel.tm.fr/xml/finf.htm">Fast
-		Infoset</A> (ITU-T Rec. X.891 | ISO/IEC 24824-1) 
-		</P>
-		<LI><P STYLE="margin-bottom: 0in">SAX 
-		</P>
-		<LI><P STYLE="margin-bottom: 0in">StAX 
-		</P>
+		<LI><A HREF="http://asn1.elibel.tm.fr/xml/finf.htm">Fast
+		Infoset</A> (ITU-T Rec. X.891 | ISO/IEC 24824-1) </LI>
+		<LI>SAX</LI>
+		<LI>StAX</LI>
 	</UL>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Status:</STRONG> Early
-	Access 
-	</P>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Licenses:</STRONG> <A HREF="http://www.apache.org/licenses/LICENSE-2.0">ASL
-	2.0</A> 
-	</P>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Related Efforts:</STRONG> 
-	</P>
+	<LI><STRONG>Status:</STRONG> Early Access</LI>
+	<LI><STRONG>Licenses:</STRONG> <A HREF="http://www.apache.org/licenses/LICENSE-2.0">ASL 2.0</A></LI>
+	<LI><STRONG>Related Efforts:</STRONG></LI>
 	<UL>
-		<LI><P STYLE="margin-bottom: 0in"><A HREF="http://jax-rpc.dev.java.net/">JAX-RPC</A>
-		support -- still in progress. 
-		</P>
+		<LI><A HREF="http://jax-rpc.dev.java.net/">JAX-RPC</A>
+		support -- still in progress</LI>
 	</UL>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Users Mailing List:
-	</STRONG><A HREF="mailto:users@fi.dev.java.net">users@fi.dev.java.net</A>
-		</P>
-	<LI><P STYLE="margin-bottom: 0in"><STRONG>Forum: </STRONG><A HREF="http://forums.java.net/jive/forum.jspa?forumID=44">Binary
-	XML and WS</A> 
-	</P>
-	<LI><P><STRONG>Project News: </STRONG>
+	<LI><STRONG>Users Mailing List:
+	</STRONG><A HREF="mailto:users@fi.dev.java.net">users@fi.dev.java.net</A></LI>
+	<LI><STRONG>Forum: </STRONG><A HREF="http://forums.java.net/jive/forum.jspa?forumID=44">Binary XML and WS</A></LI>
+	<LI><STRONG>Project News: </STRONG>
 	<A HREF="http://fi.dev.java.net/servlets/ProjectNewsRSS"><IMG SRC="images/rss1.gif" NAME="Graphic2" ALIGN=BOTTOM WIDTH=80 HEIGHT=15 BORDER=0></A>
 	(see <A HREF="http://wiki.java.net/bin/view/Javawsxml/RssCorner">RSS</A>)
-		</P>
+		</LI>
 </UL>
 <H3><A NAME="introduction"></A>Introduction</H3>
 <P>Fast Infoset specifies a binary encoding for the <A HREF="http://www.w3.org/TR/xml-infoset/">XML
@@ -77,33 +71,33 @@ documents.</P>
 <P>Analogies taken too far can lead to all sorts of misconceptions
 but one can think of Fast Infoset as 'gzip' for XML:</P>
 <UL>
-	<LI><P STYLE="margin-bottom: 0in">Fast Infoset optimizes the
+	<LI>Fast Infoset optimizes the
 	properties of size and performance, gzip optimizes only the property
-	of size; and</P>
-	<LI><P>Fast infoset documents are generally larger than gzipped XML
+	of size; and</LI>
+	<LI>Fast infoset documents are generally larger than gzipped XML
 	documents, however for small XML infosets this may not be always be
 	the case. 
-	</P>
+	</LI>
 </UL>
 <H3><A NAME="goals"></A>Goals</H3>
 <P>The goals of the Fast Infoset Project are to:</P>
 <OL>
-	<LI><P STYLE="margin-bottom: 0in">Develop high performance
+	<LI>Develop high performance
 	Java-based implementations of Fast Infoset serializers and parsers.
 	Such implementations will be mostly based on standard XML APIs such
 	as SAX or StAX. Extensions to such APIs will be required to support
 	the encoding of binary data; 
-	</P>
-	<LI><P STYLE="margin-bottom: 0in">Develop useful functionality in
+	</LI>
+	<LI>Develop useful functionality in
 	support of the Fast Infoset implementations; 
-	</P>
-	<LI><P STYLE="margin-bottom: 0in">Integrate Fast Infoset serializers
+	</LI>
+	<LI>Integrate Fast Infoset serializers
 	and parsers into Java-based distributed communication platforms,
 	such as Java-based Web services; and 
-	</P>
-	<LI><P>Last but not least, foster a community of people interested
+	</LI>
+	<LI>Last but not least, foster a community of people interested
 	in developing and/or using Fast Infoset. 
-	</P>
+	</LI>
 </OL>
 <H3><A NAME="specification"></A>Fast Infoset specification and
 standardization</H3>
@@ -121,16 +115,16 @@ the ITU-T at the next Study Group 17 meeting (February or March/April
 However, it is possible to access the specification from: 
 </P>
 <UL>
-	<LI><P STYLE="margin-bottom: 0in">The ITU-T if you or your company
+	<LI>The ITU-T if you or your company
 	is an ITU-T sector member, or a Study Group 17 associate member; or
-	from</P>
-	<LI><P>Your ISO National Body. 
-	</P>
+	from</LI>
+	<LI>Your ISO National Body. 
+	</LI>
 </UL>
 <P>Relevant to the Fast Infoset specification are two further
 specifications under development:</P>
 <OL>
-	<LI><P STYLE="margin-bottom: 0in"><A HREF="http://asn1.elibel.tm.fr/xml/fws.htm">Fast
+	<LI><A HREF="http://asn1.elibel.tm.fr/xml/fws.htm">Fast
 	Web Services</A> specifies alternative binary encodings for SOAP
 	messages without the need to modify <A HREF="http://www.w3.org/TR/wsdl">WSDL</A>
 	service descriptions (the SOAP binding and ports do not need to be
@@ -138,14 +132,15 @@ specifications under development:</P>
 	conjunction with an optimized binary encoding of <A HREF="http://www.w3.org/TR/soap12-part1/">SOAP
 	1.2</A> messages (referred to as ASN.1 SOAP messages) or for the
 	serialization of SOAP message infosets (<A HREF="http://www.w3.org/TR/2000/NOTE-SOAP-20000508/">SOAP
-	1.1</A> or SOAP 1.2) as fast infoset documents.</P>
-	<LI><P>Security in Fast Infoset and Fast Web Services is a new
+	1.1</A> or SOAP 1.2) as fast infoset documents.</LI>
+<P></p>
+	<LI>Security in Fast Infoset and Fast Web Services is a new
 	proposed work item that aims to specify how standard XML security
 	solutions, such as <A HREF="http://www.w3.org/TR/xmldsig-core/">XML
 	Signature</A>, XML Encryption and <A HREF="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0.pdf">SOAP
 	Message Security</A>, may be applied to Fast Infoset and Fast Web
 	Services. 
-	</P>
+	</LI>
 </OL>
 <H3><A NAME="features"></A>Features</H3>
 <P>There are a number of features of Fast Infoset some of which are
@@ -154,7 +149,7 @@ A new article is required to fully explain all the features of Fast
 Infoset.</P>
 <P>Two important features of Fast Infoset are:</P>
 <OL>
-	<LI><P STYLE="margin-bottom: 0in">Support for vocabularies defined
+	<LI>Support for vocabularies defined
 	externally, internally at the head or dynamically generated in the
 	content of a fast infoset document. A vocabulary is a set tables
 	consisting of strings and qualified names associated with an XML
@@ -166,15 +161,16 @@ Infoset.</P>
 	assign the smallest indexes to the most commonly repeated strings.
 	Vocabulary dynamically in the content of the document allows for the
 	support of streaming applications and extensibility of an XML
-	infoset. All three forms of vocabulary may be used together.</P>
-	<LI><P>Support for binary encoding algorithms. Fast Infoset
+	infoset. All three forms of vocabulary may be used together.</LI>
+<p></p>
+	<LI>Support for binary encoding algorithms. Fast Infoset
 	specifies built-in encoding algorithms such as for the encoding of
 	integers and floating pointer numbers in binary form rather than as
 	characters.&nbsp; Encoding algorithms specific to a vocabulary
 	(external or at the head) may also be specified using URIs. This is
 	useful for domain specific areas such as 2D or 3D graphics that
 	specify algorithms for the encoding of co-ordinate data in binary
-	form rather than as characters.</P>
+	form rather than as characters.</LI>
 </OL>
 <H3>Performance Reports</H3>
 <P>As part of the Fast Infoset distribution we have included a tool
@@ -200,18 +196,18 @@ improvement so we welcome suggestions for enhancements that you may
 find while doing your own testing.</P>
 <P>Reports:</P>
 <UL>
-	<LI><P><A HREF="http://fi.dev.java.net/reports/parsing/report.html">Parsing
+	<LI><A HREF="http://fi.dev.java.net/reports/parsing/report.html">Parsing
 	Performace</A>: This report compares the performance of the Fast
 	Infoset parser vs. several of the most popular XML parsers,
 	including Sun's StAX implementation (SJSXP), Xerces, XPP3 and
 	Piccolo. The test suite used to generate this report comprises of a
 	variety of XML instances whose sizes range from less that one
-	kilobyte to several megabytes.</P>
-	<LI><P><A HREF="http://fi.dev.java.net/reports/size/report.html">Compactness</A>:
+	kilobyte to several megabytes.</LI>
+	<LI><A HREF="http://fi.dev.java.net/reports/size/report.html">Compactness</A>:
 	This report compares message size of XML instances vs. Fast Infoset
 	instances. The report considers the case of external vocabularies as
 	well as two-phase encodings that combine serialization with
-	redundancy-based compression (GZIP).</P>
+	redundancy-based compression (GZIP).</LI>
 </UL>
 <H3><A NAME="terms and conditions"></A>Terms and Conditions</H3>
 <P>The FI code is made available under the terms of the Apache Source
@@ -248,14 +244,14 @@ and StAX are needed in order to access data in non-character form.</P>
 <P>There are two routes to building the source: 
 </P>
 <UL>
-	<LI><P STYLE="margin-bottom: 0in">Install <A HREF="http://netbeans.org/">NetBeans</A>
+	<LI>Install <A HREF="http://netbeans.org/">NetBeans</A>
 	4.0 and use either <A HREF="http://ant.apache.org/">Ant</A> (version
 	1.6.x) or the IDE to build the project; or 
-	</P>
-	<LI><P>Use the alternative ant build script, build-without-nb.xml,
+	</LI>
+	<LI>Use the alternative ant build script, build-without-nb.xml,
 	for the case where <A HREF="http://netbeans.org/">NetBeans</A> 4.0
 	is not installed. 
-	</P>
+	</LI>
 </UL>
 <P>A number of UNIX based scripts are present to convert XML
 documents to fast infoset documents and vice versa. In addition other
