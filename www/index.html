@@ -1,45 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Project Home Page</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>JAX-RPC Reference Implementation</title>
 </head>
-
-<body bgcolor="#FFFFFF" text="#000000">
-<h1>Default project home page </h1>
-<p>Congratulations on your new java.net project! </p>
-<p>This page is the home page for your new project. This content is appearing 
-  because you have selected the option <b>Use project index.html</b>. To edit 
-  the information displayed on this page, just use CVS to check out your project's 
-  CVS repository and edit index.html in directory www. You can get more information 
-  on how to set-up your local CVS client, click on <b>Version Control</b> on the 
-  left nav bar. </p>
-<p>If you don't want to use CVS to manage your home page, click on the <b>Edit 
-  project</b> link on this page and unclick the option <b>Use project index.html</b>. 
-  Your project home page contents will be generated from the <b>Edit project</b> 
-  field <b>Description</b>. Edit the text on that field to change your home page 
-  contents. Click on <b>Submit changes</b> to save your edits. </p>
-<p>If you are looking for <a href="https://java-net.dev.java.net/ProjectPages.html#templates">sample 
-  home page templates</a>, check out the <a href="https://java-net.dev.java.net/ProjectPages.html">java.net 
-  Project Starter Kit</a>. Copy either of the templates into your project's html 
-  to get started on your project's home page. </p>
-<p>You can find lots of helpful information in the Starter Kit to get your project 
-  started. Some of the things you will find in there include:</p>
+<body>
+<table border="0">
+  <tbody>
+    <tr>
+      <td><img src="javaxml-duke.gif" align="middle"></td>
+      <td>
+      <h1>Fast Infoset Project</h1>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>Welcome to the Fast Infoset Project.
+This is a project the Java community on
+<a href="http://community.java.net/java-ws-xml">Web Services and XML</a>
+at java.net.<br>
+</p>
+<p>Fast Infoset specifies a binary encoding for the <a
+ href="http://www.w3.org/TR/xml-infoset/">XML Information Set</a>.&nbsp;
+An XML infoset (such as a <a
+ href="http://java.sun.com/j2se/1.4.2/docs/api/org/w3c/dom/package-summary.html">DOM</a>
+node, <a href="http://jcp.org/en/jsr/detail?id=173">StAX</a> events or
+<a
+ href="http://java.sun.com/j2se/1.4.2/docs/api/org/xml/sax/package-summary.html">SAX</a>
+events in
+programmatic representations) may be serialized to an XML 1.x document
+or, as specified by Fast Infoset, may be serialized to a fast infoset
+document. Fast infoset documents are generally smaller in size and
+faster to
+parse and serialize than equivalent XML documents.<br>
+</p>
+<p>Analogies taken too far can lead to all sorts of misconceptions but
+one can think of Fast Infoset as 'gzip' for XML:<br>
+</p>
 <ul>
-  <li>Hints on how to <a href="https://java-net.dev.java.net/ProjectPages.html#pages">set-up 
-    your project's</a> home page</li>
-  <li>Ideas on how to <a href="https://java-net.dev.java.net/ProjectPages.html#publicity">publicize 
-    your project</a> including RSS feeds</li>
-  <li>Hints on <a href="https://java-net.dev.java.net/pagedesign.html">project 
-    page HTML</a></li>
-  <li>Setting up project <a href="https://java-net.dev.java.net/ProjectPages.html#wiki">wiki 
-    pages</a></li>
-  <li>And places to go if <a href="https://java-net.dev.java.net/ProjectPages.html#feedback">you 
-    have questions</a>.</li>
+  <li>Fast Infoset optimizes the constraints of size and performance,
+gzip optimizes only the constraint of size; and<br>
+  </li>
+  <li>Fast infoset documents are generally larger than gzipped XML
+documents, however for small XML infosets this may not be always be the
+case.</li>
 </ul>
-<p>Remember that you will attract more new members and your project team will 
-  work more effectively if you, as the project owner, supply sufficient information 
-  about your project for visitors to your project space. Good luck with your new 
-  project! </p>
+<p>
+</p>
+<a name="goals">
+<h3>Goals</h3>
+</a>
+<p>The goals of the Fast Infoset Project are to:<br>
+</p>
+<ol>
+  <li>Develop highly performant Java-based implementations of Fast
+Infoset serializers and parsers. Such implementations will be mostly
+based on
+standard XML APIs such as SAX or StAX. Extensions to such APIs will be
+required to support the encoding of binary data;</li>
+  <li> Develop useful functionality in support of the Fast Infoset
+implementations;</li>
+  <li> Integrate Fast Infoset serializers and parsers into Java-based
+distributed communication platforms, such as Java-based Web services;
+and</li>
+  <li>Last but not least, foster a community of people interested in
+developing and/or using Fast Infoset.</li>
+</ol>
+<a name="specification">
+<h3>Fast Infoset specification and standardization</h3>
+</a>
+<p>The <a href="http://asn1.elibel.tm.fr/xml/finf.htm">Fast Infoset</a>
+specification, ITU-T Rec. X.891 | ISO/IEC 24824-1
+(Fast Infoset), is being standardized at the <a
+ href="http://www.itu.int/ITU-T/studygroups/com17/index.asp">ITU-T</a>
+and <a
+ href="http://www.iso.org/iso/en/stdsdevelopment/tc/tclist/TechnicalCommitteeDetailPage.TechnicalCommitteeDetail?COMMID=34">ISO</a>.
+</p>
+<p>It is currently at the stage of <a
+ href="http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=41327&amp;scopelist=PROGRAMME">First
+Committee Draft in ISO</a> and is
+under ballot, which finishes on the 1st of February 2005. The
+specification will then go to Last Call in the ITU-T at the next Study
+Group 17 meeting (February or March/April 2005).</p>
+Unfortunately the specification is not available publically. One may be
+able to get access to the specification if:
+<ul>
+  <li> One or one's company is an ITU-T sector member, or an Study
+Group
+17 associate member; or </li>
+  <li> Through one's ISO National Body.</li>
+</ul>
+<p>Relevant to the Fast Infoset specification are two further
+specifications under development:</p>
+<ol>
+  <li><a href="http://asn1.elibel.tm.fr/xml/fws.htm">Fast Web Services</a>
+specifies alternative binary encodings for SOAP
+messages without the need to modify <a href="http://www.w3.org/TR/wsdl">WSDL</a>
+service descriptions (the SOAP binding and ports do
+not need to be augmented with new bindings and ports). Fast Infoset may
+be used in conjunction with an optimized binary encoding of <a
+ href="http://www.w3.org/TR/soap12-part1/">SOAP
+1.2</a> messages (referred to as ASN.1 SOAP messages) or for the
+serialization
+of SOAP message infosets (<a
+ href="http://www.w3.org/TR/2000/NOTE-SOAP-20000508/">SOAP 1.1</a> or
+SOAP 1.2) as fast infoset documents.<br>
+  </li>
+  <li>Security in Fast Infoset and Fast Web Services is a new proposed
+work item that aims to specify how standard XML
+security solutions, such as <a
+ href="http://www.w3.org/TR/xmldsig-core/">XML Signature</a>, XML
+Encryption and <a
+ href="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0.pdf">SOAP
+Message Security</a>, may be applied to Fast Infoset and Fast Web
+Services.</li>
+</ol>
+<a name="current_state">
+<h3>Current state of affairs</h3>
+</a><br>
+<p>Currently information is a bit thin on the ground. In due course
+this project will be updated with more detailed
+information on what is present and what needs to be done. However,
+there should be enough information available to compile and play with
+the source.<br>
+</p>
+<p>The source contains partial implementations of the Fast Infoset
+specification for the SAX API and the StAX API. The SAX API is more
+complete.</p>
+<p>There are two routes to building the source:
+</p>
+<ul>
+  <li> Install <a href="http://netbeans.org">NetBeans</a>
+4.0 and use either <a href="http://ant.apache.org/">Ant</a> (version
+1.6.x) or the IDE to build the project; or </li>
+  <li> Use the alternative ant build script, build-without-nb.xml, for
+the case where <a href="http://netbeans.org">NetBeans</a>
+4.0 is not installed.</li>
+</ul>
+A number of UNIX based scripts are present to convert XML documents to
+fast infoset documents and vice versa. In addition other scripts will
+test that it is possible to round trip an XML infoset to and from fast
+infoset documents. For more information see the README.txt file.<br>
 </body>
 </html>
-
