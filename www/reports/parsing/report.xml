@@ -1,0 +1,854 @@
+<testSuiteReport name="ParsingPerformance" xmlns="http://www.sun.com/japex/testSuiteReport">
+  <version>0.1</version>
+  <osArchitecture>sparc</osArchitecture>
+  <resultUnit>TPS</resultUnit>
+  <runTime>5</runTime>
+  <dateTime>10 Jan 2005/17:36:31 MET</dateTime>
+  <vmInfo>Sun Microsystems Inc. 1.5.0_01-b08</vmInfo>
+  <numberOfThreads>1</numberOfThreads>
+  <classPath>lib/../dist/classes
+lib/FastInfoset.jar
+lib/jsr173_api.jar
+lib/jsr173_1.0_ri.jar
+lib/xpp3-1.1.3.4.G.jar
+lib/Piccolo.jar
+lib/sjsxp.jar</classPath>
+  <osName>SunOS</osName>
+  <warmupTime>5</warmupTime>
+  <libraryDir xmlns="">lib</libraryDir>
+  <driver name="FastInfosetDriver">
+    <driverClass>FastInfosetDriver</driverClass>
+    <resultHarmMean>147.95</resultHarmMean>
+    <resultGeomMean>1351.14</resultGeomMean>
+    <resultAritMean>8174.07</resultAritMean>
+    <testCase name="inv1.xml">
+      <actualRunIterations>41422</actualRunIterations>
+      <resultValue>8109.24</resultValue>
+      <actualWarmupIterations>29958</actualWarmupIterations>
+      <actualPrepareTime>166.21</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <actualRunIterations>22289</actualRunIterations>
+      <resultValue>4348.22</resultValue>
+      <actualWarmupIterations>22364</actualWarmupIterations>
+      <actualPrepareTime>48.31</actualPrepareTime>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <actualRunIterations>7302</actualRunIterations>
+      <resultValue>1422.28</resultValue>
+      <actualWarmupIterations>7301</actualWarmupIterations>
+      <actualPrepareTime>266.41</actualPrepareTime>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <actualRunIterations>3960</actualRunIterations>
+      <resultValue>767.89</resultValue>
+      <actualWarmupIterations>3966</actualWarmupIterations>
+      <actualPrepareTime>578.32</actualPrepareTime>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <actualRunIterations>832</actualRunIterations>
+      <resultValue>162.56</resultValue>
+      <actualWarmupIterations>848</actualWarmupIterations>
+      <actualPrepareTime>856.32</actualPrepareTime>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <actualRunIterations>422</actualRunIterations>
+      <resultValue>82.57</resultValue>
+      <actualWarmupIterations>429</actualWarmupIterations>
+      <actualPrepareTime>451.02</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <actualRunIterations>173597</actualRunIterations>
+      <resultValue>33832.98</resultValue>
+      <actualWarmupIterations>173877</actualWarmupIterations>
+      <actualPrepareTime>34.60</actualPrepareTime>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <actualRunIterations>123344</actualRunIterations>
+      <resultValue>24285.10</resultValue>
+      <actualWarmupIterations>125140</actualWarmupIterations>
+      <actualPrepareTime>21.52</actualPrepareTime>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <actualRunIterations>116162</actualRunIterations>
+      <resultValue>22617.21</resultValue>
+      <actualWarmupIterations>109241</actualWarmupIterations>
+      <actualPrepareTime>17.88</actualPrepareTime>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <actualRunIterations>2802</actualRunIterations>
+      <resultValue>551.36</resultValue>
+      <actualWarmupIterations>2805</actualWarmupIterations>
+      <actualPrepareTime>140.17</actualPrepareTime>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <actualRunIterations>149144</actualRunIterations>
+      <resultValue>28870.31</resultValue>
+      <actualWarmupIterations>149686</actualWarmupIterations>
+      <actualPrepareTime>19.60</actualPrepareTime>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <actualRunIterations>36894</actualRunIterations>
+      <resultValue>7221.37</resultValue>
+      <actualWarmupIterations>35945</actualWarmupIterations>
+      <actualPrepareTime>19.26</actualPrepareTime>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <actualRunIterations>18888</actualRunIterations>
+      <resultValue>3720.31</resultValue>
+      <actualWarmupIterations>17653</actualWarmupIterations>
+      <actualPrepareTime>31.75</actualPrepareTime>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <actualRunIterations>3801</actualRunIterations>
+      <resultValue>738.34</resultValue>
+      <actualWarmupIterations>3708</actualWarmupIterations>
+      <actualPrepareTime>63.49</actualPrepareTime>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <actualRunIterations>1913</actualRunIterations>
+      <resultValue>372.90</resultValue>
+      <actualWarmupIterations>1881</actualWarmupIterations>
+      <actualPrepareTime>126.07</actualPrepareTime>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <actualRunIterations>187</actualRunIterations>
+      <resultValue>36.18</resultValue>
+      <actualWarmupIterations>182</actualWarmupIterations>
+      <actualPrepareTime>430.53</actualPrepareTime>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <actualRunIterations>209307</actualRunIterations>
+      <resultValue>40936.24</resultValue>
+      <actualWarmupIterations>207972</actualWarmupIterations>
+      <actualPrepareTime>21.68</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <actualRunIterations>36246</actualRunIterations>
+      <resultValue>7109.85</resultValue>
+      <actualWarmupIterations>36323</actualWarmupIterations>
+      <actualPrepareTime>26.02</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <actualRunIterations>10324</actualRunIterations>
+      <resultValue>2026.30</resultValue>
+      <actualWarmupIterations>10361</actualWarmupIterations>
+      <actualPrepareTime>38.23</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <actualRunIterations>699</actualRunIterations>
+      <resultValue>137.11</resultValue>
+      <actualWarmupIterations>695</actualWarmupIterations>
+      <actualPrepareTime>284.69</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <actualRunIterations>3135</actualRunIterations>
+      <resultValue>609.33</resultValue>
+      <actualWarmupIterations>3326</actualWarmupIterations>
+      <actualPrepareTime>49.98</actualPrepareTime>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <actualRunIterations>142</actualRunIterations>
+      <resultValue>27.75</resultValue>
+      <actualWarmupIterations>142</actualWarmupIterations>
+      <actualPrepareTime>525.17</actualPrepareTime>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <actualRunIterations>93</actualRunIterations>
+      <resultValue>18.13</resultValue>
+      <actualWarmupIterations>92</actualWarmupIterations>
+      <actualPrepareTime>571.21</actualPrepareTime>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="XercesDriver">
+    <driverClass>XercesDriver</driverClass>
+    <resultHarmMean>31.42</resultHarmMean>
+    <resultGeomMean>206.19</resultGeomMean>
+    <resultAritMean>810.03</resultAritMean>
+    <testCase name="inv1.xml">
+      <actualRunIterations>5910</actualRunIterations>
+      <resultValue>1159.96</resultValue>
+      <actualWarmupIterations>4755</actualWarmupIterations>
+      <actualPrepareTime>21.53</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <actualRunIterations>4008</actualRunIterations>
+      <resultValue>779.61</resultValue>
+      <actualWarmupIterations>4019</actualWarmupIterations>
+      <actualPrepareTime>72.38</actualPrepareTime>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <actualRunIterations>1295</actualRunIterations>
+      <resultValue>253.18</resultValue>
+      <actualWarmupIterations>1318</actualWarmupIterations>
+      <actualPrepareTime>181.24</actualPrepareTime>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <actualRunIterations>725</actualRunIterations>
+      <resultValue>142.52</resultValue>
+      <actualWarmupIterations>727</actualWarmupIterations>
+      <actualPrepareTime>309.61</actualPrepareTime>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <actualRunIterations>155</actualRunIterations>
+      <resultValue>29.97</resultValue>
+      <actualWarmupIterations>157</actualWarmupIterations>
+      <actualPrepareTime>1479.83</actualPrepareTime>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <actualRunIterations>80</actualRunIterations>
+      <resultValue>15.36</resultValue>
+      <actualWarmupIterations>79</actualWarmupIterations>
+      <actualPrepareTime>2935.74</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <actualRunIterations>13329</actualRunIterations>
+      <resultValue>2617.64</resultValue>
+      <actualWarmupIterations>12032</actualWarmupIterations>
+      <actualPrepareTime>4.06</actualPrepareTime>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <actualRunIterations>13457</actualRunIterations>
+      <resultValue>2650.58</resultValue>
+      <actualWarmupIterations>13252</actualWarmupIterations>
+      <actualPrepareTime>4.48</actualPrepareTime>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <actualRunIterations>13052</actualRunIterations>
+      <resultValue>2534.86</resultValue>
+      <actualWarmupIterations>12249</actualWarmupIterations>
+      <actualPrepareTime>4.62</actualPrepareTime>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <actualRunIterations>363</actualRunIterations>
+      <resultValue>71.27</resultValue>
+      <actualWarmupIterations>363</actualWarmupIterations>
+      <actualPrepareTime>442.88</actualPrepareTime>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <actualRunIterations>10881</actualRunIterations>
+      <resultValue>2126.86</resultValue>
+      <actualWarmupIterations>10795</actualWarmupIterations>
+      <actualPrepareTime>7.75</actualPrepareTime>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <actualRunIterations>4518</actualRunIterations>
+      <resultValue>881.22</resultValue>
+      <actualWarmupIterations>4516</actualWarmupIterations>
+      <actualPrepareTime>36.89</actualPrepareTime>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <actualRunIterations>2633</actualRunIterations>
+      <resultValue>516.88</resultValue>
+      <actualWarmupIterations>2613</actualWarmupIterations>
+      <actualPrepareTime>66.83</actualPrepareTime>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <actualRunIterations>602</actualRunIterations>
+      <resultValue>117.56</resultValue>
+      <actualWarmupIterations>594</actualWarmupIterations>
+      <actualPrepareTime>330.04</actualPrepareTime>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <actualRunIterations>305</actualRunIterations>
+      <resultValue>59.86</resultValue>
+      <actualWarmupIterations>307</actualWarmupIterations>
+      <actualPrepareTime>650.88</actualPrepareTime>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <actualRunIterations>31</actualRunIterations>
+      <resultValue>6.08</resultValue>
+      <actualWarmupIterations>31</actualWarmupIterations>
+      <actualPrepareTime>6508.93</actualPrepareTime>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <actualRunIterations>14681</actualRunIterations>
+      <resultValue>2856.23</resultValue>
+      <actualWarmupIterations>14520</actualWarmupIterations>
+      <actualPrepareTime>2.78</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <actualRunIterations>6077</actualRunIterations>
+      <resultValue>1185.06</resultValue>
+      <actualWarmupIterations>6051</actualWarmupIterations>
+      <actualPrepareTime>27.88</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <actualRunIterations>2298</actualRunIterations>
+      <resultValue>447.87</resultValue>
+      <actualWarmupIterations>2293</actualWarmupIterations>
+      <actualPrepareTime>89.27</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <actualRunIterations>198</actualRunIterations>
+      <resultValue>38.44</resultValue>
+      <actualWarmupIterations>179</actualWarmupIterations>
+      <actualPrepareTime>1128.71</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <actualRunIterations>665</actualRunIterations>
+      <resultValue>128.98</resultValue>
+      <actualWarmupIterations>664</actualWarmupIterations>
+      <actualPrepareTime>381.00</actualPrepareTime>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <actualRunIterations>25</actualRunIterations>
+      <resultValue>4.79</resultValue>
+      <actualWarmupIterations>25</actualWarmupIterations>
+      <actualPrepareTime>9816.62</actualPrepareTime>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <actualRunIterations>31</actualRunIterations>
+      <resultValue>6.02</resultValue>
+      <actualWarmupIterations>31</actualWarmupIterations>
+      <actualPrepareTime>13674.35</actualPrepareTime>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="SJSXPDriver">
+    <driverClass>SJSXPDriver</driverClass>
+    <resultHarmMean>33.24</resultHarmMean>
+    <resultGeomMean>290.71</resultGeomMean>
+    <resultAritMean>1855.84</resultAritMean>
+    <testCase name="inv1.xml">
+      <actualRunIterations>11246</actualRunIterations>
+      <resultValue>2212.04</resultValue>
+      <actualWarmupIterations>6574</actualWarmupIterations>
+      <actualPrepareTime>20.76</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <actualRunIterations>5374</actualRunIterations>
+      <resultValue>1054.76</resultValue>
+      <actualWarmupIterations>5374</actualWarmupIterations>
+      <actualPrepareTime>45.88</actualPrepareTime>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <actualRunIterations>1566</actualRunIterations>
+      <resultValue>308.03</resultValue>
+      <actualWarmupIterations>1559</actualWarmupIterations>
+      <actualPrepareTime>167.55</actualPrepareTime>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <actualRunIterations>832</actualRunIterations>
+      <resultValue>163.62</resultValue>
+      <actualWarmupIterations>829</actualWarmupIterations>
+      <actualPrepareTime>311.93</actualPrepareTime>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <actualRunIterations>173</actualRunIterations>
+      <resultValue>33.95</resultValue>
+      <actualWarmupIterations>175</actualWarmupIterations>
+      <actualPrepareTime>1499.25</actualPrepareTime>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <actualRunIterations>88</actualRunIterations>
+      <resultValue>17.16</resultValue>
+      <actualWarmupIterations>87</actualWarmupIterations>
+      <actualPrepareTime>3290.55</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <actualRunIterations>37471</actualRunIterations>
+      <resultValue>7366.03</resultValue>
+      <actualWarmupIterations>34238</actualWarmupIterations>
+      <actualPrepareTime>4.08</actualPrepareTime>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <actualRunIterations>36014</actualRunIterations>
+      <resultValue>7087.97</resultValue>
+      <actualWarmupIterations>34380</actualWarmupIterations>
+      <actualPrepareTime>4.45</actualPrepareTime>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <actualRunIterations>34501</actualRunIterations>
+      <resultValue>6784.86</resultValue>
+      <actualWarmupIterations>34231</actualWarmupIterations>
+      <actualPrepareTime>5.31</actualPrepareTime>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <actualRunIterations>418</actualRunIterations>
+      <resultValue>81.98</resultValue>
+      <actualWarmupIterations>418</actualWarmupIterations>
+      <actualPrepareTime>441.61</actualPrepareTime>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <actualRunIterations>22108</actualRunIterations>
+      <resultValue>4347.69</resultValue>
+      <actualWarmupIterations>21785</actualWarmupIterations>
+      <actualPrepareTime>7.89</actualPrepareTime>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <actualRunIterations>5871</actualRunIterations>
+      <resultValue>1154.57</resultValue>
+      <actualWarmupIterations>5888</actualWarmupIterations>
+      <actualPrepareTime>34.44</actualPrepareTime>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <actualRunIterations>2875</actualRunIterations>
+      <resultValue>565.06</resultValue>
+      <actualWarmupIterations>3080</actualWarmupIterations>
+      <actualPrepareTime>69.12</actualPrepareTime>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <actualRunIterations>635</actualRunIterations>
+      <resultValue>124.73</resultValue>
+      <actualWarmupIterations>630</actualWarmupIterations>
+      <actualPrepareTime>335.19</actualPrepareTime>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <actualRunIterations>321</actualRunIterations>
+      <resultValue>62.92</resultValue>
+      <actualWarmupIterations>321</actualWarmupIterations>
+      <actualPrepareTime>672.91</actualPrepareTime>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <actualRunIterations>33</actualRunIterations>
+      <resultValue>6.42</resultValue>
+      <actualWarmupIterations>32</actualWarmupIterations>
+      <actualPrepareTime>6598.81</actualPrepareTime>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <actualRunIterations>44441</actualRunIterations>
+      <resultValue>8743.07</resultValue>
+      <actualWarmupIterations>42477</actualWarmupIterations>
+      <actualPrepareTime>2.91</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <actualRunIterations>9218</actualRunIterations>
+      <resultValue>1812.78</resultValue>
+      <actualWarmupIterations>9221</actualWarmupIterations>
+      <actualPrepareTime>25.42</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <actualRunIterations>2861</actualRunIterations>
+      <resultValue>562.86</resultValue>
+      <actualWarmupIterations>2843</actualWarmupIterations>
+      <actualPrepareTime>89.83</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <actualRunIterations>215</actualRunIterations>
+      <resultValue>42.22</resultValue>
+      <actualWarmupIterations>208</actualWarmupIterations>
+      <actualPrepareTime>1132.75</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <actualRunIterations>716</actualRunIterations>
+      <resultValue>140.61</resultValue>
+      <actualWarmupIterations>718</actualWarmupIterations>
+      <actualPrepareTime>383.75</actualPrepareTime>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <actualRunIterations>26</actualRunIterations>
+      <resultValue>4.97</resultValue>
+      <actualWarmupIterations>26</actualWarmupIterations>
+      <actualPrepareTime>9926.85</actualPrepareTime>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <actualRunIterations>32</actualRunIterations>
+      <resultValue>6.10</resultValue>
+      <actualWarmupIterations>31</actualWarmupIterations>
+      <actualPrepareTime>13878.45</actualPrepareTime>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="XPP3Driver">
+    <driverClass>XPP3Driver</driverClass>
+    <resultHarmMean>26.89</resultHarmMean>
+    <resultGeomMean>273.11</resultGeomMean>
+    <resultAritMean>1842.44</resultAritMean>
+    <testCase name="inv1.xml">
+      <actualRunIterations>12070</actualRunIterations>
+      <resultValue>2350.54</resultValue>
+      <actualWarmupIterations>7334</actualWarmupIterations>
+      <actualPrepareTime>19.35</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <actualRunIterations>5599</actualRunIterations>
+      <resultValue>1092.91</resultValue>
+      <actualWarmupIterations>5681</actualWarmupIterations>
+      <actualPrepareTime>45.62</actualPrepareTime>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <actualRunIterations>1654</actualRunIterations>
+      <resultValue>321.35</resultValue>
+      <actualWarmupIterations>1660</actualWarmupIterations>
+      <actualPrepareTime>162.24</actualPrepareTime>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <actualRunIterations>881</actualRunIterations>
+      <resultValue>172.27</resultValue>
+      <actualWarmupIterations>881</actualWarmupIterations>
+      <actualPrepareTime>308.49</actualPrepareTime>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <actualRunIterations>184</actualRunIterations>
+      <resultValue>35.94</resultValue>
+      <actualWarmupIterations>184</actualWarmupIterations>
+      <actualPrepareTime>1493.56</actualPrepareTime>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <actualRunIterations>92</actualRunIterations>
+      <resultValue>18.01</resultValue>
+      <actualWarmupIterations>93</actualWarmupIterations>
+      <actualPrepareTime>2952.34</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <actualRunIterations>41745</actualRunIterations>
+      <resultValue>8150.14</resultValue>
+      <actualWarmupIterations>39804</actualWarmupIterations>
+      <actualPrepareTime>4.02</actualPrepareTime>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <actualRunIterations>39765</actualRunIterations>
+      <resultValue>7794.00</resultValue>
+      <actualWarmupIterations>39245</actualWarmupIterations>
+      <actualPrepareTime>6.26</actualPrepareTime>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <actualRunIterations>37756</actualRunIterations>
+      <resultValue>7374.22</resultValue>
+      <actualWarmupIterations>37635</actualWarmupIterations>
+      <actualPrepareTime>6.67</actualPrepareTime>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <actualRunIterations>426</actualRunIterations>
+      <resultValue>83.55</resultValue>
+      <actualWarmupIterations>423</actualWarmupIterations>
+      <actualPrepareTime>443.80</actualPrepareTime>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <actualRunIterations>20063</actualRunIterations>
+      <resultValue>3942.42</resultValue>
+      <actualWarmupIterations>19628</actualWarmupIterations>
+      <actualPrepareTime>7.83</actualPrepareTime>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <actualRunIterations>5135</actualRunIterations>
+      <resultValue>1006.27</resultValue>
+      <actualWarmupIterations>5110</actualWarmupIterations>
+      <actualPrepareTime>34.02</actualPrepareTime>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <actualRunIterations>2673</actualRunIterations>
+      <resultValue>522.48</resultValue>
+      <actualWarmupIterations>2664</actualWarmupIterations>
+      <actualPrepareTime>68.91</actualPrepareTime>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <actualRunIterations>559</actualRunIterations>
+      <resultValue>109.65</resultValue>
+      <actualWarmupIterations>550</actualWarmupIterations>
+      <actualPrepareTime>327.24</actualPrepareTime>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <actualRunIterations>278</actualRunIterations>
+      <resultValue>54.52</resultValue>
+      <actualWarmupIterations>280</actualWarmupIterations>
+      <actualPrepareTime>977.52</actualPrepareTime>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <actualRunIterations>28</actualRunIterations>
+      <resultValue>5.39</resultValue>
+      <actualWarmupIterations>28</actualWarmupIterations>
+      <actualPrepareTime>6623.76</actualPrepareTime>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <actualRunIterations>36541</actualRunIterations>
+      <resultValue>7143.89</resultValue>
+      <actualWarmupIterations>35492</actualWarmupIterations>
+      <actualPrepareTime>2.68</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <actualRunIterations>7394</actualRunIterations>
+      <resultValue>1452.37</resultValue>
+      <actualWarmupIterations>7386</actualWarmupIterations>
+      <actualPrepareTime>25.54</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <actualRunIterations>2990</actualRunIterations>
+      <resultValue>583.19</resultValue>
+      <actualWarmupIterations>2964</actualWarmupIterations>
+      <actualPrepareTime>91.83</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <actualRunIterations>207</actualRunIterations>
+      <resultValue>40.03</resultValue>
+      <actualWarmupIterations>204</actualWarmupIterations>
+      <actualPrepareTime>1134.48</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <actualRunIterations>594</actualRunIterations>
+      <resultValue>114.80</resultValue>
+      <actualWarmupIterations>595</actualWarmupIterations>
+      <actualPrepareTime>382.15</actualPrepareTime>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <actualRunIterations>20</actualRunIterations>
+      <resultValue>3.83</resultValue>
+      <actualWarmupIterations>20</actualWarmupIterations>
+      <actualPrepareTime>9861.56</actualPrepareTime>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <actualRunIterations>22</actualRunIterations>
+      <resultValue>4.24</resultValue>
+      <actualWarmupIterations>22</actualWarmupIterations>
+      <actualPrepareTime>13821.81</actualPrepareTime>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="PiccoloDriver">
+    <driverClass>PiccoloDriver</driverClass>
+    <resultHarmMean>14.67</resultHarmMean>
+    <resultGeomMean>256.86</resultGeomMean>
+    <resultAritMean>2714.89</resultAritMean>
+    <testCase name="inv1.xml">
+      <actualRunIterations>12512</actualRunIterations>
+      <resultValue>2450.93</resultValue>
+      <actualWarmupIterations>6302</actualWarmupIterations>
+      <actualPrepareTime>19.04</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <actualRunIterations>5190</actualRunIterations>
+      <resultValue>1010.32</resultValue>
+      <actualWarmupIterations>5224</actualWarmupIterations>
+      <actualPrepareTime>46.26</actualPrepareTime>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <actualRunIterations>1395</actualRunIterations>
+      <resultValue>271.14</resultValue>
+      <actualWarmupIterations>1318</actualWarmupIterations>
+      <actualPrepareTime>163.74</actualPrepareTime>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <actualRunIterations>730</actualRunIterations>
+      <resultValue>142.16</resultValue>
+      <actualWarmupIterations>729</actualWarmupIterations>
+      <actualPrepareTime>313.06</actualPrepareTime>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <actualRunIterations>153</actualRunIterations>
+      <resultValue>29.65</resultValue>
+      <actualWarmupIterations>151</actualWarmupIterations>
+      <actualPrepareTime>1501.31</actualPrepareTime>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <actualRunIterations>78</actualRunIterations>
+      <resultValue>15.04</resultValue>
+      <actualWarmupIterations>78</actualWarmupIterations>
+      <actualPrepareTime>2982.07</actualPrepareTime>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <actualRunIterations>67339</actualRunIterations>
+      <resultValue>13093.33</resultValue>
+      <actualWarmupIterations>63280</actualWarmupIterations>
+      <actualPrepareTime>4.07</actualPrepareTime>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <actualRunIterations>58488</actualRunIterations>
+      <resultValue>11359.10</resultValue>
+      <actualWarmupIterations>58180</actualWarmupIterations>
+      <actualPrepareTime>5.32</actualPrepareTime>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <actualRunIterations>52816</actualRunIterations>
+      <resultValue>10261.51</resultValue>
+      <actualWarmupIterations>52749</actualWarmupIterations>
+      <actualPrepareTime>4.95</actualPrepareTime>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <actualRunIterations>390</actualRunIterations>
+      <resultValue>75.93</resultValue>
+      <actualWarmupIterations>392</actualWarmupIterations>
+      <actualPrepareTime>443.11</actualPrepareTime>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <actualRunIterations>27346</actualRunIterations>
+      <resultValue>5349.37</resultValue>
+      <actualWarmupIterations>27241</actualWarmupIterations>
+      <actualPrepareTime>8.56</actualPrepareTime>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <actualRunIterations>5747</actualRunIterations>
+      <resultValue>1126.86</resultValue>
+      <actualWarmupIterations>5723</actualWarmupIterations>
+      <actualPrepareTime>34.34</actualPrepareTime>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <actualRunIterations>2865</actualRunIterations>
+      <resultValue>561.65</resultValue>
+      <actualWarmupIterations>2887</actualWarmupIterations>
+      <actualPrepareTime>69.95</actualPrepareTime>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <actualRunIterations>583</actualRunIterations>
+      <resultValue>114.31</resultValue>
+      <actualWarmupIterations>580</actualWarmupIterations>
+      <actualPrepareTime>327.44</actualPrepareTime>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <actualRunIterations>291</actualRunIterations>
+      <resultValue>57.07</resultValue>
+      <actualWarmupIterations>290</actualWarmupIterations>
+      <actualPrepareTime>664.54</actualPrepareTime>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <actualRunIterations>30</actualRunIterations>
+      <resultValue>5.73</resultValue>
+      <actualWarmupIterations>29</actualWarmupIterations>
+      <actualPrepareTime>6545.60</actualPrepareTime>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <actualRunIterations>73709</actualRunIterations>
+      <resultValue>14368.23</resultValue>
+      <actualWarmupIterations>73485</actualWarmupIterations>
+      <actualPrepareTime>4.22</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <actualRunIterations>8593</actualRunIterations>
+      <resultValue>1658.24</resultValue>
+      <actualWarmupIterations>8649</actualWarmupIterations>
+      <actualPrepareTime>25.73</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <actualRunIterations>2150</actualRunIterations>
+      <resultValue>420.50</resultValue>
+      <actualWarmupIterations>2140</actualWarmupIterations>
+      <actualPrepareTime>89.90</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <actualRunIterations>200</actualRunIterations>
+      <resultValue>38.35</resultValue>
+      <actualWarmupIterations>191</actualWarmupIterations>
+      <actualPrepareTime>1126.17</actualPrepareTime>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <actualRunIterations>147</actualRunIterations>
+      <resultValue>28.46</resultValue>
+      <actualWarmupIterations>148</actualWarmupIterations>
+      <actualPrepareTime>383.84</actualPrepareTime>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <actualRunIterations>6</actualRunIterations>
+      <resultValue>1.13</resultValue>
+      <actualWarmupIterations>6</actualWarmupIterations>
+      <actualPrepareTime>9849.45</actualPrepareTime>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <actualRunIterations>18</actualRunIterations>
+      <resultValue>3.42</resultValue>
+      <actualWarmupIterations>18</actualWarmupIterations>
+      <actualPrepareTime>14210.43</actualPrepareTime>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+</testSuiteReport>
