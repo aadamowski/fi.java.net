@@ -23,7 +23,7 @@ at java.net.<br>
  href="http://www.w3.org/TR/xml-infoset/">XML Information Set</a>.&nbsp;
 An XML infoset (such as a <a
  href="http://java.sun.com/j2se/1.4.2/docs/api/org/w3c/dom/package-summary.html">DOM</a>
-node, <a href="http://jcp.org/en/jsr/detail?id=173">StAX</a> events or
+tree, <a href="http://jcp.org/en/jsr/detail?id=173">StAX</a> events or
 <a
  href="http://java.sun.com/j2se/1.4.2/docs/api/org/xml/sax/package-summary.html">SAX</a>
 events in
@@ -37,8 +37,8 @@ parse and serialize than equivalent XML documents.<br>
 one can think of Fast Infoset as 'gzip' for XML:<br>
 </p>
 <ul>
-  <li>Fast Infoset optimizes the constraints of size and performance,
-gzip optimizes only the constraint of size; and<br>
+  <li>Fast Infoset optimizes the properties of size and performance,
+gzip optimizes only the property of size; and<br>
   </li>
   <li>Fast infoset documents are generally larger than gzipped XML
 documents, however for small XML infosets this may not be always be the
@@ -52,7 +52,7 @@ case.</li>
 <p>The goals of the Fast Infoset Project are to:<br>
 </p>
 <ol>
-  <li>Develop highly performant Java-based implementations of Fast
+  <li>Develop high performance Java-based implementations of Fast
 Infoset serializers and parsers. Such implementations will be mostly
 based on
 standard XML APIs such as SAX or StAX. Extensions to such APIs will be
@@ -81,13 +81,15 @@ Committee Draft in ISO</a> and is
 under ballot, which finishes on the 1st of February 2005. The
 specification will then go to Last Call in the ITU-T at the next Study
 Group 17 meeting (February or March/April 2005).</p>
-Unfortunately the specification is not available publically. One may be
-able to get access to the specification if:
+Unfortunately the specification is not available publically. It is
+possible to get access the specification from the:
 <ul>
-  <li> One or one's company is an ITU-T sector member, or an Study
+  <li> ITU-T if you or your company is an ITU-T sector member, or a
+Study
 Group
-17 associate member; or </li>
-  <li> Through one's ISO National Body.</li>
+17 associate member; or from<br>
+  </li>
+  <li> Your ISO National Body.</li>
 </ul>
 <p>Relevant to the Fast Infoset specification are two further
 specifications under development:</p>
@@ -114,9 +116,47 @@ Encryption and <a
 Message Security</a>, may be applied to Fast Infoset and Fast Web
 Services.</li>
 </ol>
-<a name="current_state">
+<a name="features">
+<h3>Features</h3>
+</a>
+<p>There are a number of features of Fast Infoset some of which are
+highlighted in this <a
+ href="http://java.sun.com/developer/technicalArticles/xml/fastinfoset/">article</a>.
+A new article is required to fully explain all the features of Fast
+Infoset.</p>
+<p>Two important features of Fast Infoset are:<br>
+</p>
+<ol>
+  <li>Support for vocabularies defined externally, internally at the
+head or dynamically generated in the content of a fast infoset
+document. A
+vocabulary is a set tables consisting of strings and qualified names
+associated with an XML document, such strings may correspond to element
+and attribute names or namespace prefixes and namespace names. Using an
+external vocabulary, that is referenced by a URI, allows for smaller
+documents
+since the vocabulary of the document need not be encoded. A vocabulary
+at the head of a document allows for serializers to assign the smallest
+indexes to the most commonly repeated strings. Vocabulary dynamically
+in the content of the document allows for the support of streaming
+applications and extensibility of an XML infoset. All three forms of
+vocabulary
+may be used together.<br>
+  </li>
+  <li>Support for binary encoding algorithms. Fast Infoset specifies
+built-in encoding algorithms such as for the encoding of integers and
+floating pointer numbers in binary form rather than as
+characters.&nbsp; Encoding algorithms specific to a vocabulary
+(external or at the head) may also be specified using URIs. This is
+useful for domain specific areas such as 2D or 3D graphics that specify
+algorithms for the encoding of co-ordinate data in binary form rather
+than as characters.<br>
+  </li>
+</ol>
+<p><a name="current_state">
 <h3>Current state of affairs</h3>
-</a><br>
+</a>
+</p>
 <p>Currently information is a bit thin on the ground. In due course
 this project will be updated with more detailed
 information on what is present and what needs to be done. However,
@@ -125,7 +165,11 @@ the source.<br>
 </p>
 <p>The source contains partial implementations of the Fast Infoset
 specification for the SAX API and the StAX API. The SAX API is more
-complete.</p>
+complete. Both support external vocabularies and dynamic generation.
+Support for encoding algorithms is required, which may require
+additional interfaces to SAX and StAX so that data may be accessed in
+non-character form.<br>
+</p>
 <p>There are two routes to building the source:
 </p>
 <ul>
