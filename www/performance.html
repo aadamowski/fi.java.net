@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Fast Infoset Project</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
+	<META NAME="CREATED" CONTENT="20050111;14114000">
+	<META NAME="CHANGED" CONTENT="20050930;17085100">
+	<STYLE>
+	<!--
+		@page { margin: 0.79in }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<H3 STYLE="page-break-before: always">Performance</H3>
+<P>As part of the Fast Infoset distribution we have included a tool
+called Japex. Japex is a simple yet powerful tool to write Java-based
+micro-benchmarks. It is similar in spirit to JUnit in that if factors
+out most of the repetitive programming logic that is necessary to
+write in micro-benchmarks. This logic includes loading and
+initializing multiple drivers, warming up the VM, timing the inner
+loop, etc. The input to Japex is an XML file describing a test suite;
+the output is a timestamped report available in both XML and HTML
+formats. 
+</P>
+<P>We have used Japex to produce a number of reports that estimate
+parsing performance of our implementation as well as message size of
+Fast Infoset documents vs. XML documents. Some of these reports are
+listed below, but we encourage users to try out the Japex
+configuration files (also included in the distribution) with their
+XML instances to get a better estimate of the improvements that can
+be achieved using this alternative serialization. The Fast Infoset
+parsers that are part of the distribution have been developed with
+performance in mind, yet we believe there is still room for
+improvement so we welcome suggestions for enhancements that you may
+find while doing your own testing.</P>
+<P>Reports:</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="reports/parsing/report.html">Parsing
+	Performace</A>: This report compares the performance of the Fast
+	Infoset parser vs. several of the most popular XML parsers,
+	including Sun's StAX implementation (SJSXP), Xerces, XPP3 and
+	Piccolo. The test suite used to generate this report comprises of a
+	variety of XML instances whose sizes range from less that one
+	kilobyte to several megabytes. 
+	</P>
+	<LI><P><A HREF="reports/size/report.html">Compactness</A>: This
+	report compares message size of XML instances vs. Fast Infoset
+	instances. The report considers the case of external vocabularies as
+	well as two-phase encodings that combine serialization with
+	redundancy-based compression (GZIP). 
+	</P>
+</UL>
+</BODY>
+</HTML>

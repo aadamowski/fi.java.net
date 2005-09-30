@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Fast Infoset Project</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
+	<META NAME="CREATED" CONTENT="20050111;14114000">
+	<META NAME="CHANGED" CONTENT="20050930;16352200">
+	<STYLE>
+	<!--
+		@page { margin: 0.79in }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2 STYLE="page-break-before: always">
+	<TR>
+		<TD>
+			<P><IMG SRC="javaxml-duke.gif" NAME="Graphic1" ALIGN=MIDDLE WIDTH=68 HEIGHT=86 BORDER=0></P>
+		</TD>
+		<TD>
+			<H1>Fast Infoset Project</H1>
+		</TD>
+	</TR>
+</TABLE>
+<P>Welcome to the Fast Infoset Project, an Open Source implementation
+of the <A HREF="http://asn1.elibel.tm.fr/xml/finf.htm">Fast Infoset</A>
+Standard for Binary XML.</P>
+<P>This is a project in the <A HREF="http://jwsdp.dev.java.net/index.html">JWSDP</A>
+subcommunity of the Java community on <A HREF="http://community.java.net/java-ws-xml">Web
+Services and XML</A> at java.net.</P>
+<H3><A NAME="overview"></A>Overview</H3>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><STRONG>Standards Supported:</STRONG>
+		</P>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0in"><A HREF="http://asn1.elibel.tm.fr/xml/finf.htm">Fast
+		Infoset</A> (ITU-T Rec. X.891 | ISO/IEC 24824-1) 
+		</P>
+		<LI><P STYLE="margin-bottom: 0in">SAX 
+		</P>
+		<LI><P STYLE="margin-bottom: 0in">StAX</P>
+		<LI><P STYLE="margin-bottom: 0in">DOM</P>
+	</UL>
+	<LI><P STYLE="margin-bottom: 0in"><A NAME="DDE_LINK1"></A><STRONG>Status:</STRONG>
+	<A HREF="https://fi.dev.java.net/files/documents/2634/21595/FastInfosetPackage_dist_1.0.1.zip">1.0.1
+	stable release</A></P>
+	<LI><P STYLE="margin-bottom: 0in"><STRONG>Licenses:</STRONG> <A HREF="http://www.apache.org/licenses/LICENSE-2.0">ASL
+	2.0</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0in"><STRONG>Related Efforts:</STRONG> 
+	</P>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0in">JWSDP 1.6 support</P>
+		<LI><P STYLE="margin-bottom: 0in">JAX-WS support (ongoing) 
+		</P>
+	</UL>
+	<LI><P STYLE="margin-bottom: 0in"><STRONG>Users Mailing List:
+	</STRONG><A HREF="mailto:users@fi.dev.java.net">users@fi.dev.java.net</A>
+		</P>
+	<LI><P STYLE="margin-bottom: 0in"><STRONG>Forum: </STRONG><A HREF="http://forums.java.net/jive/forum.jspa?forumID=44">Binary
+	XML and WS</A> 
+	</P>
+	<LI><P><STRONG>Project News: </STRONG>
+	<A HREF="http://fi.dev.java.net/servlets/ProjectNewsRSS"><IMG SRC="images/rss1.gif" NAME="Graphic2" ALIGN=BOTTOM WIDTH=80 HEIGHT=15 BORDER=0></A>
+	(see <A HREF="http://wiki.java.net/bin/view/Javawsxml/RssCorner">RSS</A>)
+		</P>
+</UL>
+<H3><A NAME="introduction"></A>Introduction</H3>
+<P>Fast Infoset specifies a standardized binary encoding for the <A HREF="http://www.w3.org/TR/xml-infoset/">XML
+Information Set</A>. An XML infoset (such as a <A HREF="http://java.sun.com/j2se/1.4.2/docs/api/org/w3c/dom/package-summary.html">DOM</A>
+tree, <A HREF="http://jcp.org/en/jsr/detail?id=173">StAX</A> events
+or <A HREF="http://java.sun.com/j2se/1.4.2/docs/api/org/xml/sax/package-summary.html">SAX</A>
+events in programmatic representations) may be serialized to an XML
+1.x document or, as specified by the Fast Infoset standard, may be
+serialized to a fast infoset document. Fast infoset documents are
+generally smaller in size and faster to parse and serialize than
+equivalent XML documents.</P>
+<P>Further information on Fast Infoset and this implementation may be
+found in the following sub-sections and links:</P>
+<UL>
+	<LI><P><A HREF="standardization.html">Fast Infoset specification and
+	standard<SPAN STYLE="font-weight: medium">ization</SPAN></A><SPAN STYLE="font-weight: medium">;</SPAN></P>
+	<LI><P><SPAN STYLE="font-weight: medium">Features. Fast Infoset has
+	many features that have been detailed in the </SPAN>XTech 2005
+	conference<SPAN STYLE="font-weight: medium"> </SPAN><A HREF="http://idealliance.org/proceedings/xtech05/papers/04-01-01/">paper</A>
+	and <A HREF="http://idealliance.org/proceedings/xtech05/slides/sandoz/Pesentation-04-01-01-PaulSandoz.sxi">presentation</A>.
+	The How to use section explains how to take advantage of some of
+	these features;</P>
+	<LI><P STYLE="font-weight: medium"><A HREF="how-to-build.html">How
+	to build</A><SPAN STYLE="font-weight: medium">;</SPAN></P>
+	<LI><P STYLE="font-weight: medium">How to use (TODO);</P>
+	<LI><P STYLE="font-weight: medium"><A HREF="performance.html">Performance</A>;</P>
+	<LI><P><SPAN STYLE="font-weight: medium">Testing (TODO).</SPAN></P>
+</UL>
+<H3>Downloads</H3>
+<UL>
+	<LI><P>Fast Infoset 1.0.1 <A HREF="https://fi.dev.java.net/files/documents/2634/21595/FastInfosetPackage_dist_1.0.1.zip">distribution</A>
+	and <A HREF="https://fi.dev.java.net/files/documents/2634/21596/FastInfosetPackage_src_1.0.1.zip">source</A>.</P>
+	<LI><P>Latest <A HREF="https://fi.dev.java.net/files/documents/2634/21484/FastInfosetPackage_dist_0.1_20050928_055837.zip">distribution</A>
+	and <A HREF="https://fi.dev.java.net/files/documents/2634/21485/FastInfosetPackage_src_0.1_20050928_055837.zip">source</A>
+	built from CVS (built automatically when a change to source is
+	committed).</P>
+	<LI><P><A HREF="https://fi.dev.java.net/servlets/ProjectDocumentList?folderID=3140&amp;expandFolder=3140&amp;folderID=0">Weekly
+	builds</A>.</P>
+</UL>
+<H3>Current status</H3>
+<P>The Fast Infoset J2SE implementation is at version 1.0.1. The
+various parsers and serializers are considered robust and pass <A HREF="https://fi.dev.java.net/source/browse/fi/RoundTripTests/">tests</A>
+performed using a data consisting of a wide range of XML infosets.</P>
+<P>There is a basic implementation of Fast Infoset for J2ME, called
+<A HREF="https://fi.dev.java.net/source/browse/fi/FIME/">FIME</A>, in
+the CVS repository. This requires work to improve the implementation
+and provide a friendly build environment with regular builds and
+distributions available for download. Help wanted!</P>
+<H3><A NAME="getting_involved"></A>Getting involved</H3>
+<P>If you want to get involved in the development of this project or
+just want to use the implementation then add youself as an observer
+to this project and subscribe to the <A HREF="https://fi.dev.java.net/servlets/SummarizeList?listName=users">users
+list</A>, where general questions about Fast Infoset can be asked and
+discussed. Adding youself to the <A HREF="https://fi.dev.java.net/servlets/SummarizeList?listName=announce">annouce
+list</A> is suitable if you just want to get updates on the project.</P>
+<P>For development add yourself to the <A HREF="https://fi.dev.java.net/servlets/SummarizeList?listName=dev">dev
+list</A>, where development questions and ideas can be discussed and
+agreed. Looking at the archives is useful to see what needs to be
+done and what is in progress. 
+</P>
+<H3><A NAME="terms and conditions"></A>Terms and Conditions</H3>
+<P>The FI code is made available under the terms of the Apache Source
+License, version 2.0 (<A HREF="http://www.apache.org/licenses/LICENSE-2.0">ASL
+2.0</A>). ASL is a widely accepted and very flexible license; version
+2.0 adds explicit terms to cover the conditions for accepting
+contributions, reflecting experience gathered with the previous
+versions of the ASL. There is a single copyright owner, Sun
+Microsystems; multiple copyright owners can lead to very complicated
+legal situations. 
+</P>
+<P>The project has two main goals: encourage adoption of the FI
+standards and deliver an implementation that can be used directly in
+production quality form by Sun's products. We will do our outmost to
+balance both goals. Obviously, the more help we get from the wider
+community, the more easily we can achieve both goals. 
+</P>
+</BODY>
+</HTML>
