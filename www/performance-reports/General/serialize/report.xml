@@ -1,0 +1,417 @@
+<testSuiteReport name="FI-parse" xmlns="http://www.sun.com/japex/testSuiteReport">
+  <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
+  <dateTime>05 Oct 2005/16:29:50 CEST</dateTime>
+  <reportsDirectory>reports</reportsDirectory>
+  <runTime>5</runTime>
+  <resultUnit>ms</resultUnit>
+  <version>0.100</version>
+  <osName>SunOS</osName>
+  <numberOfThreads>1</numberOfThreads>
+  <classPath>/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/dist/JapexXMLDriverLibrary.jar
+/export/home/ps23762/Projects/java.net.internal/fi/FastInfoset/dist/FastInfoset.jar
+/export/home/ps23762/Projects/java.net.internal/fi/Japex/dist/lib/jsr173_api.jar
+/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/sjsxp.jar
+/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/resolver.jar
+/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xercesImpl.jar
+/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xml-apis.jar</classPath>
+  <warmupTime>5</warmupTime>
+  <osArchitecture>x86</osArchitecture>
+  <runsPerDriver>1</runsPerDriver>
+  <driver name="FastInfosetDOMDriver">
+    <resultAritMean>10.504</resultAritMean>
+    <resultHarmMean>0.100</resultHarmMean>
+    <resultGeomMean>0.917</resultGeomMean>
+    <driverClass>com.sun.japex.jdsl.xml.serialize.dom.FastInfosetDOMDriver</driverClass>
+    <testCase name="inv1.xml">
+      <resultValue>0.105</resultValue>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <resultValue>0.226</resultValue>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <resultValue>0.760</resultValue>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <resultValue>1.905</resultValue>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <resultValue>9.138</resultValue>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <resultValue>18.664</resultValue>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <resultValue>0.020</resultValue>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <resultValue>0.024</resultValue>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <resultValue>0.023</resultValue>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <resultValue>3.983</resultValue>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <resultValue>0.050</resultValue>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <resultValue>0.236</resultValue>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <resultValue>0.471</resultValue>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <resultValue>3.118</resultValue>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <resultValue>6.347</resultValue>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <resultValue>66.759</resultValue>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <resultValue>0.026</resultValue>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <resultValue>0.121</resultValue>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <resultValue>0.389</resultValue>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <resultValue>7.705</resultValue>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <resultValue>2.390</resultValue>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <resultValue>75.229</resultValue>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <resultValue>43.898</resultValue>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="FastInfosetDOM24IndexedContentDriver">
+    <resultAritMean>10.889</resultAritMean>
+    <resultHarmMean>0.104</resultHarmMean>
+    <resultGeomMean>0.937</resultGeomMean>
+    <driverClass>com.sun.japex.jdsl.xml.serialize.dom.FastInfosetDOMDriver</driverClass>
+    <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
+    <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
+    <testCase name="inv1.xml">
+      <resultValue>0.109</resultValue>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <resultValue>0.229</resultValue>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <resultValue>0.777</resultValue>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <resultValue>1.864</resultValue>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <resultValue>7.717</resultValue>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <resultValue>18.518</resultValue>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <resultValue>0.020</resultValue>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <resultValue>0.024</resultValue>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <resultValue>0.025</resultValue>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <resultValue>4.026</resultValue>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <resultValue>0.052</resultValue>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <resultValue>0.246</resultValue>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <resultValue>0.487</resultValue>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <resultValue>3.118</resultValue>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <resultValue>6.454</resultValue>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <resultValue>68.605</resultValue>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <resultValue>0.028</resultValue>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <resultValue>0.124</resultValue>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <resultValue>0.396</resultValue>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <resultValue>8.151</resultValue>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <resultValue>2.523</resultValue>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <resultValue>79.333</resultValue>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <resultValue>47.615</resultValue>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="FastInfosetDOMExtVocab24IndexedContentDriver">
+    <resultAritMean>11.682</resultAritMean>
+    <resultHarmMean>0.063</resultHarmMean>
+    <resultGeomMean>0.853</resultGeomMean>
+    <driverClass>com.sun.japex.jdsl.xml.serialize.dom.FastInfosetDOMDriver</driverClass>
+    <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
+    <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
+    <testCase name="inv1.xml">
+      <resultValue>0.093</resultValue>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <resultValue>0.222</resultValue>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <resultValue>0.794</resultValue>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <resultValue>1.665</resultValue>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <resultValue>9.813</resultValue>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <resultValue>20.023</resultValue>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <resultValue>0.014</resultValue>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <resultValue>0.014</resultValue>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <resultValue>0.014</resultValue>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <resultValue>4.185</resultValue>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <resultValue>0.051</resultValue>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <resultValue>0.257</resultValue>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <resultValue>0.513</resultValue>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <resultValue>3.262</resultValue>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <resultValue>6.973</resultValue>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <resultValue>73.690</resultValue>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <resultValue>0.010</resultValue>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <resultValue>0.102</resultValue>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <resultValue>0.384</resultValue>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <resultValue>8.318</resultValue>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <resultValue>2.589</resultValue>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <resultValue>86.677</resultValue>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <resultValue>49.019</resultValue>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+  <driver name="XercesDOMXercesXMLSerializerDriver">
+    <resultAritMean>19.474</resultAritMean>
+    <resultHarmMean>0.170</resultHarmMean>
+    <resultGeomMean>1.498</resultGeomMean>
+    <driverClass>com.sun.japex.jdsl.xml.serialize.dom.XercesDOMXercesXMLSerializerDriver</driverClass>
+    <testCase name="inv1.xml">
+      <resultValue>0.163</resultValue>
+      <xmlfile xmlns="">data/inv1.xml</xmlfile>
+    </testCase>
+    <testCase name="inv10.xml">
+      <resultValue>0.374</resultValue>
+      <xmlfile xmlns="">data/inv10.xml</xmlfile>
+    </testCase>
+    <testCase name="inv50.xml">
+      <resultValue>1.323</resultValue>
+      <xmlfile xmlns="">data/inv50.xml</xmlfile>
+    </testCase>
+    <testCase name="inv100.xml">
+      <resultValue>3.026</resultValue>
+      <xmlfile xmlns="">data/inv100.xml</xmlfile>
+    </testCase>
+    <testCase name="inv500.xml">
+      <resultValue>14.618</resultValue>
+      <xmlfile xmlns="">data/inv500.xml</xmlfile>
+    </testCase>
+    <testCase name="inv1000.xml">
+      <resultValue>25.361</resultValue>
+      <xmlfile xmlns="">data/inv1000.xml</xmlfile>
+    </testCase>
+    <testCase name="soap1.xml">
+      <resultValue>0.039</resultValue>
+      <xmlfile xmlns="">data/soap1.xml</xmlfile>
+    </testCase>
+    <testCase name="soap2.xml">
+      <resultValue>0.042</resultValue>
+      <xmlfile xmlns="">data/soap2.xml</xmlfile>
+    </testCase>
+    <testCase name="soap3.xml">
+      <resultValue>0.045</resultValue>
+      <xmlfile xmlns="">data/soap3.xml</xmlfile>
+    </testCase>
+    <testCase name="soap4.xml">
+      <resultValue>4.359</resultValue>
+      <xmlfile xmlns="">data/soap4.xml</xmlfile>
+    </testCase>
+    <testCase name="db10.xml">
+      <resultValue>0.088</resultValue>
+      <xmlfile xmlns="">data/db10.xml</xmlfile>
+    </testCase>
+    <testCase name="db50.xml">
+      <resultValue>0.357</resultValue>
+      <xmlfile xmlns="">data/db50.xml</xmlfile>
+    </testCase>
+    <testCase name="db100.xml">
+      <resultValue>0.697</resultValue>
+      <xmlfile xmlns="">data/db100.xml</xmlfile>
+    </testCase>
+    <testCase name="db500.xml">
+      <resultValue>3.690</resultValue>
+      <xmlfile xmlns="">data/db500.xml</xmlfile>
+    </testCase>
+    <testCase name="db1000.xml">
+      <resultValue>7.433</resultValue>
+      <xmlfile xmlns="">data/db1000.xml</xmlfile>
+    </testCase>
+    <testCase name="db10000.xml">
+      <resultValue>81.938</resultValue>
+      <xmlfile xmlns="">data/db10000.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl1.xml">
+      <resultValue>0.032</resultValue>
+      <xmlfile xmlns="">data/xsl1.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl2.xml">
+      <resultValue>0.231</resultValue>
+      <xmlfile xmlns="">data/xsl2.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl3.xml">
+      <resultValue>0.788</resultValue>
+      <xmlfile xmlns="">data/xsl3.xml</xmlfile>
+    </testCase>
+    <testCase name="xsl4.xml">
+      <resultValue>14.207</resultValue>
+      <xmlfile xmlns="">data/xsl4.xml</xmlfile>
+    </testCase>
+    <testCase name="periodic.xml">
+      <resultValue>4.622</resultValue>
+      <xmlfile xmlns="">data/periodic.xml</xmlfile>
+    </testCase>
+    <testCase name="weblog.xml">
+      <resultValue>124.163</resultValue>
+      <xmlfile xmlns="">data/weblog.xml</xmlfile>
+    </testCase>
+    <testCase name="factbook.xml">
+      <resultValue>160.303</resultValue>
+      <xmlfile xmlns="">data/factbook.xml</xmlfile>
+    </testCase>
+  </driver>
+</testSuiteReport>
