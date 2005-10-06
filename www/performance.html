@@ -1,56 +1,270 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <HTML>
 <HEAD>
 	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
-	<TITLE>Fast Infoset Project</TITLE>
+	<TITLE>Fast Infoset Performance Reports</TITLE>
 	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
 	<META NAME="CREATED" CONTENT="20050111;14114000">
-	<META NAME="CHANGED" CONTENT="20050930;17085100">
-	<STYLE>
-	<!--
-		@page { margin: 0.79in }
-	-->
-	</STYLE>
+	<META NAME="CHANGED" CONTENT="20051006;15504500">
 </HEAD>
 <BODY LANG="en-US" DIR="LTR">
-<H3 STYLE="page-break-before: always">Performance</H3>
-<P>As part of the Fast Infoset distribution we have included a tool
-called Japex. Japex is a simple yet powerful tool to write Java-based
-micro-benchmarks. It is similar in spirit to JUnit in that if factors
-out most of the repetitive programming logic that is necessary to
-write in micro-benchmarks. This logic includes loading and
-initializing multiple drivers, warming up the VM, timing the inner
-loop, etc. The input to Japex is an XML file describing a test suite;
-the output is a timestamped report available in both XML and HTML
-formats. 
-</P>
-<P>We have used Japex to produce a number of reports that estimate
-parsing performance of our implementation as well as message size of
-Fast Infoset documents vs. XML documents. Some of these reports are
-listed below, but we encourage users to try out the Japex
-configuration files (also included in the distribution) with their
-XML instances to get a better estimate of the improvements that can
-be achieved using this alternative serialization. The Fast Infoset
-parsers that are part of the distribution have been developed with
-performance in mind, yet we believe there is still room for
-improvement so we welcome suggestions for enhancements that you may
-find while doing your own testing.</P>
-<P>Reports:</P>
+<H3>Fast Infoset performance reports</H3>
+<P>Fast Infoset performance reports have been generated from
+executing <A HREF="japex.html">Japex</A> configuration files (for the
+efficiency of parsing, serializing and size) for the following
+infosets:</P>
 <UL>
-	<LI><P STYLE="margin-bottom: 0in"><A HREF="reports/parsing/report.html">Parsing
-	Performace</A>: This report compares the performance of the Fast
-	Infoset parser vs. several of the most popular XML parsers,
-	including Sun's StAX implementation (SJSXP), Xerces, XPP3 and
-	Piccolo. The test suite used to generate this report comprises of a
-	variety of XML instances whose sizes range from less that one
-	kilobyte to several megabytes. 
-	</P>
-	<LI><P><A HREF="reports/size/report.html">Compactness</A>: This
-	report compares message size of XML instances vs. Fast Infoset
-	instances. The report considers the case of external vocabularies as
-	well as two-phase encodings that combine serialization with
-	redundancy-based compression (GZIP). 
-	</P>
+	<LI><P>General XML infosets</P>
+	<LI><P><A HREF="http://www.oasis-open.org/committees/ubl/faq.php">UBL</A>
+	XML infosets; and</P>
+	<LI><P><A HREF="http://www.fpml.org/">FpML</A> XML infosets.</P>
 </UL>
+<P>The <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfosetPerformance/">FastInfosetPerformance</A>
+sub-project contains directories corresponding to <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfosetPerformance/FIpex/">General</A>,
+<A HREF="https://fi.dev.java.net/source/browse/fi/FastInfosetPerformance/UBLFIpex/">UBL</A>
+and <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfosetPerformance/FpMLFIpex/">FpML</A>.
+Each contains a set of data to be measured (XML documents) and Japex
+configuration files for executing performance tests to produce
+results for parsing, serializing and size efficiency of the data. The
+Japex drivers that are used to measure the parsing, serializing and
+size efficiency are available in the <A HREF="https://fi.dev.java.net/source/browse/fi/JapexXMLDriverLibrary/">JapexXMLDriverLibrary</A>
+sub-project. Thus everything is available to independently verify any
+results presented. It is highly recommend to verify such results and
+to modify the Japex configuration to test with data specific to
+appropriate use-cases and also to test other parsers. (If there are
+any issues with verification results or modification of Japex
+configuration files please email the <A HREF="mailto:users@fi.dev.java.net">users</A>
+email list with questions.)</P>
+<P>As of writing (<SDFIELD TYPE=DATETIME SDVAL="38631.472650463" SDNUM="1033;1033;D. MMMM YYYY">6. October 2005</SDFIELD>)
+the Japex configuration files were used to produce reports linked in
+the following table.</P>
+<CENTER>
+	<TABLE WIDTH=320 BORDER=1 CELLPADDING=4 CELLSPACING=3>
+		<COL WIDTH=54>
+		<COL WIDTH=74>
+		<COL WIDTH=74>
+		<COL WIDTH=70>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TH WIDTH=54>
+					<P><BR>
+				</TH>
+				<TH WIDTH=74>
+					<P>General</TH>
+				<TH WIDTH=74>
+					<P>UBL</TH>
+				<TH WIDTH=70>
+					<P>FpML</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TH WIDTH=54>
+					<P>Parse</TH>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/General/parse/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/UBL/parse/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=70>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/FpML/parse/report.html">Japex
+					report</A></TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TH WIDTH=54>
+					<P>Serialize</TH>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/General/serialize/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/UBL/serialize/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=70>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/FpML/serialize/report.html">Japex
+					report</A></TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TH WIDTH=54>
+					<P>Size</TH>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/General/size/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=74>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/UBL/size/report.html">Japex
+					report</A></TD>
+				<TD WIDTH=70>
+					<P ALIGN=CENTER><A HREF="https://fi.dev.java.net/performance-reports/FpML/size/report.html">Japex
+					report</A></TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+<P><BR><BR>
+</P>
+<H3>Measurements</H3>
+<P>All measurements were performed on an Acer 3400 running Solaris 11
+using Sun's 1.5.0_04-b05 JDK. The following Java options were used:
+-server -XX:+UseJumpTables -Xms384m -Xmx384m.</P>
+<P>The General parse measurements compare the Fast Infoset SAX and
+StAX parsers (in various configurations, see later for an
+explanation) with the Xerces 2.7.1 SAX parser and the Sun SJSXP StAX
+parser. The UBL and FpML parsing measurements compare the Fast
+Infoset SAX parser (in various configurations) with the Xerces 2.7.1
+SAX parser.</P>
+<P>The serialize measurements compare the Fast Infoset DOM serializer
+(in various configurations) with the Xerces 2.7.1 DOM XMLSerializer.</P>
+<P>The size measurements compare the size of fast infoset documents
+(produced from various serialization configurations) with the
+original XML documents, and the size of GZIP'ing (using default
+compression settings) both types of document.</P>
+<P>The various configurations mentioned previously refer to
+application of Fast Infoset features. The Fast Infoset encoding has a
+number of features that can affect the efficiency and parsing,
+serializing and size. Two such features are used:</P>
+<OL>
+	<LI><P>Indexing of content (see &ldquo;The Basic Concept of
+	Indexing&rdquo; section of this <A HREF="http://idealliance.org/proceedings/xtech05/papers/04-01-01/">paper</A>).
+	A Fast Infoset serializer can index repeating text content or
+	repeating attribute values. For example, if an attribute value of
+	&ldquo;true&rdquo; appears more than once in an XML document then
+	for a fast infoset document if &ldquo;true&rdquo; is indexed it will
+	occur literally for the first occurrence then for the second and
+	subsequent occurrences a (usually small) integer value  is encoded
+	instead of the string. The latter takes less space then the former
+	and may result in smaller fast infoset documents (potentially at the
+	expense of serialization and parsing efficiency, although this could
+	be offset against of the costs of encoding and decoding literal
+	strings encoded in say UTF-8 or UTF-16). The Fast Infoset
+	serializers support a simple heuristic that any content less than
+	'n' characters will be indexed, the default value of 'n' being 7
+	characters (for both text content and attribute values). 
+	</P>
+	<LI><P>External vocabulary (see &ldquo;Types of Vocabularies&rdquo;
+	section of this <A HREF="http://idealliance.org/proceedings/xtech05/papers/04-01-01/">paper</A>).
+	A Fast Infoset serializer can avoid the encoding of strings for
+	tags, prefixes and namespace names and instead encode (usually
+	small) integer values. This requires that the Fast Infoset
+	serializer and parser agree (out-of-band) what the integer values
+	are for strings. The use of encoding algorithms can reduce the size
+	of fast infoset documents for small documents as well as increase
+	the efficiency of parsing and serialization.</P>
+</OL>
+<P>A Japex driver that contains the string 'IndexedContent' in its
+name with a number, 'x' say, before the string means that content
+less than 'x' characters will be indexed when creating fast infoset
+documents (for example the driver
+'FastInfoset24IndexedContentSAXDriver', is the driver testing the
+Fast Infoset SAX parser for the parsing of Fast Infoset documents
+created using a Fast Infoset serializer that indexes content less
+than 24 characters).</P>
+<P>A Japex driver that contains the string 'ExtVocab' in its name
+means that an external vocabulary has been used to create the fast
+infoset document from an XML infoset. In this case the external
+vocabulary of a XML infoset is calculated from the XML infoset
+itself. This is not the normal practice for the generation of such a
+vocabulary. For testing purposes it represents the most optimal form
+of encoding. In reality an external vocabulary would be generated
+from other information like W3C XML Schema and/or a large set of
+instances where the common repeating strings are assigned the
+smallest indexes. In this respect it is expected that the optimized
+non-practical external vocabulary will not deviate too much from one
+used in practice.</P>
+<H3>Observations on parse results</H3>
+<P>On average the Fast Infoset SAX parser (using default settings) is
+about 5 times faster than the Xerces 2.7.1 SAX parser and about 4
+times faster than the Sun  The Sun <A HREF="http://java.sun.com/webservices/docs/1.6/tutorial/doc/SJSXP5.html">SJSXP</A>
+StAX parser is one of the fastest and conforming Java-based  parsers
+there is and is 5 to 20% faster than Xerces 2.7.1.</P>
+<P>The Fast Infoset StAX parser is slower than the Fast Infoset SAX.
+It is not precisely clear why this is the case as the two
+implementations share a common code base. One possibility is that
+hotspot engine is generating run-time code for the the shared Java
+code for the use-case of the SAX parser (since the SAX-based tests
+are run first) and the run-time code is not as optimal when used with
+the StAX parser. Another possibility is that the hotspot can optimize
+more efficiently the push-based approach of SAX parsing better than
+the pull-based approach of StAX parsing because the former controls
+the pushing of events in a 'tight-loop'. More investigation is
+required to understand why such differences occur.</P>
+<P>Indexing of content for less than 16 or 24 characters (instead of
+the default 7) can result in better parsing performance (between 2 to
+10%, relative to XML) for infosets that contain such redundant
+information.</P>
+<P>For 'small' XML infosets (the UBL and FpML infosets, which also
+contain a lot of different tags) an external vocabulary can
+approximately double the speed of the Fast Infoset SAX parser in some
+individual tests. On average the Fast Infoset SAX parser is about 7
+times to 8 times faster than the Xerces 2.7.1 SAX parser for UBL and
+FpML infosets.</P>
+<H3>Observations on serialize results</H3>
+<P>On average the Fast Infoset DOM serializer (using default
+settings) is 25% to 30% faster than the Xerces 2.7.1 DOM
+XMLSerializer.</P>
+<P>Indexing of content for less than 16 or 24 characters (instead of
+the default 7) can result in a small decrease in performance for
+infosets that contain such redundant information (but note that this
+is mostly offset by a larger increase in parsing performance).</P>
+<P>For 'small' XML infosets (the UBL and FpML infosets) an external
+vocabulary can on average increase Fast Infoset serialization by 20%
+to 25% (relative to XML).</P>
+<H3>Observations on size results</H3>
+<P>On average fast infoset documents (when using default settings for
+serialization) are 40% to 60% smaller than XML documents.</P>
+<P>Indexing of content for less than 16 or 24 characters (instead of
+the default 7) can result in good size reductions  for infosets that
+contain such redundant information (for example the FpML infosets.
+Note that FpML documents were obtained from the FpML web site and
+have not been modified. They contain white spaces between close and
+open tags for readability).</P>
+<P>For 'large' XML infosets the use of an external vocabulary makes
+little difference to the size of the fast infoset documents. Large
+GZIP'ed fast infoset documents tend to be slightly smaller than
+GZIP'ed XML documents, ranging from 5 to 20% smaller (relative to
+XML) and depending on the information document.</P>
+<P>For 'small' XML infosets (the UBL and FpML infosets) an external
+vocabulary can on average reduce the size by a further 20% to 25%
+(relative to XML). In some cases a fast infoset document with an
+external vocabulary and full indexing can be smaller than the GZIP'ed
+XML document. The GZIP'ed fast infoset document is always smaller
+than the GZIP'ed XML document.</P>
+<H3>General conclusions</H3>
+<P>When parsing and size of messages is a bottle neck in a system
+Fast Infoset can provide a performant and interoperable solution
+(note that encoding algorithms can be used reduce the bottle neck on
+binding the binding of data types to lexical representations).</P>
+<P>Fast Infoset is more efficient at parsing than serializing when
+using the DOM API (although using the encoding algorithm feature, see
+&ldquo;Encoding Algorithms&rdquo; section of this <A HREF="http://idealliance.org/proceedings/xtech05/papers/04-01-01/">paper</A>,
+can potentially improve serialization).</P>
+<P>For the types of XML infoset being serialized and parsed it is
+worth investigating whether the default level of indexing provides
+the maximum efficiency. A larger value for the indexing of text
+content and attribute values can results in smaller documents that do
+not take much longer to serialize and are faster to parse, although
+this will result in more use of memory by both the parser and
+serializer. The methods <FONT SIZE=2><FONT FACE="Courier New">setCharacterContentChunkSizeLimit</FONT></FONT>
+and <FONT SIZE=2><FONT FACE="Courier New">setAttributeValueSizeLimit</FONT></FONT>
+on the interface <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/org/jvnet/fastinfoset/FastInfosetSerializer.java?view=markup"><FONT SIZE=2><FONT FACE="Courier New">FastInfosetSerializer</FONT></FONT></A>
+can be used to set the indexing limits for text content and attribute
+values respectively.</P>
+<P>The use of external vocabularies can be a very effective way to
+increase the efficiency of parsing, serializing and size at the
+expense of the fast infoset documents no longer being self-describing
+(but still self-structuring). The following scenario may be
+appropriate for use of external vocabularies: A protocol between
+clients and services communicating using small messages that are
+application specific in the sense that there is a fixed set of well
+described structures for the message.</P>
+<P>Fast Infoset can provide modest to good compression of XML
+infosets, depending on what features of Fast Infoset are used. It is
+interesting to note that for the XML infosets tested GZIP'ed fast
+infoset documents created using an external vocabulary are smaller
+than compressed XML documents. Given that the fast infoset documents
+smaller than XML it may be that compressing such documents does add
+too much to the cost of serializing.</P>
+<H3>Further work</H3>
+<P>Add an option to perform GZIP compression for parsing and
+serializing.</P>
 </BODY>
 </HTML>
