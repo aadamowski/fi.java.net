@@ -1,9 +1,2823 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport"><link href="report.css" type="text/css" rel="stylesheet"/><head><h1>Japex Report: FI-size</h1></head><body><ul><li>classPath: /export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/dist/JapexXMLDriverLibrary.jar
-/export/home/ps23762/Projects/java.net.internal/fi/FastInfoset/dist/FastInfoset.jar
-/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/sjsxp.jar
-/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/resolver.jar
-/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xercesImpl.jar
-/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xml-apis.jar</li><li>dateTime: 05 Oct 2005/15:36:02 CEST</li><li>numberOfThreads: 1</li><li>osArchitecture: x86</li><li>osName: SunOS</li><li>reportsDirectory: reports</li><li>resultUnit: KBytes</li><li>runIterations: 1</li><li>runsPerDriver: 1</li><li>version: 0.100</li><li>vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</li><li>warmupIterations: 1</li></ul><h2>Result Summary 
-    (KBytes)</h2><table width="80%" border="1"><thead><tr><th width="15%"><b>driver</b></th><th><b>resultAritMean</b></th><th><b>resultHarmMean</b></th><th><b>resultGeomMean</b></th><th><b>driverClass</b></th><th><b>description</b></th></tr></thead><tbody><tr><td align="right">FastInfosetSizeDriver</td><td align="right"><nobr>226.563</nobr></td><td align="right"><nobr>2.102</nobr></td><td align="right"><nobr>17.222</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>Fast Infoset document size</nobr></td></tr><tr><td align="right">FastInfosetGZIPSizeDriver</td><td align="right"><nobr>50.651</nobr></td><td align="right"><nobr>1.039</nobr></td><td align="right"><nobr>2.983</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document GZIP size</nobr></td></tr><tr><td align="right">FastInfosetNoIndexedContentSizeDriver</td><td align="right"><nobr>290.966</nobr></td><td align="right"><nobr>2.503</nobr></td><td align="right"><nobr>23.550</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>none</nobr></td><td align="left"><nobr>Fast Infoset document, no indexed content, size</nobr></td></tr><tr><td align="right">FastInfosetNoIndexedContentGZIPSizeDriver</td><td align="right"><nobr>51.613</nobr></td><td align="right"><nobr>1.041</nobr></td><td align="right"><nobr>3.056</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>none</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, no indexed content, GZIP size</nobr></td></tr><tr><td align="right">FastInfosetFullIndexedContentSizeDriver</td><td align="right"><nobr>168.748</nobr></td><td align="right"><nobr>1.910</nobr></td><td align="right"><nobr>11.713</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>full</nobr></td><td align="left"><nobr>Fast Infoset document, full indexed content, size</nobr></td></tr><tr><td align="right">FastInfoset24IndexedContentSizeDriver</td><td align="right"><nobr>187.652</nobr></td><td align="right"><nobr>1.950</nobr></td><td align="right"><nobr>12.890</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>24</nobr></td><td align="left"><nobr>Fast Infoset document, indexed content less than 24 characters, size</nobr></td><td align="left"><nobr>24</nobr></td></tr><tr><td align="right">FastInfosetFullIndexedContentGZIPSizeDriver</td><td align="right"><nobr>49.182</nobr></td><td align="right"><nobr>1.022</nobr></td><td align="right"><nobr>2.874</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>full</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, full indexed content, GZIP size</nobr></td></tr><tr><td align="right">FastInfosetExtVocSizeDriver</td><td align="right"><nobr>226.116</nobr></td><td align="right"><nobr>1.279</nobr></td><td align="right"><nobr>15.014</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, external vocabulary, size</nobr></td></tr><tr><td align="right">FastInfosetExtVocGZIPSizeDriver</td><td align="right"><nobr>50.371</nobr></td><td align="right"><nobr>0.787</nobr></td><td align="right"><nobr>2.561</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, external vocabulary, GZIP size</nobr></td></tr><tr><td align="right">FastInfosetExtVocFullIndexedContentSizeDriver</td><td align="right"><nobr>168.301</nobr></td><td align="right"><nobr>1.151</nobr></td><td align="right"><nobr>9.998</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>full</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, full indexed content external vocabulary, size</nobr></td></tr><tr><td align="right">FastInfosetExtVocFullIndexedContentGZIPSizeDriver</td><td align="right"><nobr>48.911</nobr></td><td align="right"><nobr>0.776</nobr></td><td align="right"><nobr>2.465</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</nobr></td><td align="left"><nobr>full</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset document, full indexed content external vocabulary, GZIP size</nobr></td></tr><tr><td align="right">XMLSizeDriver</td><td align="right"><nobr>498.704</nobr></td><td align="right"><nobr>3.557</nobr></td><td align="right"><nobr>40.223</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.XMLSizeDriver</nobr></td><td align="left"><nobr>XML document size</nobr></td></tr><tr><td align="right">XMLGZIPSizeDriver</td><td align="right"><nobr>54.001</nobr></td><td align="right"><nobr>1.055</nobr></td><td align="right"><nobr>3.261</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.size.XMLSizeDriver</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>XML document GZIP size</nobr></td></tr></tbody></table><br/><br/><center><img src="result.jpg"/></center><br/><br/><h2>Driver: FastInfosetSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>2.970</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>5.634</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>17.502</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>32.354</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>151.855</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>301.225</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.521</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.640</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.743</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>30.087</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.679</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>3.247</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>6.390</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>31.777</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>63.485</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>651.718</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.320</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>3.780</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>14.948</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>241.687</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>37.721</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>1072.849</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2538.812</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.406</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.548</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.767</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>1.989</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>3.540</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>5.285</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.381</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.424</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.464</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>4.189</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.285</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.614</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.991</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.656</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.481</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>38.468</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.286</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>1.094</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.922</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>46.977</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>8.364</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>104.638</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>933.202</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetNoIndexedContentSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>3.250</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>6.899</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>23.153</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>43.468</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>206.772</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>410.901</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.572</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.701</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.803</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>43.745</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>1.289</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>6.314</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>12.547</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>62.486</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>124.907</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>1248.614</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.351</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>4.120</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>15.893</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>258.673</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>55.166</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>1582.354</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2579.239</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetNoIndexedContentGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.400</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.533</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.765</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>2.029</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>3.712</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>5.660</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.380</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.417</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.461</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>4.347</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.290</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.623</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>1.001</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.821</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.860</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>41.549</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.280</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>1.084</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.906</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>47.486</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>8.864</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>119.732</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>934.900</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetFullIndexedContentSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>2.121</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>3.202</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>8.053</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>14.104</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>62.999</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>124.058</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.511</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.591</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.743</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>30.087</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.608</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>2.593</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>5.062</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>20.971</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>40.938</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>416.042</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.312</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>2.946</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>8.428</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>124.515</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>23.457</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>606.422</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2382.437</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfoset24IndexedContentSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>2.146</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>3.623</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>10.188</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>18.380</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>84.756</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>167.719</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.511</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.640</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.743</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>30.087</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.608</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>2.593</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>5.062</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>20.971</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>40.938</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>416.042</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.312</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>3.051</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>8.967</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>159.511</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>28.256</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>833.709</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2477.174</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetFullIndexedContentGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.372</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.496</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.677</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>1.856</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>3.230</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>4.785</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.381</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.421</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.465</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>4.190</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.281</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.599</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.926</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.752</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.434</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>34.701</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.284</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>1.082</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.880</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>42.365</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>7.974</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>96.390</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>917.642</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetExtVocSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>2.290</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>4.955</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>16.823</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>31.677</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>151.178</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>300.548</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.273</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.328</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.368</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>29.903</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.649</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>3.218</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>6.361</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>31.749</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>63.458</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>651.691</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.187</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>3.614</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>14.651</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>240.743</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>37.444</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>1072.778</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2535.782</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetExtVocGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.066</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.167</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.377</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>1.590</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>3.072</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>4.815</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.251</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.282</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.301</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>3.959</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.266</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.592</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.967</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.623</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.446</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>38.421</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.182</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.955</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.690</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>46.177</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>8.104</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>104.562</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>931.667</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetExtVocFullIndexedContentSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.441</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>2.523</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>7.374</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>13.426</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>62.321</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>123.381</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.263</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.279</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.368</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>29.903</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.579</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>2.563</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>5.033</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>20.942</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>40.911</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>416.016</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.179</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>2.780</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>8.131</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>123.571</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>23.181</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>606.352</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>2379.407</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetExtVocFullIndexedContentGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.034</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.128</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.300</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>1.472</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>2.790</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>4.327</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.251</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.280</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.302</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>3.960</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.263</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.574</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.900</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.722</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.399</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>34.661</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.181</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.949</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.661</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>41.583</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>7.728</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>96.319</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>916.173</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: XMLSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>5.263</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>13.164</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>48.320</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>92.266</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>444.219</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>884.160</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.763</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.933</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>1.071</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>131.186</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>1.980</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>9.859</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>19.660</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>98.145</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>196.250</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>1962.148</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.505</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>7.277</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>26.436</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>338.030</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>113.774</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>2951.095</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>4123.678</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: XMLGZIPSizeDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>1.367</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>1.473</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.824</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>2.197</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>4.815</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>7.943</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.365</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.424</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.453</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>4.803</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.280</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.589</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.954</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>2.747</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>4.822</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>41.503</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.283</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>1.540</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>3.272</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>48.132</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>8.536</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>124.276</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>979.418</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><br/><br/><center><img src="testcase0.jpg"/></center><br/><br/><br/><br/><center><img src="testcase1.jpg"/></center><br/><br/><br/><br/><center><img src="testcase2.jpg"/></center><br/><br/><br/><br/><center><img src="testcase3.jpg"/></center><br/><br/><br/><br/><center><img src="testcase4.jpg"/></center><br/><br/><br/><small><hr/><i><font size="-2">
-        Author: Santiago Pericas-Geertsen (Sun Microsystems)
-        </font></i></small></body></html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
+	<META NAME="CREATED" CONTENT="20051007;17564700">
+	<META NAME="CHANGED" CONTENT="20051007;17585800">
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" BGCOLOR="#ffffff" DIR="LTR">
+<H1 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Japex
+Report: FI-size</FONT></FONT></H1>
+<UL>
+	<LI><FONT FACE="sans-serif">classPath:
+	/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/dist/JapexXMLDriverLibrary.jar
+	/export/home/ps23762/Projects/java.net.internal/fi/FastInfoset/dist/FastInfoset.jar
+	/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/sjsxp.jar
+	/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/resolver.jar
+	/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xercesImpl.jar
+	/export/home/ps23762/Projects/java.net.internal/fi/JapexXMLDriverLibrary/lib/xerces.2.7.1/xml-apis.jar</FONT><LI>
+	<FONT FACE="sans-serif">dateTime: 05 Oct 2005/15:36:02 CEST</FONT><LI>
+	<FONT FACE="sans-serif">numberOfThreads: 1</FONT><LI>
+	<FONT FACE="sans-serif">osArchitecture: x86</FONT><LI>
+	<FONT FACE="sans-serif">osName: SunOS</FONT><LI>
+	<FONT FACE="sans-serif">reportsDirectory: reports</FONT><LI>
+	<FONT FACE="sans-serif">resultUnit: KBytes</FONT><LI>
+	<FONT FACE="sans-serif">runIterations: 1</FONT><LI>
+	<FONT FACE="sans-serif">runsPerDriver: 1</FONT><LI>
+	<FONT FACE="sans-serif">version: 0.100</FONT><LI>
+	<FONT FACE="sans-serif">vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</FONT><LI><P>
+	<FONT FACE="sans-serif">warmupIterations: 1</FONT></P>
+</UL>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Result
+Summary (KBytes)</FONT></FONT></H2>
+<TABLE WIDTH=1094 BORDER=1 CELLPADDING=2 CELLSPACING=3>
+	<COL WIDTH=363>
+	<COL WIDTH=108>
+	<COL WIDTH=123>
+	<COL WIDTH=127>
+	<COL WIDTH=332>
+	<THEAD>
+		<TR>
+			<TH WIDTH=363>
+				<P><FONT FACE="sans-serif"><B>driver</B></FONT></TH>
+			<TH WIDTH=108>
+				<P><FONT FACE="sans-serif"><B>resultAritMean</B></FONT></TH>
+			<TH WIDTH=123>
+				<P><FONT FACE="sans-serif"><B>resultHarmMean</B></FONT></TH>
+			<TH WIDTH=127>
+				<P><FONT FACE="sans-serif"><B>resultGeomMean</B></FONT></TH>
+			<TH WIDTH=332>
+				<P><FONT FACE="sans-serif"><B>driverClass</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">226.563</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.102</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">17.222</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">50.651</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.039</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.983</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetNoIndexedContentSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">290.966</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.503</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">23.550</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetNoIndexedContentGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">51.613</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.041</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.056</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetFullIndexedContentSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">168.748</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.910</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">11.713</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfoset24IndexedContentSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">187.652</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.950</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">12.890</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetFullIndexedContentGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">49.182</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.022</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.874</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetExtVocSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">226.116</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.279</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">15.014</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetExtVocGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">50.371</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.787</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.561</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetExtVocFullIndexedContentSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">168.301</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.151</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">9.998</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">FastInfosetExtVocFullIndexedContentGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">48.911</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.776</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.465</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">XMLSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">498.704</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.557</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">40.223</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.XMLSizeDriver</FONT></TD>
+		</TR>
+		<TR>
+			<TD WIDTH=363>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">XMLGZIPSizeDriver</FONT></TD>
+			<TD WIDTH=108>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">54.001</FONT></TD>
+			<TD WIDTH=123>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.055</FONT></TD>
+			<TD WIDTH=127>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.261</FONT></TD>
+			<TD WIDTH=332>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">com.sun.japex.jdsl.xml.size.XMLSizeDriver</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P ALIGN=CENTER><br/><br/><IMG SRC="result.jpg" NAME="graphics1" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0></P>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><br/><br/><FONT FACE="sans-serif">Driver:
+FastInfosetSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.970</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.634</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">17.502</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">32.354</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">151.855</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">301.225</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.521</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.640</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.743</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">30.087</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.679</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.247</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">6.390</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">31.777</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">63.485</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">651.718</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.320</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.780</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">14.948</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">241.687</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">37.721</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1072.849</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2538.812</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.406</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.548</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.767</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.989</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.540</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.285</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.381</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.424</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.464</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.189</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.285</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.614</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.991</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.656</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.481</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">38.468</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.286</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.094</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.922</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">46.977</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.364</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">104.638</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">933.202</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetNoIndexedContentSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.250</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">6.899</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">23.153</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">43.468</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">206.772</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">410.901</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.572</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.701</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.803</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">43.745</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.289</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">6.314</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">12.547</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">62.486</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">124.907</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1248.614</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.351</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.120</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">15.893</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">258.673</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">55.166</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1582.354</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2579.239</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetNoIndexedContentGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.400</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.533</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.765</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.029</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.712</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.660</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.380</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.417</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.461</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.347</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.290</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.623</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.001</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.821</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.860</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">41.549</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.280</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.084</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.906</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">47.486</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.864</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">119.732</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">934.900</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetFullIndexedContentSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.121</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.202</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.053</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">14.104</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">62.999</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">124.058</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.511</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.591</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.743</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">30.087</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.608</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.593</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.062</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">20.971</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">40.938</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">416.042</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.312</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.946</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.428</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">124.515</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">23.457</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">606.422</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2382.437</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfoset24IndexedContentSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.146</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.623</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">10.188</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">18.380</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">84.756</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">167.719</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.511</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.640</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.743</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">30.087</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.608</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.593</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.062</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">20.971</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">40.938</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">416.042</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.312</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.051</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.967</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">159.511</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">28.256</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">833.709</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2477.174</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetFullIndexedContentGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.372</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.496</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.677</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.856</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.230</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.785</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.381</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.421</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.465</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.190</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.281</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.599</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.926</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.752</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.434</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">34.701</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.284</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.082</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.880</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">42.365</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">7.974</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">96.390</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">917.642</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetExtVocSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.290</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.955</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">16.823</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">31.677</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">151.178</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">300.548</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.273</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.328</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.368</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">29.903</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.649</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.218</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">6.361</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">31.749</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">63.458</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">651.691</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.187</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.614</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">14.651</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">240.743</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">37.444</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1072.778</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2535.782</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetExtVocGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.066</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.167</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.377</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.590</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.072</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.815</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.251</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.282</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.301</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.959</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.266</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.592</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.967</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.623</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.446</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">38.421</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.182</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.955</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.690</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">46.177</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.104</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">104.562</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">931.667</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetExtVocFullIndexedContentSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.441</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.523</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">7.374</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">13.426</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">62.321</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">123.381</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.263</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.279</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.368</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">29.903</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.579</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.563</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.033</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">20.942</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">40.911</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">416.016</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.179</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.780</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.131</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">123.571</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">23.181</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">606.352</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2379.407</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+FastInfosetExtVocFullIndexedContentGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.034</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.128</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.300</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.472</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.790</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.327</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.251</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.280</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.302</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.960</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.263</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.574</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.900</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.722</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.399</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">34.661</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.181</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.949</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.661</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">41.583</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">7.728</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">96.319</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">916.173</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+XMLSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">5.263</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">13.164</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">48.320</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">92.266</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">444.219</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">884.160</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.763</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.933</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.071</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">131.186</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.980</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">9.859</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">19.660</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">98.145</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">196.250</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1962.148</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.505</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">7.277</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">26.436</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">338.030</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">113.774</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2951.095</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4123.678</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<H2 ALIGN=LEFT><FONT COLOR="#005a9c"><FONT FACE="sans-serif">Driver:
+XMLGZIPSizeDriver</FONT></FONT></H2>
+<TABLE WIDTH=80% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<THEAD>
+		<TR>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>testCase</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>resultValue</B></FONT></TH>
+			<TH>
+				<P><FONT FACE="sans-serif"><B>xmlfile</B></FONT></TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.367</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.473</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.824</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.197</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.815</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">inv1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">7.943</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/inv1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.365</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.424</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.453</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">soap4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.803</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/soap4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.280</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db50.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.589</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db50.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db100.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.954</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db100.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db500.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">2.747</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db500.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db1000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">4.822</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db1000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">db10000.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">41.503</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/db10000.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl1.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">0.283</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl1.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl2.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">1.540</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl2.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl3.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">3.272</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl3.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">xsl4.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">48.132</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/xsl4.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">periodic.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">8.536</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/periodic.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">weblog.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">124.276</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/weblog.xml</FONT></TD>
+		</TR>
+		<TR>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">factbook.xml</FONT></TD>
+			<TD>
+				<P ALIGN=RIGHT><FONT FACE="sans-serif">979.418</FONT></TD>
+			<TD>
+				<P ALIGN=LEFT><FONT FACE="sans-serif">data/factbook.xml</FONT></TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P ALIGN=CENTER><br/><br/><IMG SRC="testcase0.jpg" NAME="graphics2" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0><P ALIGN=CENTER>
+<br/><br/><br/><br/><IMG SRC="testcase1.jpg" NAME="graphics3" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0><P ALIGN=CENTER>
+<br/><br/><br/><br/><IMG SRC="testcase2.jpg" NAME="graphics4" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0><P ALIGN=CENTER>
+<br/><br/><br/><br/><IMG SRC="testcase3.jpg" NAME="graphics5" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0><P ALIGN=CENTER>
+<br/><br/><br/><br/><IMG SRC="testcase4.jpg" NAME="graphics6" ALIGN=BOTTOM WIDTH=600 HEIGHT=450 BORDER=0><P>
+<br/><br/><br/><hr/><FONT FACE="sans-serif"><FONT SIZE=1><I>Author:
+Santiago Pericas-Geertsen (Sun Microsystems) </I></FONT></FONT>
+</BODY>
+</HTML>
