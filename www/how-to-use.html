@@ -5,7 +5,7 @@
 	<TITLE>How to use Fast Infoset parsers and serializers</TITLE>
 	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
 	<META NAME="CREATED" CONTENT="20050111;14114000">
-	<META NAME="CHANGED" CONTENT="20051006;18461100">
+	<META NAME="CHANGED" CONTENT="20051017;10211100">
 </HEAD>
 <BODY LANG="en-US" DIR="LTR">
 <H3>How to use the Fast Infoset parsers and serializers</H3>
@@ -81,8 +81,15 @@ SAXDocumentSerializer saxDocumentSerializer = new SAXDocumentSerializer();
 // Set the output stream
 saxDocumentSerializer.setOutputStream(fiDocument);
 
+// Instantiate JAXP SAX parser factory
+<A NAME="DDE_LINK5"></A>SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+/* Set parser to be namespace aware
+ * Very important to do otherwise invalid FI documents will be
+ * created by the SAXDocumentSerializer
+ */
+saxParserFactory.setNamespaceAware(true);
 // Instantiate the JAXP SAX parser
-SAXParser saxParser = ... // create using JAXP factory
+SAXParser saxParser = saxParserFactory.newSAXParser();
 // Set the lexical handler
 saxParser.setProperty(&quot;http://xml.org/sax/properties/lexical-handler&quot;, documentSerializer);
 // Parse the XML document and convert to a fast infoset document
@@ -134,7 +141,12 @@ staxDocumentSerializer.setOutputStream(fiDocument);
 XMLStreamWriter streamWriter = staxDocumentSerializer;
 
 // Write out some simple infoset
-<A NAME="DDE_LINK1"></A><A NAME="DDE_LINK2"></A>streamWriter.writeStartDocument();<BR>   streamWriter.writeStartElement(&ldquo;foo&rdquo;);<BR>      streamWriter.writeCharacters(&ldquo;bar&rdquo;);<BR>   streamWriter.writeEndElement();<BR>streamWriter.writeEndDocument();<BR>streamWriter.close();</PRE><H3>
+<A NAME="DDE_LINK1"></A><A NAME="DDE_LINK2"></A>streamWriter.writeStartDocument();
+   streamWriter.writeStartElement(&ldquo;foo&rdquo;);
+      streamWriter.writeCharacters(&ldquo;bar&rdquo;);
+   streamWriter.writeEndElement();
+streamWriter.writeEndDocument();
+streamWriter.close();</PRE><H3>
 Using the Fast Infoset StAX parser and serializer with JAXB</H3>
 <P>The following code shows how to unmarshall a fast infoset document
 using the FI StAX parser to an Object: 
