@@ -1,0 +1,25 @@
+</div>
+<script id="eraser">
+  // hide all default navigation bars
+  
+  // get to the block
+  var div = document.getElementById("eraser").previousSibling;
+  for( n=div; n!=null; n=n.previousSibling ) {
+    if(n.nodeType==1) { // if element
+      if(n.className=="body") { // kill all the link items
+        n.style.display = "none";
+      }
+      if(n.className=="label") { // change the title
+        n.innerHTML = "<strong>Fast Infoset Project</strong>";
+      }
+    }
+  }
+  
+  // delete the "get involved" block
+  getInvolved = document.getElementById("communitylinks");
+  getInvolved.parentNode.removeChild(getInvolved);
+  
+  // replace breadcrumbs
+  breadcrumbs = document.getElementById("breadcrumbs");
+  breadcrumbs.innerHTML = "<a href='https://community.java.net/java-ws-xml/'>Java WS/XML community</a> | <a href='https://glassfish.dev.java.net/'>Glassfish</a> | <a href='https://jwsdp.dev.java.net/'>JWSDP</a>";
+</script>
