@@ -1,6 +1,6 @@
 <testSuiteReport name="FpML-parse" xmlns="http://www.sun.com/japex/testSuiteReport">
   <resultUnit>ms</resultUnit>
-  <version>0.100</version>
+  <version>1.000</version>
   <chartType>barchart</chartType>
   <osName>SunOS</osName>
   <classPath>/export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
@@ -17,7 +17,7 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</classPath>
   <warmupTime>5</warmupTime>
   <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
-  <dateTime>12 Jan 2006/16:05:15 EST</dateTime>
+  <dateTime>23 Jan 2006/14:11:49 EST</dateTime>
   <runTime>5</runTime>
   <reportsDirectory>reports</reportsDirectory>
   <resultAxis>normal</resultAxis>
@@ -29,148 +29,152 @@
   <osArchitecture>x86</osArchitecture>
   <runsPerDriver>1</runsPerDriver>
   <driver name="FastInfosetSAXDriver">
-    <resultAritMean>0.070</resultAritMean>
-    <resultHarmMean>0.061</resultHarmMean>
-    <resultGeomMean>0.066</resultGeomMean>
+    <resultAritMean>0.068</resultAritMean>
+    <resultHarmMean>0.059</resultHarmMean>
+    <resultGeomMean>0.064</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="./cd/cd40_ex01_long_asia_corp_fixreg.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex01_long_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_short_asia_corp_fixreg.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex03_long_aussie_corp_fixreg.xml">
-      <resultValue>0.088</resultValue>
+      <resultValue>0.085</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex03_long_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex04_short_aussie_corp_fixreg.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.049</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex04_short_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex05_long_emasia_corp_fixreg.xml">
-      <resultValue>0.087</resultValue>
+      <resultValue>0.083</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex05_long_emasia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex06_long_emeur_sov_fixreg.xml">
-      <resultValue>0.083</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex06_long_emeur_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml">
-      <resultValue>0.087</resultValue>
+      <resultValue>0.083</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_long_euro_corp_fixreg.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.049</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_short_euro_corp_fixreg.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.049</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex09_long_euro_sov_fixreg.xml">
-      <resultValue>0.083</resultValue>
+      <resultValue>0.079</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex09_long_euro_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_2003_long_us_corp_fixreg.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_2003_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_long_us_corp_fixreg.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_2003_short_us_corp_fixreg.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_2003_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_short_us_corp_fixreg.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex12_long_emasia_sov_fixreg.xml">
-      <resultValue>0.086</resultValue>
+      <resultValue>0.082</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex12_long_emasia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex13_long_asia_sov_fixreg.xml">
-      <resultValue>0.081</resultValue>
+      <resultValue>0.077</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex13_long_asia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex14_long_emlatin_corp_fixreg.xml">
-      <resultValue>0.087</resultValue>
+      <resultValue>0.083</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex14_long_emlatin_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex15_long_emlatin_sov_fixreg.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.080</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex15_long_emlatin_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex01_american_call_stock.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>0.070</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex01_american_call_stock.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex02_american_call_stock_2.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>0.070</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex02_american_call_stock_2.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex03_european_call_index.xml">
-      <resultValue>0.069</resultValue>
+      <resultValue>0.067</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex03_european_call_index.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex04_asian.xml">
-      <resultValue>0.070</resultValue>
+      <resultValue>0.068</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex04_asian.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex05_averaging_in.xml">
-      <resultValue>0.086</resultValue>
+      <resultValue>0.084</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex05_averaging_in.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex06_barrier_knockout_rebate.xml">
-      <resultValue>0.082</resultValue>
+      <resultValue>0.079</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex06_barrier_knockout_rebate.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex07_basket.xml">
-      <resultValue>0.068</resultValue>
+      <resultValue>0.066</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex07_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex08_bermudan.xml">
-      <resultValue>0.076</resultValue>
+      <resultValue>0.074</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex08_bermudan.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex09_binary_barrier.xml">
-      <resultValue>0.073</resultValue>
+      <resultValue>0.071</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex09_binary_barrier.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex10_quanto.xml">
-      <resultValue>0.078</resultValue>
+      <resultValue>0.076</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex10_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex01_single_underlyer_execution.xml">
-      <resultValue>0.121</resultValue>
+      <resultValue>0.118</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex01_single_underlyer_execution.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex02_composite_basket.xml">
-      <resultValue>0.139</resultValue>
+      <resultValue>0.136</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex02_composite_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex03_index_quanto.xml">
-      <resultValue>0.126</resultValue>
+      <resultValue>0.124</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex03_index_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex04_zero_strike.xml">
-      <resultValue>0.100</resultValue>
+      <resultValue>0.097</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex04_zero_strike.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex05_single_stock_plus_fee.xml">
-      <resultValue>0.140</resultValue>
+      <resultValue>0.138</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex05_single_stock_plus_fee.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex01_fx_spot.xml">
@@ -178,15 +182,15 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex01_fx_spot.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex02_spot_cross_w_side_rates.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex02_spot_cross_w_side_rates.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex03_fx_fwd.xml">
-      <resultValue>0.032</resultValue>
+      <resultValue>0.031</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex03_fx_fwd.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex04_fx_fwd_w_settlement.xml">
-      <resultValue>0.041</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex04_fx_fwd_w_settlement.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex05_fx_fwd_w_ssi.xml">
@@ -194,15 +198,15 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex05_fx_fwd_w_ssi.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex06_fx_fwd_w_splits.xml">
-      <resultValue>0.047</resultValue>
+      <resultValue>0.045</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex06_fx_fwd_w_splits.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex07_non_deliverable_forward.xml">
-      <resultValue>0.041</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex07_non_deliverable_forward.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex08_fxswap.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex08_fxswap.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex09_euro_opt.xml">
@@ -210,19 +214,19 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex09_euro_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex10_amer_opt.xml">
-      <resultValue>0.058</resultValue>
+      <resultValue>0.057</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex10_amer_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex11_non_deliverable_option.xml">
-      <resultValue>0.061</resultValue>
+      <resultValue>0.060</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex11_non_deliverable_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex12_fx_barrier_option.xml">
-      <resultValue>0.055</resultValue>
+      <resultValue>0.054</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex12_fx_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex13_fx_dbl_barrier_option.xml">
-      <resultValue>0.064</resultValue>
+      <resultValue>0.063</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex13_fx_dbl_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex14_euro_digital_option.xml">
@@ -230,27 +234,27 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex14_euro_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex15_euro_range_digital_option.xml">
-      <resultValue>0.048</resultValue>
+      <resultValue>0.047</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex15_euro_range_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex16_one_touch_option.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex16_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex17_no_touch_option.xml">
-      <resultValue>0.047</resultValue>
+      <resultValue>0.046</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex17_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex18_double_one_touch_option.xml">
-      <resultValue>0.053</resultValue>
+      <resultValue>0.052</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex18_double_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex19_double_no_touch_option.xml">
-      <resultValue>0.052</resultValue>
+      <resultValue>0.051</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex19_double_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex20_avg_rate_option_parametric.xml">
-      <resultValue>0.048</resultValue>
+      <resultValue>0.047</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex20_avg_rate_option_parametric.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex21_avg_rate_option_specific.xml">
@@ -258,11 +262,11 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex21_avg_rate_option_specific.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex22_straddle.xml">
-      <resultValue>0.063</resultValue>
+      <resultValue>0.062</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex22_straddle.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex23_delta_hedge.xml">
-      <resultValue>0.068</resultValue>
+      <resultValue>0.067</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex23_delta_hedge.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex01_simple_term_deposit.xml">
@@ -270,116 +274,119 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex01_simple_term_deposit.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex02_term_deposit_w_settlement_etc.xml">
-      <resultValue>0.046</resultValue>
+      <resultValue>0.045</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex02_term_deposit_w_settlement_etc.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex01_vanilla_swap.xml">
-      <resultValue>0.076</resultValue>
+      <resultValue>0.074</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex01_vanilla_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex03_compound_swap.xml">
-      <resultValue>0.117</resultValue>
+      <resultValue>0.114</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex03_compound_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex04_arrears_stepup_fee_swap.xml">
-      <resultValue>0.081</resultValue>
+      <resultValue>0.079</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex04_arrears_stepup_fee_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex07_ois_swap.xml">
-      <resultValue>0.075</resultValue>
+      <resultValue>0.072</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex07_ois_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex08_fra.xml">
-      <resultValue>0.041</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex08_fra.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex09_euro_swaption_explicit.xml">
-      <resultValue>0.090</resultValue>
+      <resultValue>0.087</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex09_euro_swaption_explicit.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex10_euro_swaption_relative.xml">
-      <resultValue>0.093</resultValue>
+      <resultValue>0.091</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex10_euro_swaption_relative.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex11_euro_swaption_partial_auto_ex.xml">
-      <resultValue>0.094</resultValue>
+      <resultValue>0.091</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex11_euro_swaption_partial_auto_ex.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex12_euro_swaption_straddle_cash.xml">
-      <resultValue>0.102</resultValue>
+      <resultValue>0.099</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex12_euro_swaption_straddle_cash.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex14_berm_swaption.xml">
-      <resultValue>0.095</resultValue>
+      <resultValue>0.092</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex14_berm_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex15_amer_swaption.xml">
-      <resultValue>0.097</resultValue>
+      <resultValue>0.094</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex15_amer_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex16_mand_term_swap.xml">
-      <resultValue>0.087</resultValue>
+      <resultValue>0.084</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex16_mand_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex17_opt_euro_term_swap.xml">
-      <resultValue>0.094</resultValue>
+      <resultValue>0.091</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex17_opt_euro_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex19_opt_amer_term_swap.xml">
-      <resultValue>0.102</resultValue>
+      <resultValue>0.099</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex19_opt_amer_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex20_euro_cancel_swap.xml">
-      <resultValue>0.085</resultValue>
+      <resultValue>0.082</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex20_euro_cancel_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex21_euro_extend_swap.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.082</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex21_euro_extend_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex22_cap.xml">
-      <resultValue>0.067</resultValue>
+      <resultValue>0.065</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex22_cap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex23_floor.xml">
-      <resultValue>0.067</resultValue>
+      <resultValue>0.065</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex23_floor.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex24_collar.xml">
-      <resultValue>0.071</resultValue>
+      <resultValue>0.069</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex24_collar.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex25_fxnotional_swap.xml">
-      <resultValue>0.085</resultValue>
+      <resultValue>0.083</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex25_fxnotional_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex27_inverse_floater.xml">
-      <resultValue>0.073</resultValue>
+      <resultValue>0.071</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex27_inverse_floater.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex28_bullet_payments.xml">
-      <resultValue>0.029</resultValue>
+      <resultValue>0.028</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex28_bullet_payments.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex01_request_confirmation.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex01_request_confirmation.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex02_trade_confirmed.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex02_trade_confirmed.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex03_portfolio.xml">
-      <resultValue>0.041</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex03_portfolio.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfosetSAXExtVocabDriver">
-    <resultAritMean>0.036</resultAritMean>
-    <resultHarmMean>0.031</resultHarmMean>
-    <resultGeomMean>0.033</resultGeomMean>
+    <resultAritMean>0.037</resultAritMean>
+    <resultHarmMean>0.032</resultHarmMean>
+    <resultGeomMean>0.034</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="./cd/cd40_ex01_long_asia_corp_fixreg.xml">
       <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex01_long_asia_corp_fixreg.xml</xmlfile>
@@ -389,55 +396,55 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_short_asia_corp_fixreg.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex03_long_aussie_corp_fixreg.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex03_long_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex04_short_aussie_corp_fixreg.xml">
-      <resultValue>0.023</resultValue>
+      <resultValue>0.024</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex04_short_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex05_long_emasia_corp_fixreg.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex05_long_emasia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex06_long_emeur_sov_fixreg.xml">
-      <resultValue>0.034</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex06_long_emeur_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_long_euro_corp_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_short_euro_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex09_long_euro_sov_fixreg.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex09_long_euro_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_2003_long_us_corp_fixreg.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_2003_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_long_us_corp_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_2003_short_us_corp_fixreg.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_2003_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_short_us_corp_fixreg.xml">
@@ -445,79 +452,79 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex12_long_emasia_sov_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex12_long_emasia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex13_long_asia_sov_fixreg.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex13_long_asia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex14_long_emlatin_corp_fixreg.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex14_long_emlatin_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex15_long_emlatin_sov_fixreg.xml">
-      <resultValue>0.034</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex15_long_emlatin_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex01_american_call_stock.xml">
-      <resultValue>0.031</resultValue>
+      <resultValue>0.032</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex01_american_call_stock.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex02_american_call_stock_2.xml">
-      <resultValue>0.032</resultValue>
+      <resultValue>0.033</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex02_american_call_stock_2.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex03_european_call_index.xml">
-      <resultValue>0.031</resultValue>
+      <resultValue>0.032</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex03_european_call_index.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex04_asian.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex04_asian.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex05_averaging_in.xml">
-      <resultValue>0.047</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex05_averaging_in.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex06_barrier_knockout_rebate.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex06_barrier_knockout_rebate.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex07_basket.xml">
-      <resultValue>0.032</resultValue>
+      <resultValue>0.033</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex07_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex08_bermudan.xml">
-      <resultValue>0.034</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex08_bermudan.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex09_binary_barrier.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex09_binary_barrier.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex10_quanto.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex10_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex01_single_underlyer_execution.xml">
-      <resultValue>0.070</resultValue>
+      <resultValue>0.068</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex01_single_underlyer_execution.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex02_composite_basket.xml">
-      <resultValue>0.085</resultValue>
+      <resultValue>0.082</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex02_composite_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex03_index_quanto.xml">
-      <resultValue>0.075</resultValue>
+      <resultValue>0.073</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex03_index_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex04_zero_strike.xml">
-      <resultValue>0.052</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex04_zero_strike.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex05_single_stock_plus_fee.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.081</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex05_single_stock_plus_fee.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex01_fx_spot.xml">
@@ -525,7 +532,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex01_fx_spot.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex02_spot_cross_w_side_rates.xml">
-      <resultValue>0.021</resultValue>
+      <resultValue>0.020</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex02_spot_cross_w_side_rates.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex03_fx_fwd.xml">
@@ -533,11 +540,11 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex03_fx_fwd.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex04_fx_fwd_w_settlement.xml">
-      <resultValue>0.021</resultValue>
+      <resultValue>0.022</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex04_fx_fwd_w_settlement.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex05_fx_fwd_w_ssi.xml">
-      <resultValue>0.018</resultValue>
+      <resultValue>0.019</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex05_fx_fwd_w_ssi.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex06_fx_fwd_w_splits.xml">
@@ -553,7 +560,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex08_fxswap.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex09_euro_opt.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex09_euro_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex10_amer_opt.xml">
@@ -561,7 +568,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex10_amer_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex11_non_deliverable_option.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex11_non_deliverable_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex12_fx_barrier_option.xml">
@@ -569,39 +576,39 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex12_fx_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex13_fx_dbl_barrier_option.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex13_fx_dbl_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex14_euro_digital_option.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex14_euro_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex15_euro_range_digital_option.xml">
-      <resultValue>0.027</resultValue>
+      <resultValue>0.028</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex15_euro_range_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex16_one_touch_option.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex16_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex17_no_touch_option.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex17_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex18_double_one_touch_option.xml">
-      <resultValue>0.028</resultValue>
+      <resultValue>0.029</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex18_double_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex19_double_no_touch_option.xml">
-      <resultValue>0.028</resultValue>
+      <resultValue>0.029</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex19_double_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex20_avg_rate_option_parametric.xml">
-      <resultValue>0.023</resultValue>
+      <resultValue>0.024</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex20_avg_rate_option_parametric.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex21_avg_rate_option_specific.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex21_avg_rate_option_specific.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex22_straddle.xml">
@@ -609,11 +616,11 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex22_straddle.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex23_delta_hedge.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex23_delta_hedge.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex01_simple_term_deposit.xml">
-      <resultValue>0.019</resultValue>
+      <resultValue>0.020</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex01_simple_term_deposit.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex02_term_deposit_w_settlement_etc.xml">
@@ -621,15 +628,15 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex02_term_deposit_w_settlement_etc.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex01_vanilla_swap.xml">
-      <resultValue>0.045</resultValue>
+      <resultValue>0.046</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex01_vanilla_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex03_compound_swap.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>0.075</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex03_compound_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex04_arrears_stepup_fee_swap.xml">
-      <resultValue>0.048</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex04_arrears_stepup_fee_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex07_ois_swap.xml">
@@ -637,75 +644,75 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex07_ois_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex08_fra.xml">
-      <resultValue>0.021</resultValue>
+      <resultValue>0.022</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex08_fra.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex09_euro_swaption_explicit.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex09_euro_swaption_explicit.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex10_euro_swaption_relative.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.053</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex10_euro_swaption_relative.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex11_euro_swaption_partial_auto_ex.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.053</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex11_euro_swaption_partial_auto_ex.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex12_euro_swaption_straddle_cash.xml">
-      <resultValue>0.055</resultValue>
+      <resultValue>0.057</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex12_euro_swaption_straddle_cash.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex14_berm_swaption.xml">
-      <resultValue>0.052</resultValue>
+      <resultValue>0.054</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex14_berm_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex15_amer_swaption.xml">
-      <resultValue>0.053</resultValue>
+      <resultValue>0.055</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex15_amer_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex16_mand_term_swap.xml">
-      <resultValue>0.048</resultValue>
+      <resultValue>0.049</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex16_mand_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex17_opt_euro_term_swap.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.053</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex17_opt_euro_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex19_opt_amer_term_swap.xml">
-      <resultValue>0.055</resultValue>
+      <resultValue>0.057</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex19_opt_amer_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex20_euro_cancel_swap.xml">
-      <resultValue>0.046</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex20_euro_cancel_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex21_euro_extend_swap.xml">
-      <resultValue>0.046</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex21_euro_extend_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex22_cap.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex22_cap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex23_floor.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex23_floor.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex24_collar.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.040</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex24_collar.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex25_fxnotional_swap.xml">
-      <resultValue>0.046</resultValue>
+      <resultValue>0.047</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex25_fxnotional_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex27_inverse_floater.xml">
-      <resultValue>0.042</resultValue>
+      <resultValue>0.043</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex27_inverse_floater.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex28_bullet_payments.xml">
-      <resultValue>0.016</resultValue>
+      <resultValue>0.017</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex28_bullet_payments.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex01_request_confirmation.xml">
@@ -722,19 +729,20 @@
     </testCase>
   </driver>
   <driver name="FastInfosetSAXExtVocab16IndexDriver">
-    <resultAritMean>0.039</resultAritMean>
+    <resultAritMean>0.038</resultAritMean>
     <resultHarmMean>0.034</resultHarmMean>
     <resultGeomMean>0.036</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
     <jdsl.characterContentChunkSizeLimit xmlns="">16</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <jdsl.attributeValueSizeLimit xmlns="">16</jdsl.attributeValueSizeLimit>
     <testCase name="./cd/cd40_ex01_long_asia_corp_fixreg.xml">
-      <resultValue>0.040</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex01_long_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.024</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_short_asia_corp_fixreg.xml">
@@ -742,7 +750,7 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex03_long_aussie_corp_fixreg.xml">
-      <resultValue>0.042</resultValue>
+      <resultValue>0.041</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex03_long_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex04_short_aussie_corp_fixreg.xml">
@@ -750,19 +758,19 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex04_short_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex05_long_emasia_corp_fixreg.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex05_long_emasia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex06_long_emeur_sov_fixreg.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex06_long_emeur_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_long_euro_corp_fixreg.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml">
@@ -770,7 +778,7 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_short_euro_corp_fixreg.xml">
-      <resultValue>0.026</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex09_long_euro_sov_fixreg.xml">
@@ -802,31 +810,31 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex13_long_asia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex14_long_emlatin_corp_fixreg.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex14_long_emlatin_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex15_long_emlatin_sov_fixreg.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex15_long_emlatin_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex01_american_call_stock.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex01_american_call_stock.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex02_american_call_stock_2.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex02_american_call_stock_2.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex03_european_call_index.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex03_european_call_index.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex04_asian.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex04_asian.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex05_averaging_in.xml">
-      <resultValue>0.055</resultValue>
+      <resultValue>0.054</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex05_averaging_in.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex06_barrier_knockout_rebate.xml">
@@ -838,7 +846,7 @@
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex07_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex08_bermudan.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex08_bermudan.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex09_binary_barrier.xml">
@@ -866,7 +874,7 @@
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex04_zero_strike.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex05_single_stock_plus_fee.xml">
-      <resultValue>0.084</resultValue>
+      <resultValue>0.083</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex05_single_stock_plus_fee.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex01_fx_spot.xml">
@@ -878,7 +886,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex02_spot_cross_w_side_rates.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex03_fx_fwd.xml">
-      <resultValue>0.020</resultValue>
+      <resultValue>0.019</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex03_fx_fwd.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex04_fx_fwd_w_settlement.xml">
@@ -886,7 +894,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex04_fx_fwd_w_settlement.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex05_fx_fwd_w_ssi.xml">
-      <resultValue>0.021</resultValue>
+      <resultValue>0.020</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex05_fx_fwd_w_ssi.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex06_fx_fwd_w_splits.xml">
@@ -918,7 +926,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex12_fx_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex13_fx_dbl_barrier_option.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex13_fx_dbl_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex14_euro_digital_option.xml">
@@ -926,7 +934,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex14_euro_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex15_euro_range_digital_option.xml">
-      <resultValue>0.031</resultValue>
+      <resultValue>0.030</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex15_euro_range_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex16_one_touch_option.xml">
@@ -942,19 +950,19 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex18_double_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex19_double_no_touch_option.xml">
-      <resultValue>0.031</resultValue>
+      <resultValue>0.030</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex19_double_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex20_avg_rate_option_parametric.xml">
-      <resultValue>0.027</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex20_avg_rate_option_parametric.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex21_avg_rate_option_specific.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex21_avg_rate_option_specific.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex22_straddle.xml">
-      <resultValue>0.040</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex22_straddle.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex23_delta_hedge.xml">
@@ -994,7 +1002,7 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex09_euro_swaption_explicit.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex10_euro_swaption_relative.xml">
-      <resultValue>0.054</resultValue>
+      <resultValue>0.055</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex10_euro_swaption_relative.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex11_euro_swaption_partial_auto_ex.xml">
@@ -1030,11 +1038,11 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex20_euro_cancel_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex21_euro_extend_swap.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.051</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex21_euro_extend_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex22_cap.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex22_cap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex23_floor.xml">
@@ -1046,7 +1054,7 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex24_collar.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex25_fxnotional_swap.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.049</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex25_fxnotional_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex27_inverse_floater.xml">
@@ -1062,83 +1070,85 @@
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex01_request_confirmation.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex02_trade_confirmed.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex02_trade_confirmed.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex03_portfolio.xml">
-      <resultValue>0.029</resultValue>
+      <resultValue>0.028</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex03_portfolio.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfosetSAXExtVocabFullIndexDriver">
-    <resultAritMean>0.036</resultAritMean>
-    <resultHarmMean>0.032</resultHarmMean>
-    <resultGeomMean>0.034</resultGeomMean>
+    <resultAritMean>0.037</resultAritMean>
+    <resultHarmMean>0.033</resultHarmMean>
+    <resultGeomMean>0.035</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
     <jdsl.indexedContent xmlns="">full</jdsl.indexedContent>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="./cd/cd40_ex01_long_asia_corp_fixreg.xml">
       <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex01_long_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_short_asia_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex03_long_aussie_corp_fixreg.xml">
-      <resultValue>0.041</resultValue>
+      <resultValue>0.042</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex03_long_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex04_short_aussie_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex04_short_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex05_long_emasia_corp_fixreg.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex05_long_emasia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex06_long_emeur_sov_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex06_long_emeur_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_long_euro_corp_fixreg.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>0.037</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_short_euro_corp_fixreg.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex09_long_euro_sov_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex09_long_euro_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_2003_long_us_corp_fixreg.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_2003_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_long_us_corp_fixreg.xml">
-      <resultValue>0.037</resultValue>
+      <resultValue>0.038</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_2003_short_us_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_2003_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_short_us_corp_fixreg.xml">
-      <resultValue>0.024</resultValue>
+      <resultValue>0.025</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex12_long_emasia_sov_fixreg.xml">
@@ -1150,7 +1160,7 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex13_long_asia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex14_long_emlatin_corp_fixreg.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex14_long_emlatin_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex15_long_emlatin_sov_fixreg.xml">
@@ -1158,15 +1168,15 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex15_long_emlatin_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex01_american_call_stock.xml">
-      <resultValue>0.034</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex01_american_call_stock.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex02_american_call_stock_2.xml">
-      <resultValue>0.034</resultValue>
+      <resultValue>0.035</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex02_american_call_stock_2.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex03_european_call_index.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex03_european_call_index.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex04_asian.xml">
@@ -1174,7 +1184,7 @@
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex04_asian.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex05_averaging_in.xml">
-      <resultValue>0.055</resultValue>
+      <resultValue>0.054</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex05_averaging_in.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex06_barrier_knockout_rebate.xml">
@@ -1182,7 +1192,7 @@
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex06_barrier_knockout_rebate.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex07_basket.xml">
-      <resultValue>0.032</resultValue>
+      <resultValue>0.033</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex07_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex08_bermudan.xml">
@@ -1190,7 +1200,7 @@
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex08_bermudan.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex09_binary_barrier.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex09_binary_barrier.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex10_quanto.xml">
@@ -1198,11 +1208,11 @@
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex10_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex01_single_underlyer_execution.xml">
-      <resultValue>0.064</resultValue>
+      <resultValue>0.065</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex01_single_underlyer_execution.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex02_composite_basket.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>0.074</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex02_composite_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex03_index_quanto.xml">
@@ -1214,11 +1224,11 @@
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex04_zero_strike.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex05_single_stock_plus_fee.xml">
-      <resultValue>0.076</resultValue>
+      <resultValue>0.077</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex05_single_stock_plus_fee.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex01_fx_spot.xml">
-      <resultValue>0.018</resultValue>
+      <resultValue>0.019</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex01_fx_spot.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex02_spot_cross_w_side_rates.xml">
@@ -1230,7 +1240,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex03_fx_fwd.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex04_fx_fwd_w_settlement.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex04_fx_fwd_w_settlement.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex05_fx_fwd_w_ssi.xml">
@@ -1238,15 +1248,15 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex05_fx_fwd_w_ssi.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex06_fx_fwd_w_splits.xml">
-      <resultValue>0.026</resultValue>
+      <resultValue>0.027</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex06_fx_fwd_w_splits.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex07_non_deliverable_forward.xml">
-      <resultValue>0.023</resultValue>
+      <resultValue>0.024</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex07_non_deliverable_forward.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex08_fxswap.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex08_fxswap.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex09_euro_opt.xml">
@@ -1254,7 +1264,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex09_euro_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex10_amer_opt.xml">
-      <resultValue>0.033</resultValue>
+      <resultValue>0.034</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex10_amer_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex11_non_deliverable_option.xml">
@@ -1274,7 +1284,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex14_euro_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex15_euro_range_digital_option.xml">
-      <resultValue>0.028</resultValue>
+      <resultValue>0.029</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex15_euro_range_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex16_one_touch_option.xml">
@@ -1282,11 +1292,11 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex16_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex17_no_touch_option.xml">
-      <resultValue>0.026</resultValue>
+      <resultValue>0.027</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex17_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex18_double_one_touch_option.xml">
-      <resultValue>0.030</resultValue>
+      <resultValue>0.031</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex18_double_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex19_double_no_touch_option.xml">
@@ -1294,7 +1304,7 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex19_double_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex20_avg_rate_option_parametric.xml">
-      <resultValue>0.025</resultValue>
+      <resultValue>0.026</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex20_avg_rate_option_parametric.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex21_avg_rate_option_specific.xml">
@@ -1310,15 +1320,15 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex23_delta_hedge.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex01_simple_term_deposit.xml">
-      <resultValue>0.019</resultValue>
+      <resultValue>0.020</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex01_simple_term_deposit.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex02_term_deposit_w_settlement_etc.xml">
-      <resultValue>0.027</resultValue>
+      <resultValue>0.028</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex02_term_deposit_w_settlement_etc.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex01_vanilla_swap.xml">
-      <resultValue>0.040</resultValue>
+      <resultValue>0.041</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex01_vanilla_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex03_compound_swap.xml">
@@ -1326,11 +1336,11 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex03_compound_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex04_arrears_stepup_fee_swap.xml">
-      <resultValue>0.043</resultValue>
+      <resultValue>0.044</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex04_arrears_stepup_fee_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex07_ois_swap.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex07_ois_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex08_fra.xml">
@@ -1338,79 +1348,79 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex08_fra.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex09_euro_swaption_explicit.xml">
-      <resultValue>0.047</resultValue>
+      <resultValue>0.048</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex09_euro_swaption_explicit.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex10_euro_swaption_relative.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex10_euro_swaption_relative.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex11_euro_swaption_partial_auto_ex.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex11_euro_swaption_partial_auto_ex.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex12_euro_swaption_straddle_cash.xml">
-      <resultValue>0.052</resultValue>
+      <resultValue>0.053</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex12_euro_swaption_straddle_cash.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex14_berm_swaption.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.051</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex14_berm_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex15_amer_swaption.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>0.051</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex15_amer_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex16_mand_term_swap.xml">
-      <resultValue>0.045</resultValue>
+      <resultValue>0.047</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex16_mand_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex17_opt_euro_term_swap.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>0.050</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex17_opt_euro_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex19_opt_amer_term_swap.xml">
-      <resultValue>0.051</resultValue>
+      <resultValue>0.053</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex19_opt_amer_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex20_euro_cancel_swap.xml">
-      <resultValue>0.044</resultValue>
+      <resultValue>0.045</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex20_euro_cancel_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex21_euro_extend_swap.xml">
-      <resultValue>0.044</resultValue>
+      <resultValue>0.046</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex21_euro_extend_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex22_cap.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex22_cap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex23_floor.xml">
-      <resultValue>0.035</resultValue>
+      <resultValue>0.036</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex23_floor.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex24_collar.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>0.039</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex24_collar.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex25_fxnotional_swap.xml">
-      <resultValue>0.044</resultValue>
+      <resultValue>0.045</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex25_fxnotional_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex27_inverse_floater.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>0.041</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex27_inverse_floater.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex28_bullet_payments.xml">
-      <resultValue>0.017</resultValue>
+      <resultValue>0.018</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex28_bullet_payments.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex01_request_confirmation.xml">
-      <resultValue>0.021</resultValue>
+      <resultValue>0.022</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex01_request_confirmation.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex02_trade_confirmed.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>0.023</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex02_trade_confirmed.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex03_portfolio.xml">
@@ -1419,44 +1429,48 @@
     </testCase>
   </driver>
   <driver name="XercesJAXPSAXDriver">
-    <resultAritMean>0.214</resultAritMean>
-    <resultHarmMean>0.188</resultHarmMean>
-    <resultGeomMean>0.200</resultGeomMean>
+    <resultAritMean>0.217</resultAritMean>
+    <resultHarmMean>0.190</resultHarmMean>
+    <resultGeomMean>0.203</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="./cd/cd40_ex01_long_asia_corp_fixreg.xml">
-      <resultValue>0.241</resultValue>
+      <resultValue>0.226</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex01_long_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml">
-      <resultValue>0.141</resultValue>
+      <resultValue>0.143</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_2003_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex02_short_asia_corp_fixreg.xml">
-      <resultValue>0.140</resultValue>
+      <resultValue>0.142</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex02_short_asia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex03_long_aussie_corp_fixreg.xml">
-      <resultValue>0.247</resultValue>
+      <resultValue>0.249</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex03_long_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex04_short_aussie_corp_fixreg.xml">
-      <resultValue>0.144</resultValue>
+      <resultValue>0.145</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex04_short_aussie_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex05_long_emasia_corp_fixreg.xml">
-      <resultValue>0.237</resultValue>
+      <resultValue>0.240</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex05_long_emasia_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex06_long_emeur_sov_fixreg.xml">
-      <resultValue>0.227</resultValue>
+      <resultValue>0.230</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex06_long_emeur_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml">
-      <resultValue>0.229</resultValue>
+      <resultValue>0.231</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_2003_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex07_long_euro_corp_fixreg.xml">
-      <resultValue>0.228</resultValue>
+      <resultValue>0.231</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex07_long_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml">
@@ -1464,119 +1478,119 @@
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_2003_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex08_short_euro_corp_fixreg.xml">
-      <resultValue>0.142</resultValue>
+      <resultValue>0.143</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex08_short_euro_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex09_long_euro_sov_fixreg.xml">
-      <resultValue>0.223</resultValue>
+      <resultValue>0.225</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex09_long_euro_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_2003_long_us_corp_fixreg.xml">
-      <resultValue>0.226</resultValue>
+      <resultValue>0.228</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_2003_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex10_long_us_corp_fixreg.xml">
-      <resultValue>0.230</resultValue>
+      <resultValue>0.233</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex10_long_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_2003_short_us_corp_fixreg.xml">
-      <resultValue>0.139</resultValue>
+      <resultValue>0.140</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_2003_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex11_short_us_corp_fixreg.xml">
-      <resultValue>0.141</resultValue>
+      <resultValue>0.142</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex11_short_us_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex12_long_emasia_sov_fixreg.xml">
-      <resultValue>0.234</resultValue>
+      <resultValue>0.237</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex12_long_emasia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex13_long_asia_sov_fixreg.xml">
-      <resultValue>0.224</resultValue>
+      <resultValue>0.226</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex13_long_asia_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex14_long_emlatin_corp_fixreg.xml">
-      <resultValue>0.236</resultValue>
+      <resultValue>0.239</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex14_long_emlatin_corp_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./cd/cd40_ex15_long_emlatin_sov_fixreg.xml">
-      <resultValue>0.228</resultValue>
+      <resultValue>0.231</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./cd/cd40_ex15_long_emlatin_sov_fixreg.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex01_american_call_stock.xml">
-      <resultValue>0.193</resultValue>
+      <resultValue>0.196</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex01_american_call_stock.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex02_american_call_stock_2.xml">
-      <resultValue>0.192</resultValue>
+      <resultValue>0.196</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex02_american_call_stock_2.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex03_european_call_index.xml">
-      <resultValue>0.182</resultValue>
+      <resultValue>0.184</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex03_european_call_index.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex04_asian.xml">
-      <resultValue>0.185</resultValue>
+      <resultValue>0.187</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex04_asian.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex05_averaging_in.xml">
-      <resultValue>0.212</resultValue>
+      <resultValue>0.215</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex05_averaging_in.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex06_barrier_knockout_rebate.xml">
-      <resultValue>0.234</resultValue>
+      <resultValue>0.237</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex06_barrier_knockout_rebate.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex07_basket.xml">
-      <resultValue>0.191</resultValue>
+      <resultValue>0.192</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex07_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex08_bermudan.xml">
-      <resultValue>0.201</resultValue>
+      <resultValue>0.206</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex08_bermudan.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex09_binary_barrier.xml">
-      <resultValue>0.195</resultValue>
+      <resultValue>0.199</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex09_binary_barrier.xml</xmlfile>
     </testCase>
     <testCase name="./eqd/eqd40_ex10_quanto.xml">
-      <resultValue>0.206</resultValue>
+      <resultValue>0.211</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqd/eqd40_ex10_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex01_single_underlyer_execution.xml">
-      <resultValue>0.352</resultValue>
+      <resultValue>0.355</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex01_single_underlyer_execution.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex02_composite_basket.xml">
-      <resultValue>0.427</resultValue>
+      <resultValue>0.439</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex02_composite_basket.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex03_index_quanto.xml">
-      <resultValue>0.368</resultValue>
+      <resultValue>0.372</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex03_index_quanto.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex04_zero_strike.xml">
-      <resultValue>0.276</resultValue>
+      <resultValue>0.281</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex04_zero_strike.xml</xmlfile>
     </testCase>
     <testCase name="./eqs/eqs40_ex05_single_stock_plus_fee.xml">
-      <resultValue>0.384</resultValue>
+      <resultValue>0.391</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./eqs/eqs40_ex05_single_stock_plus_fee.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex01_fx_spot.xml">
-      <resultValue>0.107</resultValue>
+      <resultValue>0.108</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex01_fx_spot.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex02_spot_cross_w_side_rates.xml">
-      <resultValue>0.122</resultValue>
+      <resultValue>0.123</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex02_spot_cross_w_side_rates.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex03_fx_fwd.xml">
-      <resultValue>0.110</resultValue>
+      <resultValue>0.111</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex03_fx_fwd.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex04_fx_fwd_w_settlement.xml">
-      <resultValue>0.142</resultValue>
+      <resultValue>0.143</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex04_fx_fwd_w_settlement.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex05_fx_fwd_w_ssi.xml">
@@ -1584,11 +1598,11 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex05_fx_fwd_w_ssi.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex06_fx_fwd_w_splits.xml">
-      <resultValue>0.177</resultValue>
+      <resultValue>0.178</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex06_fx_fwd_w_splits.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex07_non_deliverable_forward.xml">
-      <resultValue>0.131</resultValue>
+      <resultValue>0.132</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex07_non_deliverable_forward.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex08_fxswap.xml">
@@ -1596,39 +1610,39 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex08_fxswap.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex09_euro_opt.xml">
-      <resultValue>0.172</resultValue>
+      <resultValue>0.173</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex09_euro_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex10_amer_opt.xml">
-      <resultValue>0.159</resultValue>
+      <resultValue>0.160</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex10_amer_opt.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex11_non_deliverable_option.xml">
-      <resultValue>0.159</resultValue>
+      <resultValue>0.162</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex11_non_deliverable_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex12_fx_barrier_option.xml">
-      <resultValue>0.148</resultValue>
+      <resultValue>0.150</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex12_fx_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex13_fx_dbl_barrier_option.xml">
-      <resultValue>0.175</resultValue>
+      <resultValue>0.177</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex13_fx_dbl_barrier_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex14_euro_digital_option.xml">
-      <resultValue>0.137</resultValue>
+      <resultValue>0.138</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex14_euro_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex15_euro_range_digital_option.xml">
-      <resultValue>0.152</resultValue>
+      <resultValue>0.154</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex15_euro_range_digital_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex16_one_touch_option.xml">
-      <resultValue>0.142</resultValue>
+      <resultValue>0.143</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex16_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex17_no_touch_option.xml">
-      <resultValue>0.141</resultValue>
+      <resultValue>0.142</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex17_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex18_double_one_touch_option.xml">
@@ -1636,23 +1650,23 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex18_double_one_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex19_double_no_touch_option.xml">
-      <resultValue>0.159</resultValue>
+      <resultValue>0.161</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex19_double_no_touch_option.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex20_avg_rate_option_parametric.xml">
-      <resultValue>0.142</resultValue>
+      <resultValue>0.144</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex20_avg_rate_option_parametric.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex21_avg_rate_option_specific.xml">
-      <resultValue>0.243</resultValue>
+      <resultValue>0.247</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex21_avg_rate_option_specific.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex22_straddle.xml">
-      <resultValue>0.200</resultValue>
+      <resultValue>0.203</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex22_straddle.xml</xmlfile>
     </testCase>
     <testCase name="./fx/fx_ex23_delta_hedge.xml">
-      <resultValue>0.186</resultValue>
+      <resultValue>0.189</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/fx_ex23_delta_hedge.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex01_simple_term_deposit.xml">
@@ -1660,23 +1674,23 @@
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex01_simple_term_deposit.xml</xmlfile>
     </testCase>
     <testCase name="./fx/td_ex02_term_deposit_w_settlement_etc.xml">
-      <resultValue>0.158</resultValue>
+      <resultValue>0.159</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./fx/td_ex02_term_deposit_w_settlement_etc.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex01_vanilla_swap.xml">
-      <resultValue>0.254</resultValue>
+      <resultValue>0.258</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex01_vanilla_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex03_compound_swap.xml">
-      <resultValue>0.444</resultValue>
+      <resultValue>0.454</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex03_compound_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex04_arrears_stepup_fee_swap.xml">
-      <resultValue>0.275</resultValue>
+      <resultValue>0.280</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex04_arrears_stepup_fee_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex07_ois_swap.xml">
-      <resultValue>0.256</resultValue>
+      <resultValue>0.260</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex07_ois_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex08_fra.xml">
@@ -1684,79 +1698,79 @@
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex08_fra.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex09_euro_swaption_explicit.xml">
-      <resultValue>0.314</resultValue>
+      <resultValue>0.317</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex09_euro_swaption_explicit.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex10_euro_swaption_relative.xml">
-      <resultValue>0.329</resultValue>
+      <resultValue>0.333</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex10_euro_swaption_relative.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex11_euro_swaption_partial_auto_ex.xml">
-      <resultValue>0.321</resultValue>
+      <resultValue>0.326</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex11_euro_swaption_partial_auto_ex.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex12_euro_swaption_straddle_cash.xml">
-      <resultValue>0.351</resultValue>
+      <resultValue>0.358</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex12_euro_swaption_straddle_cash.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex14_berm_swaption.xml">
-      <resultValue>0.337</resultValue>
+      <resultValue>0.339</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex14_berm_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex15_amer_swaption.xml">
-      <resultValue>0.348</resultValue>
+      <resultValue>0.353</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex15_amer_swaption.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex16_mand_term_swap.xml">
-      <resultValue>0.304</resultValue>
+      <resultValue>0.308</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex16_mand_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex17_opt_euro_term_swap.xml">
-      <resultValue>0.333</resultValue>
+      <resultValue>0.338</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex17_opt_euro_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex19_opt_amer_term_swap.xml">
-      <resultValue>0.359</resultValue>
+      <resultValue>0.365</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex19_opt_amer_term_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex20_euro_cancel_swap.xml">
-      <resultValue>0.300</resultValue>
+      <resultValue>0.304</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex20_euro_cancel_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex21_euro_extend_swap.xml">
-      <resultValue>0.300</resultValue>
+      <resultValue>0.304</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex21_euro_extend_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex22_cap.xml">
-      <resultValue>0.206</resultValue>
+      <resultValue>0.208</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex22_cap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex23_floor.xml">
-      <resultValue>0.205</resultValue>
+      <resultValue>0.208</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex23_floor.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex24_collar.xml">
-      <resultValue>0.225</resultValue>
+      <resultValue>0.227</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex24_collar.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex25_fxnotional_swap.xml">
-      <resultValue>0.320</resultValue>
+      <resultValue>0.324</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex25_fxnotional_swap.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex27_inverse_floater.xml">
-      <resultValue>0.257</resultValue>
+      <resultValue>0.262</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex27_inverse_floater.xml</xmlfile>
     </testCase>
     <testCase name="./ird/ird_ex28_bullet_payments.xml">
-      <resultValue>0.100</resultValue>
+      <resultValue>0.101</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./ird/ird_ex28_bullet_payments.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex01_request_confirmation.xml">
-      <resultValue>0.112</resultValue>
+      <resultValue>0.113</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex01_request_confirmation.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex02_trade_confirmed.xml">
-      <resultValue>0.118</resultValue>
+      <resultValue>0.119</resultValue>
       <xmlfile xmlns="">data/FpML/instance/./msg/msg_ex02_trade_confirmed.xml</xmlfile>
     </testCase>
     <testCase name="./msg/msg_ex03_portfolio.xml">
