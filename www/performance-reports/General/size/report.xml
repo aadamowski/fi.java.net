@@ -1,7 +1,7 @@
 <testSuiteReport name="FI-size" xmlns="http://www.sun.com/japex/testSuiteReport">
   <resultUnit>KBytes</resultUnit>
   <runIterations>1</runIterations>
-  <version>0.100</version>
+  <version>1.000</version>
   <chartType>barchart</chartType>
   <osName>SunOS</osName>
   <classPath>/export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
@@ -17,7 +17,7 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xercesImpl.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</classPath>
   <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
-  <dateTime>12 Jan 2006/13:14:50 EST</dateTime>
+  <dateTime>23 Jan 2006/14:05:13 EST</dateTime>
   <reportsDirectory>reports</reportsDirectory>
   <resultAxis>normal</resultAxis>
   <warmupIterations>1</warmupIterations>
@@ -32,7 +32,12 @@
     <resultHarmMean>1.926</resultHarmMean>
     <resultGeomMean>14.673</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>2.043</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -131,8 +136,12 @@
     <resultHarmMean>0.969</resultHarmMean>
     <resultGeomMean>2.802</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.260</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -232,7 +241,11 @@
     <resultGeomMean>16.763</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">none</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, no indexed content, size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>2.157</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -333,7 +346,10 @@
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">none</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, no indexed content, GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.245</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -433,7 +449,11 @@
     <resultGeomMean>10.177</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">full</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, full indexed content, size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.896</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -532,7 +552,10 @@
     <resultHarmMean>1.797</resultHarmMean>
     <resultGeomMean>11.355</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
     <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, indexed content less than 24 characters, size</description>
     <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
@@ -635,7 +658,10 @@
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">full</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, full indexed content, GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.259</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -734,8 +760,12 @@
     <resultHarmMean>1.136</resultHarmMean>
     <resultGeomMean>12.543</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, external vocabulary, size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.363</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -834,9 +864,12 @@
     <resultHarmMean>0.720</resultHarmMean>
     <resultGeomMean>2.380</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, external vocabulary, GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>0.934</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -936,8 +969,11 @@
     <resultGeomMean>8.540</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">full</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, full indexed content external vocabulary, size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.216</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -1038,8 +1074,10 @@
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.indexedContent xmlns="">full</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset document, full indexed content external vocabulary, GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>0.925</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -1138,7 +1176,12 @@
     <resultHarmMean>3.272</resultHarmMean>
     <resultGeomMean>35.533</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.XMLSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">XML document size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>4.445</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
@@ -1237,8 +1280,12 @@
     <resultHarmMean>1.030</resultHarmMean>
     <resultGeomMean>3.174</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.XMLSizeDriver</driverClass>
+    <jdsl.indexedContent xmlns="">n/a</jdsl.indexedContent>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">XML document GZIP size</description>
+    <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
       <resultValue>1.304</resultValue>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
