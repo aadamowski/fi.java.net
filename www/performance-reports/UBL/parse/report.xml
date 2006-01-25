@@ -1,6 +1,6 @@
 <testSuiteReport name="UBL-parse" xmlns="http://www.sun.com/japex/testSuiteReport">
-  <resultUnit>ms</resultUnit>
-  <version>0.100</version>
+  <resultUnit>TPS</resultUnit>
+  <version>1.000</version>
   <chartType>barchart</chartType>
   <osName>SunOS</osName>
   <classPath>/export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
@@ -17,7 +17,7 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</classPath>
   <warmupTime>5</warmupTime>
   <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
-  <dateTime>12 Jan 2006/23:46:20 EST</dateTime>
+  <dateTime>23 Jan 2006/18:09:39 EST</dateTime>
   <runTime>5</runTime>
   <reportsDirectory>reports</reportsDirectory>
   <resultAxis>normal</resultAxis>
@@ -29,249 +29,251 @@
   <osArchitecture>x86</osArchitecture>
   <runsPerDriver>1</runsPerDriver>
   <driver name="FastInfosetSAXDriver">
-    <resultAritMean>0.082</resultAritMean>
-    <resultHarmMean>0.063</resultHarmMean>
-    <resultGeomMean>0.074</resultGeomMean>
+    <resultAritMean>16253.185</resultAritMean>
+    <resultHarmMean>12434.879</resultHarmMean>
+    <resultGeomMean>13882.166</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
-      <resultValue>0.102</resultValue>
+      <resultValue>9980.462</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
     </testCase>
     <testCase name="Invoice.xml">
-      <resultValue>0.155</resultValue>
+      <resultValue>6528.540</resultValue>
       <xmlfile xmlns="">data/Invoice.xml</xmlfile>
     </testCase>
     <testCase name="Order.xml">
-      <resultValue>0.096</resultValue>
+      <resultValue>10638.411</resultValue>
       <xmlfile xmlns="">data/Order.xml</xmlfile>
     </testCase>
     <testCase name="OrderCancellation.xml">
-      <resultValue>0.073</resultValue>
+      <resultValue>14077.438</resultValue>
       <xmlfile xmlns="">data/OrderCancellation.xml</xmlfile>
     </testCase>
     <testCase name="OrderChange.xml">
-      <resultValue>0.115</resultValue>
+      <resultValue>8915.070</resultValue>
       <xmlfile xmlns="">data/OrderChange.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponse.xml">
-      <resultValue>0.119</resultValue>
+      <resultValue>8539.814</resultValue>
       <xmlfile xmlns="">data/OrderResponse.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponseSimple.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>14308.118</resultValue>
       <xmlfile xmlns="">data/OrderResponseSimple.xml</xmlfile>
     </testCase>
     <testCase name="ReceiptAdvice.xml">
-      <resultValue>0.107</resultValue>
+      <resultValue>9509.878</resultValue>
       <xmlfile xmlns="">data/ReceiptAdvice.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Joinery-Example.xml">
-      <resultValue>0.068</resultValue>
+      <resultValue>15258.791</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Office-Example.xml">
-      <resultValue>0.061</resultValue>
+      <resultValue>16900.632</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Joinery-Example.xml">
-      <resultValue>0.132</resultValue>
+      <resultValue>7773.849</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Office-Example.xml">
-      <resultValue>0.087</resultValue>
+      <resultValue>11842.406</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Joinery-Example.xml">
-      <resultValue>0.062</resultValue>
+      <resultValue>16662.912</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Office-Example.xml">
-      <resultValue>0.064</resultValue>
+      <resultValue>15990.122</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderCancellation-1.0-Office-Example.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>47655.867</resultValue>
       <xmlfile xmlns="">data/UBL-OrderCancellation-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderChange-1.0-Office-Example.xml">
-      <resultValue>0.071</resultValue>
+      <resultValue>14372.630</resultValue>
       <xmlfile xmlns="">data/UBL-OrderChange-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponse-1.0-Joinery-Example.xml">
-      <resultValue>0.088</resultValue>
+      <resultValue>11597.392</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponse-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponseSimple-1.0-Office-Example.xml">
-      <resultValue>0.022</resultValue>
+      <resultValue>46887.572</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponseSimple-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-ReceiptAdvice-1.0-Office-Example.xml">
-      <resultValue>0.048</resultValue>
+      <resultValue>21370.605</resultValue>
       <xmlfile xmlns="">data/UBL-ReceiptAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfosetSAXExtVocabDriver">
-    <resultAritMean>0.048</resultAritMean>
-    <resultHarmMean>0.035</resultHarmMean>
-    <resultGeomMean>0.042</resultGeomMean>
+    <resultAritMean>29172.810</resultAritMean>
+    <resultHarmMean>21324.171</resultHarmMean>
+    <resultGeomMean>24134.128</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
-      <resultValue>0.060</resultValue>
+      <resultValue>17563.203</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
     </testCase>
     <testCase name="Invoice.xml">
-      <resultValue>0.096</resultValue>
+      <resultValue>10690.669</resultValue>
       <xmlfile xmlns="">data/Invoice.xml</xmlfile>
     </testCase>
     <testCase name="Order.xml">
-      <resultValue>0.049</resultValue>
+      <resultValue>20989.546</resultValue>
       <xmlfile xmlns="">data/Order.xml</xmlfile>
     </testCase>
     <testCase name="OrderCancellation.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>27247.435</resultValue>
       <xmlfile xmlns="">data/OrderCancellation.xml</xmlfile>
     </testCase>
     <testCase name="OrderChange.xml">
-      <resultValue>0.066</resultValue>
+      <resultValue>15756.165</resultValue>
       <xmlfile xmlns="">data/OrderChange.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponse.xml">
-      <resultValue>0.072</resultValue>
+      <resultValue>14480.963</resultValue>
       <xmlfile xmlns="">data/OrderResponse.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponseSimple.xml">
-      <resultValue>0.038</resultValue>
+      <resultValue>27536.489</resultValue>
       <xmlfile xmlns="">data/OrderResponseSimple.xml</xmlfile>
     </testCase>
     <testCase name="ReceiptAdvice.xml">
-      <resultValue>0.065</resultValue>
+      <resultValue>16047.553</resultValue>
       <xmlfile xmlns="">data/ReceiptAdvice.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Joinery-Example.xml">
-      <resultValue>0.043</resultValue>
+      <resultValue>23481.065</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Office-Example.xml">
-      <resultValue>0.036</resultValue>
+      <resultValue>27001.381</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Joinery-Example.xml">
-      <resultValue>0.079</resultValue>
+      <resultValue>13087.806</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Office-Example.xml">
-      <resultValue>0.050</resultValue>
+      <resultValue>19598.028</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Joinery-Example.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>26492.605</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Office-Example.xml">
-      <resultValue>0.039</resultValue>
+      <resultValue>26565.003</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderCancellation-1.0-Office-Example.xml">
-      <resultValue>0.011</resultValue>
+      <resultValue>93276.386</resultValue>
       <xmlfile xmlns="">data/UBL-OrderCancellation-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderChange-1.0-Office-Example.xml">
-      <resultValue>0.043</resultValue>
+      <resultValue>23940.805</resultValue>
       <xmlfile xmlns="">data/UBL-OrderChange-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponse-1.0-Joinery-Example.xml">
-      <resultValue>0.054</resultValue>
+      <resultValue>18709.665</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponse-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponseSimple-1.0-Office-Example.xml">
-      <resultValue>0.011</resultValue>
+      <resultValue>93246.794</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponseSimple-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-ReceiptAdvice-1.0-Office-Example.xml">
-      <resultValue>0.026</resultValue>
+      <resultValue>38571.823</resultValue>
       <xmlfile xmlns="">data/UBL-ReceiptAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="XercesJAXPSAXDriver">
-    <resultAritMean>0.339</resultAritMean>
-    <resultHarmMean>0.264</resultHarmMean>
-    <resultGeomMean>0.307</resultGeomMean>
+    <resultAritMean>3970.045</resultAritMean>
+    <resultHarmMean>3095.755</resultHarmMean>
+    <resultGeomMean>3413.719</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</driverClass>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
-      <resultValue>0.323</resultValue>
+      <resultValue>3110.936</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
     </testCase>
     <testCase name="Invoice.xml">
-      <resultValue>0.532</resultValue>
+      <resultValue>1971.131</resultValue>
       <xmlfile xmlns="">data/Invoice.xml</xmlfile>
     </testCase>
     <testCase name="Order.xml">
-      <resultValue>0.340</resultValue>
+      <resultValue>3112.074</resultValue>
       <xmlfile xmlns="">data/Order.xml</xmlfile>
     </testCase>
     <testCase name="OrderCancellation.xml">
-      <resultValue>0.234</resultValue>
+      <resultValue>4511.614</resultValue>
       <xmlfile xmlns="">data/OrderCancellation.xml</xmlfile>
     </testCase>
     <testCase name="OrderChange.xml">
-      <resultValue>0.392</resultValue>
+      <resultValue>2667.126</resultValue>
       <xmlfile xmlns="">data/OrderChange.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponse.xml">
-      <resultValue>0.433</resultValue>
+      <resultValue>2421.592</resultValue>
       <xmlfile xmlns="">data/OrderResponse.xml</xmlfile>
     </testCase>
     <testCase name="OrderResponseSimple.xml">
-      <resultValue>0.234</resultValue>
+      <resultValue>4517.235</resultValue>
       <xmlfile xmlns="">data/OrderResponseSimple.xml</xmlfile>
     </testCase>
     <testCase name="ReceiptAdvice.xml">
-      <resultValue>0.354</resultValue>
+      <resultValue>2966.319</resultValue>
       <xmlfile xmlns="">data/ReceiptAdvice.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Joinery-Example.xml">
-      <resultValue>0.383</resultValue>
+      <resultValue>2756.155</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-DespatchAdvice-1.0-Office-Example.xml">
-      <resultValue>0.312</resultValue>
+      <resultValue>3370.297</resultValue>
       <xmlfile xmlns="">data/UBL-DespatchAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Joinery-Example.xml">
-      <resultValue>0.618</resultValue>
+      <resultValue>1694.959</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Invoice-1.0-Office-Example.xml">
-      <resultValue>0.428</resultValue>
+      <resultValue>2436.281</resultValue>
       <xmlfile xmlns="">data/UBL-Invoice-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Joinery-Example.xml">
-      <resultValue>0.345</resultValue>
+      <resultValue>3049.842</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-Order-1.0-Office-Example.xml">
-      <resultValue>0.329</resultValue>
+      <resultValue>3168.637</resultValue>
       <xmlfile xmlns="">data/UBL-Order-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderCancellation-1.0-Office-Example.xml">
-      <resultValue>0.089</resultValue>
+      <resultValue>11806.382</resultValue>
       <xmlfile xmlns="">data/UBL-OrderCancellation-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderChange-1.0-Office-Example.xml">
-      <resultValue>0.352</resultValue>
+      <resultValue>2982.463</resultValue>
       <xmlfile xmlns="">data/UBL-OrderChange-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponse-1.0-Joinery-Example.xml">
-      <resultValue>0.425</resultValue>
+      <resultValue>2477.644</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponse-1.0-Joinery-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-OrderResponseSimple-1.0-Office-Example.xml">
-      <resultValue>0.091</resultValue>
+      <resultValue>11547.460</resultValue>
       <xmlfile xmlns="">data/UBL-OrderResponseSimple-1.0-Office-Example.xml</xmlfile>
     </testCase>
     <testCase name="UBL-ReceiptAdvice-1.0-Office-Example.xml">
-      <resultValue>0.217</resultValue>
+      <resultValue>4862.714</resultValue>
       <xmlfile xmlns="">data/UBL-ReceiptAdvice-1.0-Office-Example.xml</xmlfile>
     </testCase>
   </driver>

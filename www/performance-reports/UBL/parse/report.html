@@ -1,15 +1,743 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport"><link href="report.css" type="text/css" rel="stylesheet"/><head><h1>Japex Report: UBL-parse</h1></head><body><ul><li>chartType: barchart</li><li>classPath: /export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/activation.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb-api.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb-impl.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb-xjc.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb1-impl.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jdsl.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/jsr173_api.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/resolver.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/sjsxp.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/xercesImpl.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</li><li>configFile: parse.xml</li><li>dateTime: 12 Jan 2006/23:46:20 EST</li><li>includeWarmupRun: false</li><li>numberOfThreads: 1</li><li>osArchitecture: x86</li><li>osName: SunOS</li><li>reportsDirectory: reports</li><li>resultAxis: normal</li><li>resultAxisX: normal</li><li>resultUnit: ms</li><li>resultUnitX: kbs</li><li>runsPerDriver: 1</li><li>runTime: 5</li><li>version: 0.100</li><li>vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</li><li>warmupTime: 5</li></ul><h2>Result Summary 
-    (ms)</h2><table width="80%" border="1"><thead><tr><th width="15%"><b>driver</b></th><th><b>resultAritMean</b></th><th><b>resultHarmMean</b></th><th><b>resultGeomMean</b></th><th><b>driverClass</b></th></tr></thead><tbody><tr><td align="right">FastInfosetSAXDriver</td><td align="right"><nobr>0.082</nobr></td><td align="right"><nobr>0.063</nobr></td><td align="right"><nobr>0.074</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr></td></tr><tr><td align="right">FastInfosetSAXExtVocabDriver</td><td align="right"><nobr>0.048</nobr></td><td align="right"><nobr>0.035</nobr></td><td align="right"><nobr>0.042</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr></td><td align="left"><nobr>true</nobr></td></tr><tr><td align="right">XercesJAXPSAXDriver</td><td align="right"><nobr>0.339</nobr></td><td align="right"><nobr>0.264</nobr></td><td align="right"><nobr>0.307</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</nobr></td></tr></tbody></table><br/><br/><center><img src="result.jpg"/></center><br/><br/><h2>Driver: FastInfosetSAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">DespatchAdvice.xml</td><td align="right"><nobr>0.102</nobr></td><td align="left"><nobr>data/DespatchAdvice.xml</nobr></td></tr><tr><td align="right">Invoice.xml</td><td align="right"><nobr>0.155</nobr></td><td align="left"><nobr>data/Invoice.xml</nobr></td></tr><tr><td align="right">Order.xml</td><td align="right"><nobr>0.096</nobr></td><td align="left"><nobr>data/Order.xml</nobr></td></tr><tr><td align="right">OrderCancellation.xml</td><td align="right"><nobr>0.073</nobr></td><td align="left"><nobr>data/OrderCancellation.xml</nobr></td></tr><tr><td align="right">OrderChange.xml</td><td align="right"><nobr>0.115</nobr></td><td align="left"><nobr>data/OrderChange.xml</nobr></td></tr><tr><td align="right">OrderResponse.xml</td><td align="right"><nobr>0.119</nobr></td><td align="left"><nobr>data/OrderResponse.xml</nobr></td></tr><tr><td align="right">OrderResponseSimple.xml</td><td align="right"><nobr>0.072</nobr></td><td align="left"><nobr>data/OrderResponseSimple.xml</nobr></td></tr><tr><td align="right">ReceiptAdvice.xml</td><td align="right"><nobr>0.107</nobr></td><td align="left"><nobr>data/ReceiptAdvice.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.068</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.061</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.132</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Office-Example.xml</td><td align="right"><nobr>0.087</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.062</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Office-Example.xml</td><td align="right"><nobr>0.064</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderChange-1.0-Office-Example.xml</td><td align="right"><nobr>0.071</nobr></td><td align="left"><nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.088</nobr></td><td align="left"><nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.048</nobr></td><td align="left"><nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetSAXExtVocabDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">DespatchAdvice.xml</td><td align="right"><nobr>0.060</nobr></td><td align="left"><nobr>data/DespatchAdvice.xml</nobr></td></tr><tr><td align="right">Invoice.xml</td><td align="right"><nobr>0.096</nobr></td><td align="left"><nobr>data/Invoice.xml</nobr></td></tr><tr><td align="right">Order.xml</td><td align="right"><nobr>0.049</nobr></td><td align="left"><nobr>data/Order.xml</nobr></td></tr><tr><td align="right">OrderCancellation.xml</td><td align="right"><nobr>0.038</nobr></td><td align="left"><nobr>data/OrderCancellation.xml</nobr></td></tr><tr><td align="right">OrderChange.xml</td><td align="right"><nobr>0.066</nobr></td><td align="left"><nobr>data/OrderChange.xml</nobr></td></tr><tr><td align="right">OrderResponse.xml</td><td align="right"><nobr>0.072</nobr></td><td align="left"><nobr>data/OrderResponse.xml</nobr></td></tr><tr><td align="right">OrderResponseSimple.xml</td><td align="right"><nobr>0.038</nobr></td><td align="left"><nobr>data/OrderResponseSimple.xml</nobr></td></tr><tr><td align="right">ReceiptAdvice.xml</td><td align="right"><nobr>0.065</nobr></td><td align="left"><nobr>data/ReceiptAdvice.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.043</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.036</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.079</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Office-Example.xml</td><td align="right"><nobr>0.050</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.039</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Office-Example.xml</td><td align="right"><nobr>0.039</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td><td align="right"><nobr>0.011</nobr></td><td align="left"><nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderChange-1.0-Office-Example.xml</td><td align="right"><nobr>0.043</nobr></td><td align="left"><nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.054</nobr></td><td align="left"><nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td><td align="right"><nobr>0.011</nobr></td><td align="left"><nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.026</nobr></td><td align="left"><nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr></td></tr></tbody></table><h2>Driver: XercesJAXPSAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">DespatchAdvice.xml</td><td align="right"><nobr>0.323</nobr></td><td align="left"><nobr>data/DespatchAdvice.xml</nobr></td></tr><tr><td align="right">Invoice.xml</td><td align="right"><nobr>0.532</nobr></td><td align="left"><nobr>data/Invoice.xml</nobr></td></tr><tr><td align="right">Order.xml</td><td align="right"><nobr>0.340</nobr></td><td align="left"><nobr>data/Order.xml</nobr></td></tr><tr><td align="right">OrderCancellation.xml</td><td align="right"><nobr>0.234</nobr></td><td align="left"><nobr>data/OrderCancellation.xml</nobr></td></tr><tr><td align="right">OrderChange.xml</td><td align="right"><nobr>0.392</nobr></td><td align="left"><nobr>data/OrderChange.xml</nobr></td></tr><tr><td align="right">OrderResponse.xml</td><td align="right"><nobr>0.433</nobr></td><td align="left"><nobr>data/OrderResponse.xml</nobr></td></tr><tr><td align="right">OrderResponseSimple.xml</td><td align="right"><nobr>0.234</nobr></td><td align="left"><nobr>data/OrderResponseSimple.xml</nobr></td></tr><tr><td align="right">ReceiptAdvice.xml</td><td align="right"><nobr>0.354</nobr></td><td align="left"><nobr>data/ReceiptAdvice.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.383</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.312</nobr></td><td align="left"><nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.618</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Invoice-1.0-Office-Example.xml</td><td align="right"><nobr>0.428</nobr></td><td align="left"><nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.345</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-Order-1.0-Office-Example.xml</td><td align="right"><nobr>0.329</nobr></td><td align="left"><nobr>data/UBL-Order-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td><td align="right"><nobr>0.089</nobr></td><td align="left"><nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderChange-1.0-Office-Example.xml</td><td align="right"><nobr>0.352</nobr></td><td align="left"><nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td><td align="right"><nobr>0.425</nobr></td><td align="left"><nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr></td></tr><tr><td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td><td align="right"><nobr>0.091</nobr></td><td align="left"><nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr></td></tr><tr><td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td><td align="right"><nobr>0.217</nobr></td><td align="left"><nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr></td></tr></tbody></table><br/><br/><center><img src="testcase0.jpg"/></center><br/><br/><br/><br/><center><img src="testcase1.jpg"/></center><br/><br/><br/><br/><center><img src="testcase2.jpg"/></center><br/><br/><br/><br/><center><img src="testcase3.jpg"/></center><br/><br/><br/><small><hr/><i><font size="-2">
-        Author: Santiago Pericas-Geertsen (Sun Microsystems)
-        </font></i></small></body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport" xmlns="http://www.w3.org/1999/xhtml">
+<link href="report.css" type="text/css" rel="stylesheet"/>
+<body>
+<table border="0" cellpadding="2">
+<tr>
+<td valign="middle" width="90">
+<p>
+<a href="https://japex.dev.java.net">
+<img src="small_japex.gif" align="middle" border="0"/>
+</a>
+</p>
+</td>
+<td valign="middle">
+<h1>Japex Report: UBL-parse</h1>
+</td>
+</tr>
+</table>
+<h2>Global Parameters</h2>
+<ul>
+<li>chartType: barchart</li>
+<li>classPath: <table width=750><tr><td>japex/dist/jdsl/FastInfoset.jar;
+japex/dist/jdsl/activation.jar;
+japex/dist/jdsl/jaxb-api.jar;
+japex/dist/jdsl/jaxb-impl.jar;
+japex/dist/jdsl/jaxb-xjc.jar;
+japex/dist/jdsl/jaxb1-impl.jar;
+japex/dist/jdsl/jdsl.jar;
+japex/dist/jdsl/jsr173_api.jar;
+japex/dist/jdsl/resolver.jar;
+japex/dist/jdsl/sjsxp.jar;
+japex/dist/jdsl/xercesImpl.jar;
+japex/dist/jdsl/xml-apis.jar</td></tr></table></li>
+<li>configFile: parse.xml</li>
+<li>dateTime: 23 Jan 2006/18:09:39 EST</li>
+<li>includeWarmupRun: false</li>
+<li>numberOfThreads: 1</li>
+<li>osArchitecture: x86</li>
+<li>osName: SunOS</li>
+<li>reportsDirectory: reports</li>
+<li>resultAxis: normal</li>
+<li>resultAxisX: normal</li>
+<li>resultUnit: TPS</li>
+<li>resultUnitX: kbs</li>
+<li>runsPerDriver: 1</li>
+<li>runTime: 5</li>
+<li>version: 1.000</li>
+<li>vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</li>
+<li>warmupTime: 5</li>
+</ul>
+<h2>Result Summary 
+    (TPS)</h2>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th width="15%">
+<b>driver</b>
+</th>
+<th>
+<b>resultAritMean</b>
+</th>
+<th>
+<b>resultHarmMean</b>
+</th>
+<th>
+<b>resultGeomMean</b>
+</th>
+<th>
+<b>driverClass</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">FastInfosetSAXDriver</td>
+<td align="right">
+<nobr>16253.185</nobr>
+</td>
+<td align="right">
+<nobr>12434.879</nobr>
+</td>
+<td align="right">
+<nobr>13882.166</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">FastInfosetSAXExtVocabDriver</td>
+<td align="right">
+<nobr>29172.810</nobr>
+</td>
+<td align="right">
+<nobr>21324.171</nobr>
+</td>
+<td align="right">
+<nobr>24134.128</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">XercesJAXPSAXDriver</td>
+<td align="right">
+<nobr>3970.045</nobr>
+</td>
+<td align="right">
+<nobr>3095.755</nobr>
+</td>
+<td align="right">
+<nobr>3413.719</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<br/>
+<center>
+<img src="result.jpg"/>
+</center>
+<br/>
+<br/>
+<h2>Driver: FastInfosetSAXDriver</h2>
+<p>
+<ul>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">DespatchAdvice.xml</td>
+<td align="right">
+<nobr>9980.462</nobr>
+</td>
+<td align="left">
+<nobr>data/DespatchAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Invoice.xml</td>
+<td align="right">
+<nobr>6528.540</nobr>
+</td>
+<td align="left">
+<nobr>data/Invoice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Order.xml</td>
+<td align="right">
+<nobr>10638.411</nobr>
+</td>
+<td align="left">
+<nobr>data/Order.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderCancellation.xml</td>
+<td align="right">
+<nobr>14077.438</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderCancellation.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderChange.xml</td>
+<td align="right">
+<nobr>8915.070</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderChange.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponse.xml</td>
+<td align="right">
+<nobr>8539.814</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponse.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponseSimple.xml</td>
+<td align="right">
+<nobr>14308.118</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponseSimple.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">ReceiptAdvice.xml</td>
+<td align="right">
+<nobr>9509.878</nobr>
+</td>
+<td align="left">
+<nobr>data/ReceiptAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>15258.791</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>16900.632</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>7773.849</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>11842.406</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>16662.912</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>15990.122</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>47655.867</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderChange-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>14372.630</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>11597.392</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>46887.572</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>21370.605</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: FastInfosetSAXExtVocabDriver</h2>
+<p>
+<ul>
+<li>jdsl.externalVocabulary: true</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">DespatchAdvice.xml</td>
+<td align="right">
+<nobr>17563.203</nobr>
+</td>
+<td align="left">
+<nobr>data/DespatchAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Invoice.xml</td>
+<td align="right">
+<nobr>10690.669</nobr>
+</td>
+<td align="left">
+<nobr>data/Invoice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Order.xml</td>
+<td align="right">
+<nobr>20989.546</nobr>
+</td>
+<td align="left">
+<nobr>data/Order.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderCancellation.xml</td>
+<td align="right">
+<nobr>27247.435</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderCancellation.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderChange.xml</td>
+<td align="right">
+<nobr>15756.165</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderChange.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponse.xml</td>
+<td align="right">
+<nobr>14480.963</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponse.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponseSimple.xml</td>
+<td align="right">
+<nobr>27536.489</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponseSimple.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">ReceiptAdvice.xml</td>
+<td align="right">
+<nobr>16047.553</nobr>
+</td>
+<td align="left">
+<nobr>data/ReceiptAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>23481.065</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>27001.381</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>13087.806</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>19598.028</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>26492.605</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>26565.003</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>93276.386</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderChange-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>23940.805</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>18709.665</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>93246.794</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>38571.823</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: XercesJAXPSAXDriver</h2>
+<p>
+<ul>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">DespatchAdvice.xml</td>
+<td align="right">
+<nobr>3110.936</nobr>
+</td>
+<td align="left">
+<nobr>data/DespatchAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Invoice.xml</td>
+<td align="right">
+<nobr>1971.131</nobr>
+</td>
+<td align="left">
+<nobr>data/Invoice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">Order.xml</td>
+<td align="right">
+<nobr>3112.074</nobr>
+</td>
+<td align="left">
+<nobr>data/Order.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderCancellation.xml</td>
+<td align="right">
+<nobr>4511.614</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderCancellation.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderChange.xml</td>
+<td align="right">
+<nobr>2667.126</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderChange.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponse.xml</td>
+<td align="right">
+<nobr>2421.592</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponse.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">OrderResponseSimple.xml</td>
+<td align="right">
+<nobr>4517.235</nobr>
+</td>
+<td align="left">
+<nobr>data/OrderResponseSimple.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">ReceiptAdvice.xml</td>
+<td align="right">
+<nobr>2966.319</nobr>
+</td>
+<td align="left">
+<nobr>data/ReceiptAdvice.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>2756.155</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-DespatchAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>3370.297</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-DespatchAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>1694.959</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Invoice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>2436.281</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Invoice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>3049.842</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-Order-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>3168.637</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-Order-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderCancellation-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>11806.382</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderCancellation-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderChange-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>2982.463</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderChange-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponse-1.0-Joinery-Example.xml</td>
+<td align="right">
+<nobr>2477.644</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponse-1.0-Joinery-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-OrderResponseSimple-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>11547.460</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-OrderResponseSimple-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">UBL-ReceiptAdvice-1.0-Office-Example.xml</td>
+<td align="right">
+<nobr>4862.714</nobr>
+</td>
+<td align="left">
+<nobr>data/UBL-ReceiptAdvice-1.0-Office-Example.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Results Per Test</h2>
+<br/>
+<center>
+<img src="testcase0.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase1.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase2.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase3.jpg"/>
+</center>
+<br/>
+<br/>
+<br/>
+<small>
+<hr/>
+<font size="-2">
+        Generated using <a href="https://japex.dev.java.net">Japex</a> version 
+        1.00</font>
+</small>
+</body>
+</html>
