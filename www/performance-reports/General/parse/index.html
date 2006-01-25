@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport"><link href="report.css" type="text/css" rel="stylesheet"/><head><h1>Japex Report: FI-parse</h1></head><body><ul><li>chartType: barchart</li><li>classPath: /export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:extrep="http://www.sun.com/japex/extendedTestSuiteReport" xmlns:rep="http://www.sun.com/japex/testSuiteReport" xmlns="http://www.w3.org/1999/xhtml">
+<link href="report.css" type="text/css" rel="stylesheet"/>
+<body>
+<table border="0" cellpadding="2">
+<tr>
+<td valign="middle" width="90">
+<p>
+<a href="https://japex.dev.java.net">
+<img src="small_japex.gif" align="middle" border="0"/>
+</a>
+</p>
+</td>
+<td valign="middle">
+<h1>Japex Report: FI-parse</h1>
+</td>
+</tr>
+</table>
+<h2>Global Parameters</h2>
+<ul>
+<li>chartType: barchart</li>
+<li>classPath: /export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/activation.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb-api.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/jaxb-impl.jar
@@ -9,7 +30,1832 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/resolver.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/sjsxp.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xercesImpl.jar
-/export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</li><li>configFile: parse.xml</li><li>dateTime: 12 Jan 2006/12:17:54 EST</li><li>includeWarmupRun: false</li><li>numberOfThreads: 1</li><li>osArchitecture: x86</li><li>osName: SunOS</li><li>reportsDirectory: reports</li><li>resultAxis: normal</li><li>resultAxisX: normal</li><li>resultUnit: ms</li><li>resultUnitX: kbs</li><li>runsPerDriver: 1</li><li>runTime: 5</li><li>version: 0.100</li><li>vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</li><li>warmupTime: 5</li></ul><h2>Result Summary 
-    (ms)</h2><table width="80%" border="1"><thead><tr><th width="15%"><b>driver</b></th><th><b>resultAritMean</b></th><th><b>resultHarmMean</b></th><th><b>resultGeomMean</b></th><th><b>driverClass</b></th><th><b>description</b></th></tr></thead><tbody><tr><td align="right">FastInfosetSAXDriver</td><td align="right"><nobr>5.630</nobr></td><td align="right"><nobr>0.077</nobr></td><td align="right"><nobr>0.528</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr></td><td align="left"><nobr>Fast Infoset SAX Parser</nobr></td></tr><tr><td align="right">FastInfoset24IndexedContentSAXDriver</td><td align="right"><nobr>4.319</nobr></td><td align="right"><nobr>0.075</nobr></td><td align="right"><nobr>0.426</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr></td><td align="left"><nobr>24</nobr></td><td align="left"><nobr>Fast Infoset SAX Parser, indexed content less than 24 characters</nobr></td><td align="left"><nobr>24</nobr></td></tr><tr><td align="right">FastInfoset24IndexedContentSAXExtVocabDriver</td><td align="right"><nobr>4.141</nobr></td><td align="right"><nobr>0.041</nobr></td><td align="right"><nobr>0.338</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr></td><td align="left"><nobr>24</nobr></td><td align="left"><nobr>true</nobr></td><td align="left"><nobr>Fast Infoset StAX Parser, indexed content less than 24 characters, external vocabulary</nobr></td><td align="left"><nobr>24</nobr></td></tr><tr><td align="right">FastInfosetStAXDriver</td><td align="right"><nobr>6.386</nobr></td><td align="right"><nobr>0.073</nobr></td><td align="right"><nobr>0.568</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</nobr></td><td align="left"><nobr>Fast Infoset StAX Parser</nobr></td></tr><tr><td align="right">FastInfoset24IndexedContentStAXDriver</td><td align="right"><nobr>4.514</nobr></td><td align="right"><nobr>0.069</nobr></td><td align="right"><nobr>0.425</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</nobr></td><td align="left"><nobr>24</nobr></td><td align="left"><nobr>Fast Infoset StAX Parser, indexed content less than 24 characters</nobr></td><td align="left"><nobr>24</nobr></td></tr><tr><td align="right">XercesJAXPSAXDriver</td><td align="right"><nobr>18.784</nobr></td><td align="right"><nobr>0.311</nobr></td><td align="right"><nobr>2.084</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</nobr></td><td align="left"><nobr>XML Xerces JAXP SAX Parser</nobr></td></tr><tr><td align="right">SunSJSXPStAXDriver</td><td align="right"><nobr>16.750</nobr></td><td align="right"><nobr>0.265</nobr></td><td align="right"><nobr>1.796</nobr></td><td align="right"><nobr>com.sun.japex.jdsl.xml.parsing.stax.SunSJSXPStAXDriver</nobr></td><td align="left"><nobr>XML SUN SJSXP StAX Parser</nobr></td></tr></tbody></table><br/><br/><center><img src="result.jpg"/></center><br/><br/><h2>Driver: FastInfosetSAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.076</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.141</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.441</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.820</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>3.805</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>7.553</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.019</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.025</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>1.338</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.025</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.109</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.214</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>1.050</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>2.102</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>21.145</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.015</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.131</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.441</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>6.459</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>1.188</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>29.587</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>52.794</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfoset24IndexedContentSAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.073</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.122</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.335</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.596</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>2.797</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>5.463</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.019</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.025</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>1.269</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.085</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.157</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.686</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>1.277</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>12.924</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.016</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.120</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.337</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>4.465</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.902</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>21.433</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>46.189</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfoset24IndexedContentSAXExtVocabDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.045</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.090</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.290</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.528</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>2.572</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>5.092</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.009</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.009</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.011</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>1.117</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.018</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.074</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.143</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.604</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>1.200</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>12.169</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.009</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.109</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.316</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>4.228</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.884</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>20.182</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>45.554</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfosetStAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.075</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.147</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.479</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.891</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>4.201</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>8.336</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.017</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.018</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.020</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>1.682</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.029</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.130</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.256</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>1.274</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>2.548</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>25.823</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.015</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.128</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.460</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>6.551</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>1.388</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>41.756</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>50.663</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: FastInfoset24IndexedContentStAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.072</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.118</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>0.322</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>0.566</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>2.652</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>5.332</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.017</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.019</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.021</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>1.383</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.022</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.089</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.168</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>0.725</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>1.458</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>14.749</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.015</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.121</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>0.336</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>4.474</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>0.908</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>22.404</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>47.841</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: XercesJAXPSAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.253</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.579</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>2.056</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>3.909</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>18.860</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>37.699</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.079</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.079</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.085</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>8.147</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.128</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.491</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.921</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>4.490</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>8.926</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>88.414</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.066</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.352</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.189</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>16.741</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>4.588</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>124.463</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>109.511</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><h2>Driver: SunSJSXPStAXDriver</h2><table width="80%" border="1"><thead><tr><th><b>testCase</b></th><th><b>resultValue</b></th><th><b>xmlfile</b></th></tr></thead><tbody><tr><td align="right">inv1.xml</td><td align="right"><nobr>0.211</nobr></td><td align="left"><nobr>data/inv1.xml</nobr></td></tr><tr><td align="right">inv10.xml</td><td align="right"><nobr>0.482</nobr></td><td align="left"><nobr>data/inv10.xml</nobr></td></tr><tr><td align="right">inv50.xml</td><td align="right"><nobr>1.698</nobr></td><td align="left"><nobr>data/inv50.xml</nobr></td></tr><tr><td align="right">inv100.xml</td><td align="right"><nobr>3.218</nobr></td><td align="left"><nobr>data/inv100.xml</nobr></td></tr><tr><td align="right">inv500.xml</td><td align="right"><nobr>15.426</nobr></td><td align="left"><nobr>data/inv500.xml</nobr></td></tr><tr><td align="right">inv1000.xml</td><td align="right"><nobr>30.695</nobr></td><td align="left"><nobr>data/inv1000.xml</nobr></td></tr><tr><td align="right">soap1.xml</td><td align="right"><nobr>0.066</nobr></td><td align="left"><nobr>data/soap1.xml</nobr></td></tr><tr><td align="right">soap2.xml</td><td align="right"><nobr>0.067</nobr></td><td align="left"><nobr>data/soap2.xml</nobr></td></tr><tr><td align="right">soap3.xml</td><td align="right"><nobr>0.073</nobr></td><td align="left"><nobr>data/soap3.xml</nobr></td></tr><tr><td align="right">soap4.xml</td><td align="right"><nobr>7.022</nobr></td><td align="left"><nobr>data/soap4.xml</nobr></td></tr><tr><td align="right">db10.xml</td><td align="right"><nobr>0.112</nobr></td><td align="left"><nobr>data/db10.xml</nobr></td></tr><tr><td align="right">db50.xml</td><td align="right"><nobr>0.429</nobr></td><td align="left"><nobr>data/db50.xml</nobr></td></tr><tr><td align="right">db100.xml</td><td align="right"><nobr>0.825</nobr></td><td align="left"><nobr>data/db100.xml</nobr></td></tr><tr><td align="right">db500.xml</td><td align="right"><nobr>4.013</nobr></td><td align="left"><nobr>data/db500.xml</nobr></td></tr><tr><td align="right">db1000.xml</td><td align="right"><nobr>8.020</nobr></td><td align="left"><nobr>data/db1000.xml</nobr></td></tr><tr><td align="right">db10000.xml</td><td align="right"><nobr>79.231</nobr></td><td align="left"><nobr>data/db10000.xml</nobr></td></tr><tr><td align="right">xsl1.xml</td><td align="right"><nobr>0.056</nobr></td><td align="left"><nobr>data/xsl1.xml</nobr></td></tr><tr><td align="right">xsl2.xml</td><td align="right"><nobr>0.311</nobr></td><td align="left"><nobr>data/xsl2.xml</nobr></td></tr><tr><td align="right">xsl3.xml</td><td align="right"><nobr>1.075</nobr></td><td align="left"><nobr>data/xsl3.xml</nobr></td></tr><tr><td align="right">xsl4.xml</td><td align="right"><nobr>14.718</nobr></td><td align="left"><nobr>data/xsl4.xml</nobr></td></tr><tr><td align="right">periodic.xml</td><td align="right"><nobr>3.747</nobr></td><td align="left"><nobr>data/periodic.xml</nobr></td></tr><tr><td align="right">weblog.xml</td><td align="right"><nobr>108.583</nobr></td><td align="left"><nobr>data/weblog.xml</nobr></td></tr><tr><td align="right">factbook.xml</td><td align="right"><nobr>105.184</nobr></td><td align="left"><nobr>data/factbook.xml</nobr></td></tr></tbody></table><br/><br/><center><img src="testcase0.jpg"/></center><br/><br/><br/><br/><center><img src="testcase1.jpg"/></center><br/><br/><br/><br/><center><img src="testcase2.jpg"/></center><br/><br/><br/><br/><center><img src="testcase3.jpg"/></center><br/><br/><br/><br/><center><img src="testcase4.jpg"/></center><br/><br/><br/><small><hr/><i><font size="-2">
-        Author: Santiago Pericas-Geertsen (Sun Microsystems)
-        </font></i></small></body></html>
+/export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</li>
+<li>configFile: parse.xml</li>
+<li>dateTime: 23 Jan 2006/12:58:38 EST</li>
+<li>includeWarmupRun: false</li>
+<li>numberOfThreads: 1</li>
+<li>osArchitecture: x86</li>
+<li>osName: SunOS</li>
+<li>reportsDirectory: reports</li>
+<li>resultAxis: normal</li>
+<li>resultAxisX: normal</li>
+<li>resultUnit: ms</li>
+<li>resultUnitX: kbs</li>
+<li>runsPerDriver: 1</li>
+<li>runTime: 5</li>
+<li>version: 1.000</li>
+<li>vmInfo: Sun Microsystems Inc. 1.5.0_04-b05</li>
+<li>warmupTime: 5</li>
+</ul>
+<h2>Result Summary 
+    (ms)</h2>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th width="15%">
+<b>driver</b>
+</th>
+<th>
+<b>resultAritMean</b>
+</th>
+<th>
+<b>resultHarmMean</b>
+</th>
+<th>
+<b>resultGeomMean</b>
+</th>
+<th>
+<b>driverClass</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">FastInfosetSAXDriver</td>
+<td align="right">
+<nobr>5.754</nobr>
+</td>
+<td align="right">
+<nobr>0.076</nobr>
+</td>
+<td align="right">
+<nobr>0.535</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">FastInfoset24IndexedContentSAXDriver</td>
+<td align="right">
+<nobr>4.339</nobr>
+</td>
+<td align="right">
+<nobr>0.072</nobr>
+</td>
+<td align="right">
+<nobr>0.420</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">FastInfoset24IndexedContentSAXExtVocabDriver</td>
+<td align="right">
+<nobr>4.127</nobr>
+</td>
+<td align="right">
+<nobr>0.042</nobr>
+</td>
+<td align="right">
+<nobr>0.338</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">FastInfosetStAXDriver</td>
+<td align="right">
+<nobr>5.743</nobr>
+</td>
+<td align="right">
+<nobr>0.072</nobr>
+</td>
+<td align="right">
+<nobr>0.550</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">FastInfoset24IndexedContentStAXDriver</td>
+<td align="right">
+<nobr>4.386</nobr>
+</td>
+<td align="right">
+<nobr>0.066</nobr>
+</td>
+<td align="right">
+<nobr>0.408</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">XercesJAXPSAXDriver</td>
+<td align="right">
+<nobr>17.617</nobr>
+</td>
+<td align="right">
+<nobr>0.298</nobr>
+</td>
+<td align="right">
+<nobr>1.975</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">SunSJSXPStAXDriver</td>
+<td align="right">
+<nobr>16.832</nobr>
+</td>
+<td align="right">
+<nobr>0.258</nobr>
+</td>
+<td align="right">
+<nobr>1.767</nobr>
+</td>
+<td align="right">
+<nobr>com.sun.japex.jdsl.xml.parsing.stax.SunSJSXPStAXDriver</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<br/>
+<center>
+<img src="result.jpg"/>
+</center>
+<br/>
+<br/>
+<h2>Driver: FastInfosetSAXDriver</h2>
+<p>
+<ul>
+<li>description: Fast Infoset SAX Parser</li>
+<li>jdsl.attributeValueSizeLimit: n/a</li>
+<li>jdsl.characterContentChunkSizeLimit: n/a</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.076</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.145</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>0.456</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>0.842</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>3.943</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>7.864</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.018</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.021</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.024</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>1.410</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.025</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.110</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.217</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>1.076</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>2.157</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>21.538</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.015</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.133</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>0.447</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>6.402</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>1.213</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>30.657</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>53.547</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: FastInfoset24IndexedContentSAXDriver</h2>
+<p>
+<ul>
+<li>description: Fast Infoset SAX Parser, indexed content less than 24 characters</li>
+<li>jdsl.attributeValueSizeLimit: 24</li>
+<li>jdsl.characterContentChunkSizeLimit: 24</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.070</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.118</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>0.328</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>0.581</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>2.698</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>5.352</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.018</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.021</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.024</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>1.256</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.022</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.081</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.159</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>0.660</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>1.300</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>13.382</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.016</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.122</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>0.338</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>4.621</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>0.906</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>21.643</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>46.090</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: FastInfoset24IndexedContentSAXExtVocabDriver</h2>
+<p>
+<ul>
+<li>description: Fast Infoset StAX Parser, indexed content less than 24 characters, external vocabulary</li>
+<li>jdsl.attributeValueSizeLimit: 24</li>
+<li>jdsl.characterContentChunkSizeLimit: 24</li>
+<li>jdsl.externalVocabulary: true</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.045</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.089</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>0.288</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>0.526</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>2.566</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>5.242</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.010</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.010</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.011</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>1.146</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.018</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.075</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.146</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>0.614</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>1.205</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>12.282</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.008</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.104</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>0.304</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>4.093</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>0.831</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>20.079</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>45.221</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: FastInfosetStAXDriver</h2>
+<p>
+<ul>
+<li>description: Fast Infoset StAX Parser</li>
+<li>jdsl.attributeValueSizeLimit: n/a</li>
+<li>jdsl.characterContentChunkSizeLimit: n/a</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.074</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.143</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>0.462</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>0.860</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>4.043</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>8.054</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.017</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.018</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.020</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>1.675</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.028</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.127</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.250</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>1.240</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>2.480</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>25.142</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.014</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.135</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>0.460</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>6.171</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>1.287</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>33.175</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>46.207</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: FastInfoset24IndexedContentStAXDriver</h2>
+<p>
+<ul>
+<li>description: Fast Infoset StAX Parser, indexed content less than 24 characters</li>
+<li>jdsl.attributeValueSizeLimit: 24</li>
+<li>jdsl.characterContentChunkSizeLimit: 24</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.069</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.112</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>0.307</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>0.558</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>2.581</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>5.092</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.016</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.018</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.020</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>1.266</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.021</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.085</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.166</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>0.710</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>1.429</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>14.325</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.014</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.115</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>0.319</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>4.318</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>0.860</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>22.004</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>46.477</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: XercesJAXPSAXDriver</h2>
+<p>
+<ul>
+<li>description: XML Xerces JAXP SAX Parser</li>
+<li>jdsl.attributeValueSizeLimit: n/a</li>
+<li>jdsl.characterContentChunkSizeLimit: n/a</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.252</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.573</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>2.034</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>3.850</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>18.338</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>36.683</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.076</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.077</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.082</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>7.477</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.124</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.460</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.883</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>4.272</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>8.497</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>85.550</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.062</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.322</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>1.074</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>14.670</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>4.019</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>114.733</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>101.078</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Driver: SunSJSXPStAXDriver</h2>
+<p>
+<ul>
+<li>description: XML SUN SJSXP StAX Parser</li>
+<li>jdsl.attributeValueSizeLimit: n/a</li>
+<li>jdsl.characterContentChunkSizeLimit: n/a</li>
+<li>jdsl.externalVocabulary: n/a</li>
+</ul>
+</p>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>
+<b>testCase</b>
+</th>
+<th>
+<b>resultValue</b>
+</th>
+<th>
+<b>xmlfile</b>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">inv1.xml</td>
+<td align="right">
+<nobr>0.208</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv10.xml</td>
+<td align="right">
+<nobr>0.482</nobr>
+</td>
+<td align="left">
+<nobr>data/inv10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv50.xml</td>
+<td align="right">
+<nobr>1.695</nobr>
+</td>
+<td align="left">
+<nobr>data/inv50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv100.xml</td>
+<td align="right">
+<nobr>3.214</nobr>
+</td>
+<td align="left">
+<nobr>data/inv100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv500.xml</td>
+<td align="right">
+<nobr>15.348</nobr>
+</td>
+<td align="left">
+<nobr>data/inv500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">inv1000.xml</td>
+<td align="right">
+<nobr>30.440</nobr>
+</td>
+<td align="left">
+<nobr>data/inv1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap1.xml</td>
+<td align="right">
+<nobr>0.064</nobr>
+</td>
+<td align="left">
+<nobr>data/soap1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap2.xml</td>
+<td align="right">
+<nobr>0.065</nobr>
+</td>
+<td align="left">
+<nobr>data/soap2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap3.xml</td>
+<td align="right">
+<nobr>0.071</nobr>
+</td>
+<td align="left">
+<nobr>data/soap3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">soap4.xml</td>
+<td align="right">
+<nobr>6.663</nobr>
+</td>
+<td align="left">
+<nobr>data/soap4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10.xml</td>
+<td align="right">
+<nobr>0.109</nobr>
+</td>
+<td align="left">
+<nobr>data/db10.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db50.xml</td>
+<td align="right">
+<nobr>0.421</nobr>
+</td>
+<td align="left">
+<nobr>data/db50.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db100.xml</td>
+<td align="right">
+<nobr>0.811</nobr>
+</td>
+<td align="left">
+<nobr>data/db100.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db500.xml</td>
+<td align="right">
+<nobr>3.931</nobr>
+</td>
+<td align="left">
+<nobr>data/db500.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db1000.xml</td>
+<td align="right">
+<nobr>7.804</nobr>
+</td>
+<td align="left">
+<nobr>data/db1000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">db10000.xml</td>
+<td align="right">
+<nobr>77.727</nobr>
+</td>
+<td align="left">
+<nobr>data/db10000.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl1.xml</td>
+<td align="right">
+<nobr>0.054</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl1.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl2.xml</td>
+<td align="right">
+<nobr>0.304</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl2.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl3.xml</td>
+<td align="right">
+<nobr>1.060</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl3.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">xsl4.xml</td>
+<td align="right">
+<nobr>14.339</nobr>
+</td>
+<td align="left">
+<nobr>data/xsl4.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">periodic.xml</td>
+<td align="right">
+<nobr>3.606</nobr>
+</td>
+<td align="left">
+<nobr>data/periodic.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">weblog.xml</td>
+<td align="right">
+<nobr>111.348</nobr>
+</td>
+<td align="left">
+<nobr>data/weblog.xml</nobr>
+</td>
+</tr>
+<tr>
+<td align="right">factbook.xml</td>
+<td align="right">
+<nobr>107.375</nobr>
+</td>
+<td align="left">
+<nobr>data/factbook.xml</nobr>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h2>Results Per Test</h2>
+<br/>
+<center>
+<img src="testcase0.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase1.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase2.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase3.jpg"/>
+</center>
+<br/>
+<br/>
+<center>
+<img src="testcase4.jpg"/>
+</center>
+<br/>
+<br/>
+<br/>
+<small>
+<hr/>
+<font size="-2">
+        Generated using <a href="https://japex.dev.java.net">Japex</a> version 
+        1.00</font>
+</small>
+</body>
+</html>
