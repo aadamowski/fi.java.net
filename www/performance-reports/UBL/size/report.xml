@@ -1,7 +1,7 @@
 <testSuiteReport name="UBL-size" xmlns="http://www.sun.com/japex/testSuiteReport">
   <resultUnit>KBytes</resultUnit>
   <runIterations>1</runIterations>
-  <version>0.100</version>
+  <version>1.000</version>
   <chartType>barchart</chartType>
   <osName>SunOS</osName>
   <classPath>/export/home/hw123265/cvsroot/japex/dist/jdsl/FastInfoset.jar
@@ -17,7 +17,7 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xercesImpl.jar
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</classPath>
   <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
-  <dateTime>13 Jan 2006/00:26:12 EST</dateTime>
+  <dateTime>23 Jan 2006/19:51:50 EST</dateTime>
   <reportsDirectory>reports</reportsDirectory>
   <resultAxis>normal</resultAxis>
   <warmupIterations>1</warmupIterations>
@@ -32,6 +32,8 @@
     <resultHarmMean>2.035</resultHarmMean>
     <resultGeomMean>2.335</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
       <resultValue>3.501</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
@@ -115,6 +117,7 @@
     <resultGeomMean>1.217</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
       <resultValue>1.567</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
@@ -197,6 +200,7 @@
     <resultHarmMean>1.058</resultHarmMean>
     <resultGeomMean>1.288</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.FastInfosetSizeDriver</driverClass>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
       <resultValue>2.098</resultValue>
@@ -364,6 +368,8 @@
     <resultHarmMean>4.297</resultHarmMean>
     <resultGeomMean>5.515</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.XMLSizeDriver</driverClass>
+    <jdsl.GZIP xmlns="">n/a</jdsl.GZIP>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
       <resultValue>6.539</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
@@ -447,6 +453,7 @@
     <resultGeomMean>1.203</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.size.XMLSizeDriver</driverClass>
     <jdsl.GZIP xmlns="">true</jdsl.GZIP>
+    <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <testCase name="DespatchAdvice.xml">
       <resultValue>1.499</resultValue>
       <xmlfile xmlns="">data/DespatchAdvice.xml</xmlfile>
