@@ -17,7 +17,7 @@
 /export/home/hw123265/cvsroot/japex/dist/jdsl/xml-apis.jar</classPath>
   <warmupTime>5</warmupTime>
   <vmInfo>Sun Microsystems Inc. 1.5.0_04-b05</vmInfo>
-  <dateTime>18 Jan 2006/17:45:36 EST</dateTime>
+  <dateTime>23 Jan 2006/22:24:49 EST</dateTime>
   <runTime>5</runTime>
   <reportsDirectory>reports</reportsDirectory>
   <resultAxis>logarithmic</resultAxis>
@@ -29,897 +29,897 @@
   <osArchitecture>x86</osArchitecture>
   <runsPerDriver>1</runsPerDriver>
   <driver name="FastInfosetSAXDriver">
-    <resultAritMean>13462.161</resultAritMean>
+    <resultAritMean>13651.040</resultAritMean>
     <resultHarmMeanX>1.984</resultHarmMeanX>
-    <resultHarmMean>180.958</resultHarmMean>
+    <resultHarmMean>183.220</resultHarmMean>
     <resultAritMeanX>210.525</resultAritMeanX>
     <resultGeomMeanX>15.165</resultGeomMeanX>
-    <resultGeomMean>1937.797</resultGeomMean>
+    <resultGeomMean>1961.511</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset SAX Parser</description>
     <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>13802.092</resultValue>
+      <resultValue>13661.010</resultValue>
       <resultValueX>2.043</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>7286.786</resultValue>
+      <resultValue>6933.610</resultValue>
       <resultValueX>3.940</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>2337.942</resultValue>
+      <resultValue>2152.114</resultValue>
       <resultValueX>12.415</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>1251.232</resultValue>
+      <resultValue>1232.178</resultValue>
       <resultValueX>23.013</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>266.390</resultValue>
+      <resultValue>263.075</resultValue>
       <resultValueX>108.562</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>134.464</resultValue>
+      <resultValue>132.466</resultValue>
       <resultValueX>215.492</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>59269.299</resultValue>
+      <resultValue>58732.280</resultValue>
       <resultValueX>0.485</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>49003.356</resultValue>
+      <resultValue>49395.064</resultValue>
       <resultValueX>0.589</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>43756.714</resultValue>
+      <resultValue>44361.106</resultValue>
       <resultValueX>0.709</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>805.923</resultValue>
+      <resultValue>750.839</resultValue>
       <resultValueX>25.199</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>39629.418</resultValue>
+      <resultValue>42198.223</resultValue>
       <resultValueX>0.569</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>9231.392</resultValue>
+      <resultValue>9569.878</resultValue>
       <resultValueX>2.741</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>4857.594</resultValue>
+      <resultValue>4880.901</resultValue>
       <resultValueX>5.391</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>983.218</resultValue>
+      <resultValue>981.240</resultValue>
       <resultValueX>26.812</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>494.078</resultValue>
+      <resultValue>499.309</resultValue>
       <resultValueX>53.594</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>47.675</resultValue>
+      <resultValue>48.077</resultValue>
       <resultValueX>552.722</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>66025.469</resultValue>
+      <resultValue>66422.705</resultValue>
       <resultValueX>0.349</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>7231.392</resultValue>
+      <resultValue>8231.787</resultValue>
       <resultValueX>5.469</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>2179.629</resultValue>
+      <resultValue>2411.219</resultValue>
       <resultValueX>18.938</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>157.926</resultValue>
+      <resultValue>172.189</resultValue>
       <resultValueX>242.530</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>823.297</resultValue>
+      <resultValue>890.841</resultValue>
       <resultValueX>36.678</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>35.322</resultValue>
+      <resultValue>33.872</resultValue>
       <resultValueX>964.598</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>19.103</resultValue>
+      <resultValue>19.945</resultValue>
       <resultValueX>2539.236</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfoset24IndexedContentSAXDriver">
-    <resultAritMean>13982.507</resultAritMean>
+    <resultAritMean>14223.783</resultAritMean>
     <resultHarmMeanX>1.857</resultHarmMeanX>
-    <resultHarmMean>230.128</resultHarmMean>
+    <resultHarmMean>235.787</resultHarmMean>
     <resultAritMeanX>176.223</resultAritMeanX>
     <resultGeomMeanX>11.816</resultGeomMeanX>
-    <resultGeomMean>2394.264</resultGeomMean>
+    <resultGeomMean>2465.663</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset SAX Parser, indexed content less than 24 characters</description>
     <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>14416.109</resultValue>
+      <resultValue>14752.904</resultValue>
       <resultValueX>1.920</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>8647.152</resultValue>
+      <resultValue>8902.800</resultValue>
       <resultValueX>3.185</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>3086.339</resultValue>
+      <resultValue>3226.843</resultValue>
       <resultValueX>8.848</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>1738.076</resultValue>
+      <resultValue>1792.471</resultValue>
       <resultValueX>15.930</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>378.842</resultValue>
+      <resultValue>371.333</resultValue>
       <resultValueX>73.361</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>192.088</resultValue>
+      <resultValue>187.008</resultValue>
       <resultValueX>145.135</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>58583.284</resultValue>
+      <resultValue>56551.439</resultValue>
       <resultValueX>0.475</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>47365.123</resultValue>
+      <resultValue>48116.059</resultValue>
       <resultValueX>0.589</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>41933.189</resultValue>
+      <resultValue>43178.198</resultValue>
       <resultValueX>0.709</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>779.200</resultValue>
+      <resultValue>843.184</resultValue>
       <resultValueX>25.199</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>46354.750</resultValue>
+      <resultValue>48708.966</resultValue>
       <resultValueX>0.499</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>11576.749</resultValue>
+      <resultValue>12612.217</resultValue>
       <resultValueX>2.089</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>6307.980</resultValue>
+      <resultValue>6696.946</resultValue>
       <resultValueX>4.064</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>1489.257</resultValue>
+      <resultValue>1596.965</resultValue>
       <resultValueX>15.989</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>732.808</resultValue>
+      <resultValue>813.436</resultValue>
       <resultValueX>30.990</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>75.880</resultValue>
+      <resultValue>80.236</resultValue>
       <resultValueX>316.795</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>64970.513</resultValue>
+      <resultValue>65773.344</resultValue>
       <resultValueX>0.341</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>8484.233</resultValue>
+      <resultValue>8449.153</resultValue>
       <resultValueX>4.739</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>3080.623</resultValue>
+      <resultValue>3055.380</resultValue>
       <resultValueX>12.905</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>227.210</resultValue>
+      <resultValue>227.908</resultValue>
       <resultValueX>160.770</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>1110.323</resultValue>
+      <resultValue>1140.268</resultValue>
       <resultValueX>25.282</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>46.648</resultValue>
+      <resultValue>48.330</resultValue>
       <resultValueX>725.722</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>21.281</resultValue>
+      <resultValue>21.633</resultValue>
       <resultValueX>2477.599</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfoset24IndexedContentSAXExtVocabDriver">
-    <resultAritMean>24435.515</resultAritMean>
+    <resultAritMean>23965.999</resultAritMean>
     <resultHarmMeanX>1.116</resultHarmMeanX>
-    <resultHarmMean>240.606</resultHarmMean>
+    <resultHarmMean>240.960</resultHarmMean>
     <resultAritMeanX>175.777</resultAritMeanX>
     <resultGeomMeanX>10.049</resultGeomMeanX>
-    <resultGeomMean>2998.612</resultGeomMean>
+    <resultGeomMean>2963.280</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.FastInfosetSAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">true</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset StAX Parser, indexed content less than 24 characters, external vocabulary</description>
     <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>22291.560</resultValue>
+      <resultValue>22049.764</resultValue>
       <resultValueX>1.240</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>11231.268</resultValue>
+      <resultValue>11161.290</resultValue>
       <resultValueX>2.506</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>3456.800</resultValue>
+      <resultValue>3444.007</resultValue>
       <resultValueX>8.169</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>1894.115</resultValue>
+      <resultValue>1891.775</resultValue>
       <resultValueX>15.252</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>388.353</resultValue>
+      <resultValue>389.381</resultValue>
       <resultValueX>72.684</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>194.062</resultValue>
+      <resultValue>194.969</resultValue>
       <resultValueX>144.458</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>105716.421</resultValue>
+      <resultValue>105018.682</resultValue>
       <resultValueX>0.227</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>107622.196</resultValue>
+      <resultValue>102960.653</resultValue>
       <resultValueX>0.277</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>91137.348</resultValue>
+      <resultValue>90011.610</resultValue>
       <resultValueX>0.334</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>885.152</resultValue>
+      <resultValue>854.503</resultValue>
       <resultValueX>25.016</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>57719.205</resultValue>
+      <resultValue>57055.086</resultValue>
       <resultValueX>0.470</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>13579.693</resultValue>
+      <resultValue>13400.865</resultValue>
       <resultValueX>2.060</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>7024.985</resultValue>
+      <resultValue>6905.201</resultValue>
       <resultValueX>4.036</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>1653.748</resultValue>
+      <resultValue>1626.475</resultValue>
       <resultValueX>15.961</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>832.186</resultValue>
+      <resultValue>820.220</resultValue>
       <resultValueX>30.963</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>79.365</resultValue>
+      <resultValue>80.376</resultValue>
       <resultValueX>316.769</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>121288.216</resultValue>
+      <resultValue>118860.685</resultValue>
       <resultValueX>0.207</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>10024.395</resultValue>
+      <resultValue>9651.712</resultValue>
       <resultValueX>4.573</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>3471.758</resultValue>
+      <resultValue>3308.873</resultValue>
       <resultValueX>12.608</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>246.855</resultValue>
+      <resultValue>247.591</resultValue>
       <resultValueX>159.826</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>1207.710</resultValue>
+      <resultValue>1212.825</resultValue>
       <resultValueX>25.006</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>49.559</resultValue>
+      <resultValue>49.520</resultValue>
       <resultValueX>725.651</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>21.901</resultValue>
+      <resultValue>21.922</resultValue>
       <resultValueX>2474.569</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfosetStAXDriver">
-    <resultAritMean>14041.386</resultAritMean>
+    <resultAritMean>13307.223</resultAritMean>
     <resultHarmMeanX>1.984</resultHarmMeanX>
-    <resultHarmMean>173.347</resultHarmMean>
+    <resultHarmMean>149.587</resultHarmMean>
     <resultAritMeanX>210.525</resultAritMeanX>
     <resultGeomMeanX>15.165</resultGeomMeanX>
-    <resultGeomMean>1819.272</resultGeomMean>
+    <resultGeomMean>1712.432</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset StAX Parser</description>
     <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>13651.441</resultValue>
+      <resultValue>13058.708</resultValue>
       <resultValueX>2.043</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>6974.616</resultValue>
+      <resultValue>6568.539</resultValue>
       <resultValueX>3.940</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>2119.937</resultValue>
+      <resultValue>2048.283</resultValue>
       <resultValueX>12.415</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>1136.390</resultValue>
+      <resultValue>1099.175</resultValue>
       <resultValueX>23.013</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>241.495</resultValue>
+      <resultValue>232.581</resultValue>
       <resultValueX>108.562</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>121.123</resultValue>
+      <resultValue>116.932</resultValue>
       <resultValueX>215.492</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>59993.112</resultValue>
+      <resultValue>56638.845</resultValue>
       <resultValueX>0.485</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>56016.529</resultValue>
+      <resultValue>52302.887</resultValue>
       <resultValueX>0.589</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>49283.887</resultValue>
+      <resultValue>45061.273</resultValue>
       <resultValueX>0.709</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>591.347</resultValue>
+      <resultValue>599.529</resultValue>
       <resultValueX>25.199</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>34592.957</resultValue>
+      <resultValue>33280.888</resultValue>
       <resultValueX>0.569</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>7637.812</resultValue>
+      <resultValue>7219.713</resultValue>
       <resultValueX>2.741</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>3880.386</resultValue>
+      <resultValue>3657.962</resultValue>
       <resultValueX>5.391</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>780.094</resultValue>
+      <resultValue>739.105</resultValue>
       <resultValueX>26.812</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>390.047</resultValue>
+      <resultValue>369.433</resultValue>
       <resultValueX>53.594</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>38.537</resultValue>
+      <resultValue>36.640</resultValue>
       <resultValueX>552.722</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>74259.492</resultValue>
+      <resultValue>72003.929</resultValue>
       <resultValueX>0.349</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>7846.941</resultValue>
+      <resultValue>7806.167</resultValue>
       <resultValueX>5.469</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>2379.819</resultValue>
+      <resultValue>2261.484</resultValue>
       <resultValueX>18.938</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>166.110</resultValue>
+      <resultValue>145.658</resultValue>
       <resultValueX>242.530</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>798.190</resultValue>
+      <resultValue>775.226</resultValue>
       <resultValueX>36.678</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>29.267</resultValue>
+      <resultValue>26.177</resultValue>
       <resultValueX>964.598</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>22.343</resultValue>
+      <resultValue>17.002</resultValue>
       <resultValueX>2539.236</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="FastInfoset24IndexedContentStAXDriver">
-    <resultAritMean>14030.553</resultAritMean>
+    <resultAritMean>14661.480</resultAritMean>
     <resultHarmMeanX>1.857</resultHarmMeanX>
-    <resultHarmMean>197.400</resultHarmMean>
+    <resultHarmMean>219.240</resultHarmMean>
     <resultAritMeanX>176.223</resultAritMeanX>
     <resultGeomMeanX>11.816</resultGeomMeanX>
-    <resultGeomMean>2138.954</resultGeomMean>
+    <resultGeomMean>2379.643</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.stax.FastInfosetStAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">24</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">Fast Infoset StAX Parser, indexed content less than 24 characters</description>
     <jdsl.attributeValueSizeLimit xmlns="">24</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>12881.938</resultValue>
+      <resultValue>13700.763</resultValue>
       <resultValueX>1.920</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>7749.410</resultValue>
+      <resultValue>8398.508</resultValue>
       <resultValueX>3.185</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>2804.681</resultValue>
+      <resultValue>3103.475</resultValue>
       <resultValueX>8.848</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>1605.268</resultValue>
+      <resultValue>1711.818</resultValue>
       <resultValueX>15.930</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>334.186</resultValue>
+      <resultValue>373.650</resultValue>
       <resultValueX>73.361</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>170.732</resultValue>
+      <resultValue>193.447</resultValue>
       <resultValueX>145.135</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>57895.161</resultValue>
+      <resultValue>58772.692</resultValue>
       <resultValueX>0.475</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>54744.982</resultValue>
+      <resultValue>53715.240</resultValue>
       <resultValueX>0.589</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>47335.104</resultValue>
+      <resultValue>47905.164</resultValue>
       <resultValueX>0.709</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>644.121</resultValue>
+      <resultValue>769.774</resultValue>
       <resultValueX>25.199</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>39740.653</resultValue>
+      <resultValue>47719.112</resultValue>
       <resultValueX>0.499</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>9630.927</resultValue>
+      <resultValue>11797.526</resultValue>
       <resultValueX>2.089</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>4884.714</resultValue>
+      <resultValue>6025.535</resultValue>
       <resultValueX>4.064</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>1086.153</resultValue>
+      <resultValue>1403.808</resultValue>
       <resultValueX>15.989</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>542.470</resultValue>
+      <resultValue>694.286</resultValue>
       <resultValueX>30.990</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>54.096</resultValue>
+      <resultValue>69.458</resultValue>
       <resultValueX>316.795</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>67950.433</resultValue>
+      <resultValue>67949.146</resultValue>
       <resultValueX>0.341</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>8400.157</resultValue>
+      <resultValue>8478.107</resultValue>
       <resultValueX>4.739</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>2976.794</resultValue>
+      <resultValue>3046.133</resultValue>
       <resultValueX>12.905</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>213.598</resultValue>
+      <resultValue>224.730</resultValue>
       <resultValueX>160.770</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>1000.590</resultValue>
+      <resultValue>1097.350</resultValue>
       <resultValueX>25.282</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>36.435</resultValue>
+      <resultValue>44.005</resultValue>
       <resultValueX>725.722</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>20.125</resultValue>
+      <resultValue>20.309</resultValue>
       <resultValueX>2477.599</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="XercesJAXPSAXDriver">
-    <resultAritMean>3254.101</resultAritMean>
+    <resultAritMean>3304.081</resultAritMean>
     <resultHarmMeanX>3.272</resultHarmMeanX>
-    <resultHarmMean>54.986</resultHarmMean>
+    <resultHarmMean>56.989</resultHarmMean>
     <resultAritMeanX>453.633</resultAritMeanX>
     <resultGeomMeanX>35.533</resultGeomMeanX>
-    <resultGeomMean>486.402</resultGeomMean>
+    <resultGeomMean>505.282</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.sax.XercesJAXPSAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">XML Xerces JAXP SAX Parser</description>
     <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>3854.065</resultValue>
+      <resultValue>4059.340</resultValue>
       <resultValueX>4.445</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>1720.244</resultValue>
+      <resultValue>1804.749</resultValue>
       <resultValueX>11.406</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>482.094</resultValue>
+      <resultValue>511.386</resultValue>
       <resultValueX>42.383</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>255.261</resultValue>
+      <resultValue>269.238</resultValue>
       <resultValueX>81.104</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>53.789</resultValue>
+      <resultValue>56.263</resultValue>
       <resultValueX>391.260</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>26.985</resultValue>
+      <resultValue>28.202</resultValue>
       <resultValueX>778.955</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>12739.079</resultValue>
+      <resultValue>12818.717</resultValue>
       <resultValueX>0.706</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>12757.033</resultValue>
+      <resultValue>12805.970</resultValue>
       <resultValueX>0.835</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>11865.801</resultValue>
+      <resultValue>12005.498</resultValue>
       <resultValueX>0.956</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>125.761</resultValue>
+      <resultValue>131.842</resultValue>
       <resultValueX>120.931</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>7840.417</resultValue>
+      <resultValue>8010.801</resultValue>
       <resultValueX>1.594</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>2070.431</resultValue>
+      <resultValue>2147.654</resultValue>
       <resultValueX>7.871</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>1058.615</resultValue>
+      <resultValue>1118.744</resultValue>
       <resultValueX>15.670</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>219.949</resultValue>
+      <resultValue>236.207</resultValue>
       <resultValueX>78.139</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>110.653</resultValue>
+      <resultValue>116.690</resultValue>
       <resultValueX>156.225</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>11.183</resultValue>
+      <resultValue>11.779</resultValue>
       <resultValueX>1561.771</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>15572.300</resultValue>
+      <resultValue>15631.920</resultValue>
       <resultValueX>0.505</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>2904.977</resultValue>
+      <resultValue>3004.713</resultValue>
       <resultValueX>7.277</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>860.909</resultValue>
+      <resultValue>896.308</resultValue>
       <resultValueX>26.436</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>63.150</resultValue>
+      <resultValue>66.641</resultValue>
       <resultValueX>338.030</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>233.478</resultValue>
+      <resultValue>242.638</resultValue>
       <resultValueX>97.220</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>8.484</resultValue>
+      <resultValue>8.763</resultValue>
       <resultValueX>2586.152</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>9.662</resultValue>
+      <resultValue>9.792</resultValue>
       <resultValueX>4123.678</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
   </driver>
   <driver name="SunSJSXPStAXDriver">
-    <resultAritMean>3833.455</resultAritMean>
+    <resultAritMean>3838.474</resultAritMean>
     <resultHarmMeanX>3.272</resultHarmMeanX>
-    <resultHarmMean>58.320</resultHarmMean>
+    <resultHarmMean>59.678</resultHarmMean>
     <resultAritMeanX>453.633</resultAritMeanX>
     <resultGeomMeanX>35.533</resultGeomMeanX>
-    <resultGeomMean>550.463</resultGeomMean>
+    <resultGeomMean>561.810</resultGeomMean>
     <driverClass>com.sun.japex.jdsl.xml.parsing.stax.SunSJSXPStAXDriver</driverClass>
     <jdsl.characterContentChunkSizeLimit xmlns="">n/a</jdsl.characterContentChunkSizeLimit>
     <jdsl.externalVocabulary xmlns="">n/a</jdsl.externalVocabulary>
     <description xmlns="">XML SUN SJSXP StAX Parser</description>
     <jdsl.attributeValueSizeLimit xmlns="">n/a</jdsl.attributeValueSizeLimit>
     <testCase name="inv1.xml">
-      <resultValue>4699.863</resultValue>
+      <resultValue>4808.394</resultValue>
       <resultValueX>4.445</resultValueX>
       <xmlfile xmlns="">data/inv1.xml</xmlfile>
     </testCase>
     <testCase name="inv10.xml">
-      <resultValue>2022.776</resultValue>
+      <resultValue>2089.377</resultValue>
       <resultValueX>11.406</resultValueX>
       <xmlfile xmlns="">data/inv10.xml</xmlfile>
     </testCase>
     <testCase name="inv50.xml">
-      <resultValue>570.026</resultValue>
+      <resultValue>592.077</resultValue>
       <resultValueX>42.383</resultValueX>
       <xmlfile xmlns="">data/inv50.xml</xmlfile>
     </testCase>
     <testCase name="inv100.xml">
-      <resultValue>300.530</resultValue>
+      <resultValue>312.941</resultValue>
       <resultValueX>81.104</resultValueX>
       <xmlfile xmlns="">data/inv100.xml</xmlfile>
     </testCase>
     <testCase name="inv500.xml">
-      <resultValue>62.660</resultValue>
+      <resultValue>65.269</resultValue>
       <resultValueX>391.260</resultValueX>
       <xmlfile xmlns="">data/inv500.xml</xmlfile>
     </testCase>
     <testCase name="inv1000.xml">
-      <resultValue>31.439</resultValue>
+      <resultValue>32.742</resultValue>
       <resultValueX>778.955</resultValueX>
       <xmlfile xmlns="">data/inv1000.xml</xmlfile>
     </testCase>
     <testCase name="soap1.xml">
-      <resultValue>15628.487</resultValue>
+      <resultValue>15535.294</resultValue>
       <resultValueX>0.706</resultValueX>
       <xmlfile xmlns="">data/soap1.xml</xmlfile>
     </testCase>
     <testCase name="soap2.xml">
-      <resultValue>15325.933</resultValue>
+      <resultValue>15175.098</resultValue>
       <resultValueX>0.835</resultValueX>
       <xmlfile xmlns="">data/soap2.xml</xmlfile>
     </testCase>
     <testCase name="soap3.xml">
-      <resultValue>14298.232</resultValue>
+      <resultValue>13819.376</resultValue>
       <resultValueX>0.956</resultValueX>
       <xmlfile xmlns="">data/soap3.xml</xmlfile>
     </testCase>
     <testCase name="soap4.xml">
-      <resultValue>143.951</resultValue>
+      <resultValue>146.103</resultValue>
       <resultValueX>120.931</resultValueX>
       <xmlfile xmlns="">data/soap4.xml</xmlfile>
     </testCase>
     <testCase name="db10.xml">
-      <resultValue>8729.862</resultValue>
+      <resultValue>8982.546</resultValue>
       <resultValueX>1.594</resultValueX>
       <xmlfile xmlns="">data/db10.xml</xmlfile>
     </testCase>
     <testCase name="db50.xml">
-      <resultValue>2220.782</resultValue>
+      <resultValue>2336.863</resultValue>
       <resultValueX>7.871</resultValueX>
       <xmlfile xmlns="">data/db50.xml</xmlfile>
     </testCase>
     <testCase name="db100.xml">
-      <resultValue>1149.705</resultValue>
+      <resultValue>1212.941</resultValue>
       <resultValueX>15.670</resultValueX>
       <xmlfile xmlns="">data/db100.xml</xmlfile>
     </testCase>
     <testCase name="db500.xml">
-      <resultValue>239.442</resultValue>
+      <resultValue>248.334</resultValue>
       <resultValueX>78.139</resultValueX>
       <xmlfile xmlns="">data/db500.xml</xmlfile>
     </testCase>
     <testCase name="db1000.xml">
-      <resultValue>119.851</resultValue>
+      <resultValue>124.339</resultValue>
       <resultValueX>156.225</resultValueX>
       <xmlfile xmlns="">data/db1000.xml</xmlfile>
     </testCase>
     <testCase name="db10000.xml">
-      <resultValue>11.923</resultValue>
+      <resultValue>12.468</resultValue>
       <resultValueX>1561.771</resultValueX>
       <xmlfile xmlns="">data/db10000.xml</xmlfile>
     </testCase>
     <testCase name="xsl1.xml">
-      <resultValue>18000.982</resultValue>
+      <resultValue>18251.859</resultValue>
       <resultValueX>0.505</resultValueX>
       <xmlfile xmlns="">data/xsl1.xml</xmlfile>
     </testCase>
     <testCase name="xsl2.xml">
-      <resultValue>3303.477</resultValue>
+      <resultValue>3223.094</resultValue>
       <resultValueX>7.277</resultValueX>
       <xmlfile xmlns="">data/xsl2.xml</xmlfile>
     </testCase>
     <testCase name="xsl3.xml">
-      <resultValue>944.597</resultValue>
+      <resultValue>951.569</resultValue>
       <resultValueX>26.436</resultValueX>
       <xmlfile xmlns="">data/xsl3.xml</xmlfile>
     </testCase>
     <testCase name="xsl4.xml">
-      <resultValue>66.967</resultValue>
+      <resultValue>69.289</resultValue>
       <resultValueX>338.030</resultValueX>
       <xmlfile xmlns="">data/xsl4.xml</xmlfile>
     </testCase>
     <testCase name="periodic.xml">
-      <resultValue>279.435</resultValue>
+      <resultValue>276.220</resultValue>
       <resultValueX>97.220</resultValueX>
       <xmlfile xmlns="">data/periodic.xml</xmlfile>
     </testCase>
     <testCase name="weblog.xml">
-      <resultValue>9.079</resultValue>
+      <resultValue>9.274</resultValue>
       <resultValueX>2586.152</resultValueX>
       <xmlfile xmlns="">data/weblog.xml</xmlfile>
     </testCase>
     <testCase name="factbook.xml">
-      <resultValue>9.454</resultValue>
+      <resultValue>9.436</resultValue>
       <resultValueX>4123.678</resultValueX>
       <xmlfile xmlns="">data/factbook.xml</xmlfile>
     </testCase>
