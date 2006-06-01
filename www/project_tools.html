@@ -16,8 +16,17 @@
   }
   
   // delete the "get involved" block
-  getInvolved = document.getElementById("communitylinks");
-  getInvolved.parentNode.removeChild(getInvolved);
+  // delete the "get involved" block
+  for( n=dd.parentNode.previousSibling; n!=null; n=n.previousSibling ) {
+    if(n.nodeType==1) { // if element
+      if(n.tagName=="DL") {
+        n.style.display = "none";
+      }
+    }
+  }
+
+  // getInvolved = document.getElementById("communitylinks");
+  // getInvolved.parentNode.removeChild(getInvolved);
   
   // replace breadcrumbs
   breadcrumbs = document.getElementById("breadcrumbs");
