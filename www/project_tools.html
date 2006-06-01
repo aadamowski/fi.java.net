@@ -9,13 +9,12 @@
       if(n.className=="DD") { // kill all the link items
         n.style.display = "none";
       }
-      if(n.className=="label") { // change the title
+      if(n.className=="DT") { // change the title
         n.innerHTML = "<strong>Fast Infoset Project</strong>";
       }
     }
   }
   
-  // delete the "get involved" block
   // delete the "get involved" block
   for( n=dd.parentNode.previousSibling; n!=null; n=n.previousSibling ) {
     if(n.nodeType==1) { // if element
@@ -29,8 +28,8 @@
   // getInvolved.parentNode.removeChild(getInvolved);
   
   // replace breadcrumbs
-  breadcrumbs = document.getElementById("breadcrumbs");
-  breadcrumbs.innerHTML = "<a href='https://community.java.net/java-ws-xml/'>Java WS/XML community</a> | <a href='https://glassfish.dev.java.net/'>Glassfish</a> | <a href='https://jwsdp.dev.java.net/'>JWSDP</a>";
+  // breadcrumbs = document.getElementById("breadcrumbs");
+  // breadcrumbs.innerHTML = "<a href='https://community.java.net/java-ws-xml/'>Java WS/XML community</a> | <a href='https://glassfish.dev.java.net/'>Glassfish</a> | <a href='https://jwsdp.dev.java.net/'>JWSDP</a>";
 </script>
 
 <div class="body">
