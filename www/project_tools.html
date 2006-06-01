@@ -3,10 +3,10 @@
   // hide all default navigation bars
   
   // get to the block
-  var div = document.getElementById("eraser").previousSibling;
-  for( n=div; n!=null; n=n.previousSibling ) {
-    if(n.tagName==1) { // if element
-      if(n.className=="DD") { // kill all the link items
+  var dd = document.getElementById("eraser").previousSibling;
+  for( n=dd; n!=null; n=n.previousSibling ) {
+    if(n.nodeType==1) { // if element
+      if(n.tagName=="DD") { // kill all the link items
         n.style.display = "none";
       }
       if(n.tagName=="DT") { // change the title
@@ -14,7 +14,7 @@
       }
     }
   }
-  
+
   // delete the "get involved" block
   for( n=dd.parentNode.previousSibling; n!=null; n=n.previousSibling ) {
     if(n.nodeType==1) { // if element
