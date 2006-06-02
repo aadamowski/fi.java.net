@@ -93,7 +93,7 @@ SAXParser saxParser = saxParserFactory.newSAXParser();
 // Set the lexical handler
 saxParser.setProperty(&quot;http://xml.org/sax/properties/lexical-handler&quot;, documentSerializer);
 // Parse the XML document and convert to a fast infoset document
-saxParser.parse(xmlDocument, documentSerializer);</PRE><P>
+saxParser.parse(xmlDocument, saxDocumentSerializer);</PRE><P>
 <BR><BR>
 </P>
 <P>The following code shows how to translate a fast infoset document
