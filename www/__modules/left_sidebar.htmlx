@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<script id="eraser">
+  // hide all default navigation bars
+
+  // get to the block
+  var dd = document.getElementById("eraser").previousSibling;
+  for( n=dd; n!=null; n=n.previousSibling ) {
+    if(n.nodeType==1) { // if element
+      if(n.tagName=="DD") { // kill all the link items
+        n.style.display = "none";
+      }
+      if(n.tagName=="DT") { // change the title
+        n.innerHTML = "<strong>Fast Infoset Project</strong>";
+      }
+    }
+  }
+
+  // delete the "get involved" block
+  for( n=dd.parentNode.previousSibling; n!=null; n=n.previousSibling ) {
+    if(n.nodeType==1) { // if element
+      if(n.tagName=="DL") {
+        n.style.display = "none";
+      }
+    }
+  }
+
+  // getInvolved = document.getElementById("communitylinks");
+  // getInvolved.parentNode.removeChild(getInvolved);
+
+  // replace breadcrumbs
+  // breadcrumbs = document.getElementById("breadcrumbs");
+  // breadcrumbs.innerHTML = "<a href='https://community.java.net/java-ws-xml/'>Java WS/XML community</a> | <a href='https://glassfish.dev.java.net/'>Glassfish</a> | <a href='https://jwsdp.dev.java.net/'>JWSDP</a>";
+</script>
+<style type="text/css">
+@import url(http://www.google.com/cse/api/overlay.css);
+  </style>
+  <title></title>
+</head>
+<body> -->
+<script>
+var info = {
+title: "Fast Infoset Project",
+logo: "http://fi.java.net/javaxml-duke.gif"
+}
+</script>
+
+<div id="navcol">
+<dl id="projecttools" class="navgroup" style="text-align: left;">
+ <dt id="current-zone" class="depth0">
+ <a href="http://fi.java.net/">Fast Infoset Project</a>
+ </dt>
+ <dd class="depth0 parent parent" id="menubar1">
+   <ul>
+    <li>
+      <a href="http://fi.java.net/">Project home</a>
+    <li>
+      <a href="http://java.net/projects/fi/members">Membership</a>
+  </ul>
+
+ <dd class="depth0 parent parent" id="menubar2">
+  <ul>
+    <li>
+      <a href="/servlets/ProjectNewsList">Announcements</a>
+    <li>
+      <a href="http://forums.java.net/jive/forum.jspa?forumID=44&start=0">Discussion forums</a>
+    <li>
+      <a href="/servlets/ProjectMailingListList">Mailing lists</a>
+  </ul>
+ <dd class="depth0 parent parent" id="menubar3">
+  <ul>
+    <li>
+      <a href="http://fi.dev.java.net/servlets/ProjectDocumentList">Downloads</a>
+    <li>
+      <a href="http://fisheye.cenqua.com/java.net/viewrep/fi">FishEye CVS Repository</a>
+    <li>
+      <a href="https://fi.dev.java.net/source/browse/fi">Java.Net CVS Repository</a>
+  </ul>
+ <dd class="depth0 parent parent" id="menubar4">
+  <ul>
+    <li>
+      <a href="http://fi.dev.java.net/servlets/ProjectIssues">Issue tracker</a>
+    <li>
+      <form name="ProjectIssuesForm" method="get" action="http://fi.dev.java.net/issues/show_bug.cgi">
+        <input type="submit" value="Go to" /> # <input name="id" size="3" />
+      </form>
+  </ul>
+<!--</dd>
+</dl>
+</div>
+</body>
+</html>-->
