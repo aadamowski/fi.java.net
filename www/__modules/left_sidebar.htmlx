@@ -51,40 +51,29 @@ logo: "http://fi.java.net/javaxml-duke.gif"
  <dt id="current-zone" class="depth0">
  <a href="http://fi.java.net/">Fast Infoset Project</a>
  </dt>
- <dd class="depth0 parent parent" id="menubar1">
-   <ul>
+ <dd class="depth0 parent parent" id="menubar">
+  <ul id="main-menubar">
     <li>
       <a href="http://fi.java.net/">Project home</a>
+    </li>
     <li>
       <a href="http://java.net/projects/fi/members">Membership</a>
-  </ul>
-
- <dd class="depth0 parent parent" id="menubar2">
-  <ul>
+    </li>
     <li>
-      <a href="/servlets/ProjectNewsList">Announcements</a>
+      <a href="http://java.net/projects/fi/lists/announce/archive">Announcements</a>
+    </li>
     <li>
-      <a href="http://forums.java.net/jive/forum.jspa?forumID=44&start=0">Discussion forums</a>
+      <a href="http://www.java.net/forums/glassfish/binary-web-services-and-xml">Discussion forums</a>
+    </li>
     <li>
-      <a href="/servlets/ProjectMailingListList">Mailing lists</a>
-  </ul>
- <dd class="depth0 parent parent" id="menubar3">
-  <ul>
+      <a href="http://java.net/projects/fi/lists/">Mailing lists</a>
+    </li>
     <li>
-      <a href="http://fi.dev.java.net/servlets/ProjectDocumentList">Downloads</a>
+      <a href="http://java.net/projects/fi/sources/svn/show">Java.Net SVN Repository</a>
+    </li>
     <li>
-      <a href="http://fisheye.cenqua.com/java.net/viewrep/fi">FishEye CVS Repository</a>
-    <li>
-      <a href="https://fi.dev.java.net/source/browse/fi">Java.Net CVS Repository</a>
-  </ul>
- <dd class="depth0 parent parent" id="menubar4">
-  <ul>
-    <li>
-      <a href="http://fi.dev.java.net/servlets/ProjectIssues">Issue tracker</a>
-    <li>
-      <form name="ProjectIssuesForm" method="get" action="http://fi.dev.java.net/issues/show_bug.cgi">
-        <input type="submit" value="Go to" /> # <input name="id" size="3" />
-      </form>
+      <a href="http://java.net/jira/browse/FI/">IssueTracker</a>
+    </li>
   </ul>
 <!--</dd>
 </dl>
