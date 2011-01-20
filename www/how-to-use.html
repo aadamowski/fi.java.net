@@ -1,56 +1,65 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
-	<TITLE>How to use Fast Infoset parsers and serializers</TITLE>
-	<META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
-	<META NAME="CREATED" CONTENT="20050111;14114000">
-	<META NAME="CHANGED" CONTENT="20051017;10211100">
-</HEAD>
-<BODY LANG="en-US" DIR="LTR">
-<H3>How to use the Fast Infoset parsers and serializers</H3>
-<P>The Fast Infoset project currently contains three types of
-implementations for the following APIs:</P>
-<OL>
-	<LI><P>SAX, implementing the <A HREF="http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</A>
+    <HEAD>
+        <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+        <TITLE>How to use Fast Infoset</TITLE>
+        <META NAME="GENERATOR" CONTENT="StarOffice 8  (Solaris x86)">
+        <META NAME="CREATED" CONTENT="20050111;14114000">
+        <META NAME="CHANGED" CONTENT="20051017;10211100">
+    </HEAD>
+    <BODY LANG="en-US" DIR="LTR">
+        <H3>Fast Infoset modules description</H3>
+        <P>Fast Infoset project contains of several modules:</P>
+        <OL>
+            <LI><P>fastinfoset, the actual fastinfoset runtime implementation;</P>
+            <LI><P>fastinfoset-roundtrip-tests, the fastinfoset roundtrip test set;</P>
+            <LI><P>fastinfoset-utilities, the fastinfoset utilities, used for the element occurrences frequency analysis and other vocabulary tools;</P>
+            <LI><P>fastinfoset-samples, the fastinfoset samples.</P>
+        </OL>
+
+        <H3>How to use the Fast Infoset parsers and serializers</H3>
+        <P>The Fast Infoset project currently contains three types of
+            implementations for the following APIs:</P>
+        <OL>
+            <LI><P>SAX, implementing the <A HREF="http://download.oracle.com/javase/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</A>
 	interface.</P>
-</OL>
-<UL>
-	<UL>
-		<LI><P>Parser impl: <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/sax/SAXDocumentParser.java?only_with_tag=HEAD&amp;view=markup">com.sun.xml.fastinfoset.sax.SAXDocumentParser</A></P>
-		<LI><P>Serializer impl:
-		<A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/sax/SAXDocumentSerializer.java?only_with_tag=HEAD&amp;view=markup">com.sun.xml.fastinfoset.sax.SAXDocumentSerializer</A></P>
-	</UL>
-</UL>
-<OL START=2>
-	<LI><P>StAX, implementing the <A HREF="https://stax-utils.dev.java.net/nonav/javadoc/api/javax/xml/stream/XMLStreamReader.html">XMLStreamReader</A>
-	and <A HREF="https://stax-utils.dev.java.net/nonav/javadoc/api/javax/xml/stream/XMLStreamWriter.html">XMLStreamWriter</A>
+        </OL>
+        <UL>
+            <UL>
+                <LI><P>Parser impl: <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/sax/SAXDocumentParser.java">com.sun.xml.fastinfoset.sax.SAXDocumentParser</A></P>
+                <LI><P>Serializer impl:
+                        <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/sax/SAXDocumentSerializer.java">com.sun.xml.fastinfoset.sax.SAXDocumentSerializer</A></P>
+            </UL>
+        </UL>
+        <OL START=2>
+            <LI><P>StAX, implementing the <A HREF="http://download.oracle.com/javase/6/docs/api/javax/xml/stream/XMLStreamReader.html">XMLStreamReader</A>
+	and <A HREF="http://download.oracle.com/javase/6/docs/api/javax/xml/stream/XMLStreamWriter.html">XMLStreamWriter</A>
 	interfaces.</P>
-</OL>
-<UL>
-	<UL>
-		<LI><P>Parser impl: <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/stax/StAXDocumentParser.java?view=markup">com.sun.xml.fastinfoset.stax.StAXDocumentParser</A></P>
-		<LI><P>Serializer impl:
-		<A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/stax/StAXDocumentSerializer.java?view=markup">com.sun.xml.fastinfoset.stax.StAXDocumentSerializer</A></P>
-	</UL>
-</UL>
-<OL START=3>
-	<LI><P>DOM, using the a conformant <A HREF="http://java.sun.com/j2se/1.5.0/docs/api/org/w3c/dom/package-summary.html">DOM</A>
+        </OL>
+        <UL>
+            <UL>
+                <LI><P>Parser impl: <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/stax/StAXDocumentParser.java">com.sun.xml.fastinfoset.stax.StAXDocumentParser</A></P>
+                <LI><P>Serializer impl:
+                        <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/stax/StAXDocumentSerializer.java">com.sun.xml.fastinfoset.stax.StAXDocumentSerializer</A></P>
+            </UL>
+        </UL>
+        <OL START=3>
+            <LI><P>DOM, using the a conformant <A HREF="http://download.oracle.com/javase/1.5.0/docs/api/org/w3c/dom/package-summary.html">DOM</A>
 	implementation to construct or serialize a Document.</P>
-</OL>
-<UL>
-	<UL>
-		<LI><P>Parser impl: <A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/dom/DOMDocumentParser.java?view=markup">com.sun.xml.fastinfoset.dom.DOMDocumentParser</A></P>
-		<LI><P>Serializer impl:
-		<A HREF="https://fi.dev.java.net/source/browse/fi/FastInfoset/src/com/sun/xml/fastinfoset/dom/DOMDocumentSerializer.java?view=markup">com.sun.xml.fastinfoset.dom.DOMDocumentSerializer</A></P>
-	</UL>
-</UL>
-<P>There are no factory based mechanisms for instantiating the
-parsers and serializers, as is the case JAXP. It is necessary to
-instantiate the concrete classes (presented above) directly.</P>
-<H3>Using the Fast Infoset SAX parser and serializer</H3>
-<P>The following code shows how to parse a fast infoset document:</P>
-<PRE>import java.io.*;
+        </OL>
+        <UL>
+            <UL>
+                <LI><P>Parser impl: <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/dom/DOMDocumentParser.java">com.sun.xml.fastinfoset.dom.DOMDocumentParser</A></P>
+                <LI><P>Serializer impl:
+                        <A HREF="http://java.net/projects/fi/sources/svn/content/trunk/code/fastinfoset/src/main/java/com/sun/xml/fastinfoset/dom/DOMDocumentSerializer.java">com.sun.xml.fastinfoset.dom.DOMDocumentSerializer</A></P>
+            </UL>
+        </UL>
+        <P>There are no factory based mechanisms for instantiating the
+            parsers and serializers, as is the case JAXP. It is necessary to
+            instantiate the concrete classes (presented above) directly.</P>
+        <H3>Using the Fast Infoset SAX parser and serializer</H3>
+        <P>The following code shows how to parse a fast infoset document:</P>
+        <PRE>import java.io.*;
 import org.xml.sax.*;
 import com.sun.xml.fastinfoset.sax.*;
 
@@ -63,11 +72,11 @@ saxReader.setContentHandler(ch);
 // Parse the fast infoset document
 InputStream in = new BufferedInputStream(new FileInputStream(&lt;fast infoset document&gt;));
 saxReader.parse(new InputSource(in));</PRE><P>
-<BR><BR>
-</P>
-<P>The following code shows how to translate an XML document to a
-fast infoset document using the Fast Infoset SAX serializer:</P>
-<PRE>import java.io.*;
+            <BR><BR>
+        </P>
+        <P>The following code shows how to translate an XML document to a
+            fast infoset document using the Fast Infoset SAX serializer:</P>
+        <PRE>import java.io.*;
 import javax.xml.parsers.*;
 import com.sun.xml.fastinfoset.sax.*;
 
@@ -94,11 +103,11 @@ SAXParser saxParser = saxParserFactory.newSAXParser();
 saxParser.setProperty(&quot;http://xml.org/sax/properties/lexical-handler&quot;, documentSerializer);
 // Parse the XML document and convert to a fast infoset document
 saxParser.parse(xmlDocument, saxDocumentSerializer);</PRE><P>
-<BR><BR>
-</P>
-<P>The following code shows how to translate a fast infoset document
-to an XML document using a FastInfosetSource and a StreamResult:</P>
-<PRE>import java.io.*;
+            <BR><BR>
+        </P>
+        <P>The following code shows how to translate a fast infoset document
+            to an XML document using a FastInfosetSource and a StreamResult:</P>
+        <PRE>import java.io.*;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.*;
 import org.jvnet.fastinfoset.*;
@@ -112,9 +121,9 @@ OutputStream xmlDocument = ...
 Transformer tx = TransformerFactory.newInstance().newTransformer();
 // Transform to convert the FI document to an XML document
 tx.transform(new FastInfosetSource(fiDocument), new StreamResult(xmlDocument));</PRE><H3>
-Using the Fast Infoset StAX parser and serializer</H3>
-<P>The following code shows how to parse a fast infoset document</P>
-<PRE>import java.io.*;
+            Using the Fast Infoset StAX parser and serializer</H3>
+        <P>The following code shows how to parse a fast infoset document</P>
+        <PRE>import java.io.*;
 import javax.xml.stream.*;
 import com.sun.xml.fastinfoset.stax.*;
 
@@ -123,11 +132,11 @@ InputStream fiDocument = ...
 
 <A NAME="DDE_LINK3"></A>// Create the StAX XMLStreamReader using the input stream
 XMLStreamReader streamReader = new StAXDocumentParser(fiDocument);</PRE><P>
-<BR><BR>
-</P>
-<P>The following code shows how to serialize to a fast infoset
-document:</P>
-<PRE>import javax.xml.stream.*;
+            <BR><BR>
+        </P>
+        <P>The following code shows how to serialize to a fast infoset
+            document:</P>
+        <PRE>import javax.xml.stream.*;
 import com.sun.xml.fastinfoset.stax.*;
 
 // Set up output stream for fast infoset document
@@ -147,11 +156,11 @@ XMLStreamWriter streamWriter = staxDocumentSerializer;
    streamWriter.writeEndElement();
 streamWriter.writeEndDocument();
 streamWriter.close();</PRE><H3>
-Using the Fast Infoset StAX parser and serializer with JAXB</H3>
-<P>The following code shows how to unmarshall a fast infoset document
-using the FI StAX parser to an Object: 
-</P>
-<PRE>import java.io.*;
+            Using the Fast Infoset StAX parser and serializer with JAXB</H3>
+        <P>The following code shows how to unmarshall a fast infoset document
+            using the FI StAX parser to an Object:
+        </P>
+        <PRE>import java.io.*;
 import javax.xml.bind.*;
 import javax.xml.stream.*;
 import com.sun.xml.fastinfoset.stax.*;
@@ -169,11 +178,11 @@ JAXBContext context = JAXBContext.newInstance(...);
 Unmarshaller u = context.createUnmarshaller();
 // Unmarshall from the stream to an object
 Object jaxbObject = u.unmarshal(streamReader);</PRE><P>
-<BR><BR>
-</P>
-<P>The following code shows how to marshall an Object using the FI
-StAX serializer to a fast infoset document:</P>
-<PRE>import java.io.*;
+            <BR><BR>
+        </P>
+        <P>The following code shows how to marshall an Object using the FI
+            StAX serializer to a fast infoset document:</P>
+        <PRE>import java.io.*;
 import javax.xml.bind.*;
 import javax.xml.stream.*;
 import com.sun.xml.fastinfoset.stax.*;
@@ -195,18 +204,18 @@ JAXBContext context = JAXBContext.newInstance(...);
 Marshaller m = context.createMarshaller();
 // Marshall the object to the stream
 m.marshal(jaxbObject, streamWriter);</PRE><P>
-<BR><BR>
-</P>
-<P>When using the StAX parsers and serializers with the JAXB 2.0
-java.net implementation there is an optimization to support the
-efficient marshalling and unmarshalling of byte[] that represents an
-xsd:base64Binary datatype for element content. When marshalling to
-XML documents such objects would be encoded to a string of characters
-that is the base64 encoding of the bytes. When marshalling to fast
-infoset documents using the FI StAX serializer such objects will be
-encoded as a sequence of octets that are the bytes of the object.
-When unmarshalling such octets will be directly assigned to the
-object. Thus no base64 encoding and decoding is required. This
-increases performance and reduces the size of fast infoset documents.</P>
-</BODY>
+            <BR><BR>
+        </P>
+        <P>When using the StAX parsers and serializers with the JAXB 2.0
+            java.net implementation there is an optimization to support the
+            efficient marshalling and unmarshalling of byte[] that represents an
+            xsd:base64Binary datatype for element content. When marshalling to
+            XML documents such objects would be encoded to a string of characters
+            that is the base64 encoding of the bytes. When marshalling to fast
+            infoset documents using the FI StAX serializer such objects will be
+            encoded as a sequence of octets that are the bytes of the object.
+            When unmarshalling such octets will be directly assigned to the
+            object. Thus no base64 encoding and decoding is required. This
+            increases performance and reduces the size of fast infoset documents.</P>
+    </BODY>
 </HTML>
