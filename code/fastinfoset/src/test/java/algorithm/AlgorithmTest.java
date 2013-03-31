@@ -125,7 +125,7 @@ public class AlgorithmTest extends TestCase {
             assertEquals(b[i], data[i]);
         }
 
-        StringBuffer s = new StringBuffer();
+        StringBuilder s = new StringBuilder();
         b64ea.convertToCharacters(data, s);
         assertEquals(base64CharactersNoWS.length(), s.length());
         assertEquals(base64CharactersNoWS, s.toString());

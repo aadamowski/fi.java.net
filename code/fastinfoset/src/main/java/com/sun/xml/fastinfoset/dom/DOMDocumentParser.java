@@ -1019,7 +1019,7 @@ public class DOMDocumentParser extends Decoder {
     }
     
     protected String convertEncodingAlgorithmDataToCharacters(boolean isAttributeValue) throws FastInfosetException, IOException {
-        StringBuffer buffer = new StringBuffer();
+        StringBuilder buffer = new StringBuilder();
         if (_identifier < EncodingConstants.ENCODING_ALGORITHM_BUILTIN_END) {
             Object array = BuiltInEncodingAlgorithmFactory.getAlgorithm(_identifier).
                     decodeFromBytes(_octetBuffer, _octetBufferStart, _octetBufferLength);

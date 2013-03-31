@@ -33,6 +33,6 @@ public interface EncodingAlgorithm {
     
     public Object convertFromCharacters(char[] ch, int start, int length) throws EncodingAlgorithmException;
     
-    public void convertToCharacters(Object data, StringBuffer s) throws EncodingAlgorithmException;
+    public void convertToCharacters(Object data, StringBuilder s) throws EncodingAlgorithmException;
     
 }

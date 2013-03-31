@@ -82,7 +82,7 @@ public class LongEncodingAlgorithm extends IntegerEncodingAlgorithm {
         return generateArrayFromList(longList);
     }
     
-    public void convertToCharacters(Object data, StringBuffer s) {
+    public void convertToCharacters(Object data, StringBuilder s) {
         if (!(data instanceof long[])) {
             throw new IllegalArgumentException(CommonResourceBundle.getInstance().getString("message.dataNotLongArray"));
         }
@@ -179,7 +179,7 @@ public class LongEncodingAlgorithm extends IntegerEncodingAlgorithm {
     }
     
     
-    public final void convertToCharactersFromLongArray(long[] ldata, StringBuffer s) {
+    public final void convertToCharactersFromLongArray(long[] ldata, StringBuilder s) {
         final int end = ldata.length - 1;        
         for (int i = 0; i <= end; i++) {
             s.append(Long.toString(ldata[i]));

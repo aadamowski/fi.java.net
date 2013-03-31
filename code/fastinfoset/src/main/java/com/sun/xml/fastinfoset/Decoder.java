@@ -1807,7 +1807,7 @@ public abstract class Decoder implements FastInfosetParser {
             second.getChars(0, l2, _charBuffer, l1 + 1);
             return new String(_charBuffer, 0, total);
         } else {
-            StringBuffer b = new StringBuffer(new String(first));
+            StringBuilder b = new StringBuilder(new String(first));
             b.append(':');
             b.append(second);
             return b.toString();

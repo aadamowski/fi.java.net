@@ -88,7 +88,7 @@ public class ShortEncodingAlgorithm extends IntegerEncodingAlgorithm {
         return generateArrayFromList(shortList);
     }
 
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (!(data instanceof short[])) {
             throw new IllegalArgumentException(CommonResourceBundle.getInstance().getString("message.dataNotShortArray"));
         }
@@ -158,7 +158,7 @@ public class ShortEncodingAlgorithm extends IntegerEncodingAlgorithm {
     }
 
 
-    public final void convertToCharactersFromShortArray(short[] sdata, StringBuffer s) {
+    public final void convertToCharactersFromShortArray(short[] sdata, StringBuilder s) {
         final int end = sdata.length - 1;
         for (int i = 0; i <= end; i++) {
             s.append(Short.toString(sdata[i]));

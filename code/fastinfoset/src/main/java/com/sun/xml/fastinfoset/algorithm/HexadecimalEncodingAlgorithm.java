@@ -77,8 +77,8 @@ public class HexadecimalEncodingAlgorithm extends BuiltInEncodingAlgorithm {
         if (length == 0) {
             return new byte[0];
         }
-        
-        StringBuffer encodedValue = removeWhitespace(ch, start, length);
+
+        StringBuilder encodedValue = removeWhitespace(ch, start, length);
         int encodedLength = encodedValue.length();
         if (encodedLength == 0) {
             return new byte[0];
@@ -97,7 +97,7 @@ public class HexadecimalEncodingAlgorithm extends BuiltInEncodingAlgorithm {
         return value;
     }
     
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (data == null) {
             return;
         }

@@ -82,7 +82,7 @@ public class DoubleEncodingAlgorithm extends IEEE754FloatingPointEncodingAlgorit
         return generateArrayFromList(doubleList);
     }
     
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (!(data instanceof double[])) {
             throw new IllegalArgumentException(CommonResourceBundle.getInstance().getString("message.dataNotDouble"));
         }
@@ -180,7 +180,7 @@ public class DoubleEncodingAlgorithm extends IEEE754FloatingPointEncodingAlgorit
     }
     
     
-    public final void convertToCharactersFromDoubleArray(double[] fdata, StringBuffer s) {
+    public final void convertToCharactersFromDoubleArray(double[] fdata, StringBuilder s) {
         final int end = fdata.length - 1;
         for (int i = 0; i <= end; i++) {
             s.append(Double.toString(fdata[i]));

@@ -155,7 +155,7 @@ public class BooleanEncodingAlgorithm extends BuiltInEncodingAlgorithm {
         return generateArrayFromList(booleanList);
     }
 
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (data == null) {
             return;
         }

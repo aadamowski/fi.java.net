@@ -126,8 +126,8 @@ public class BASE64EncodingAlgorithm extends BuiltInEncodingAlgorithm {
         if (length == 0) {
             return new byte[0];
         }
-        
-        StringBuffer encodedValue = removeWhitespace(ch, start, length);
+
+        StringBuilder encodedValue = removeWhitespace(ch, start, length);
         int encodedLength = encodedValue.length();
         if (encodedLength == 0) {
             return new byte[0];
@@ -166,7 +166,7 @@ public class BASE64EncodingAlgorithm extends BuiltInEncodingAlgorithm {
         return value;
     }
     
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (data == null) {
             return;
         }
@@ -187,7 +187,7 @@ public class BASE64EncodingAlgorithm extends BuiltInEncodingAlgorithm {
         System.arraycopy((byte[])array, astart, b, start, alength);
     }    
 
-    public final void convertToCharacters(byte[] data, int offset, int length, StringBuffer s) {
+    public final void convertToCharacters(byte[] data, int offset, int length, StringBuilder s) {
         if (data == null) {
             return;
         }

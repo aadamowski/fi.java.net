@@ -560,7 +560,7 @@ public class EncodingAlgorithmAttributesImpl implements EncodingAlgorithmAttribu
         _toIndex = toIndex;
     }
     
-    private final StringBuffer convertEncodingAlgorithmDataToString(
+    private final StringBuilder convertEncodingAlgorithmDataToString(
             int identifier, String URI, Object data) throws FastInfosetException, IOException {
         EncodingAlgorithm ea = null;
         if (identifier < EncodingConstants.ENCODING_ALGORITHM_BUILTIN_END) {
@@ -587,7 +587,7 @@ public class EncodingAlgorithmAttributesImpl implements EncodingAlgorithmAttribu
                     CommonResourceBundle.getInstance().getString("message.identifiers10to31Reserved"));
         }
         
-        final StringBuffer sb = new StringBuffer();
+        final StringBuilder sb = new StringBuilder();
         ea.convertToCharacters(data, sb);
         return sb;
     }

@@ -83,7 +83,7 @@ public class IntEncodingAlgorithm extends IntegerEncodingAlgorithm {
         return generateArrayFromList(integerList);
     }
     
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (!(data instanceof int[])) {
             throw new IllegalArgumentException(CommonResourceBundle.getInstance().getString("message.dataNotIntArray"));
         }
@@ -161,7 +161,7 @@ public class IntEncodingAlgorithm extends IntegerEncodingAlgorithm {
     }
     
     
-    public final void convertToCharactersFromIntArray(int[] idata, StringBuffer s) {
+    public final void convertToCharactersFromIntArray(int[] idata, StringBuilder s) {
         final int end = idata.length - 1;
         for (int i = 0; i <= end; i++) {
             s.append(Integer.toString(idata[i]));

@@ -82,7 +82,7 @@ public class FloatEncodingAlgorithm extends IEEE754FloatingPointEncodingAlgorith
         return generateArrayFromList(floatList);
     }
     
-    public final void convertToCharacters(Object data, StringBuffer s) {
+    public final void convertToCharacters(Object data, StringBuilder s) {
         if (!(data instanceof float[])) {
             throw new IllegalArgumentException(CommonResourceBundle.getInstance().getString("message.dataNotFloat"));
         }
@@ -161,7 +161,7 @@ public class FloatEncodingAlgorithm extends IEEE754FloatingPointEncodingAlgorith
     }
     
     
-    public final void convertToCharactersFromFloatArray(float[] fdata, StringBuffer s) {
+    public final void convertToCharactersFromFloatArray(float[] fdata, StringBuilder s) {
         final int end = fdata.length - 1;
         for (int i = 0; i <= end; i++) {
             s.append(Float.toString(fdata[i]));
